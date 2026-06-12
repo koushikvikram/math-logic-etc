@@ -16,6 +16,9 @@ theme:
     - search.highlight
     - search.suggest
 
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -25,6 +28,9 @@ markdown_extensions:
       permalink: true
   - pymdownx.details
   - pymdownx.highlight
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
   - pymdownx.tabbed:
       alternate_style: true
