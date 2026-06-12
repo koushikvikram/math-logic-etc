@@ -63,6 +63,9 @@ Arbitrary belief or action.
 **Non-Example:**
 “I’ll buy this car because I feel like it.”
 
+**Documented Real-World Example:**
+During Apollo 13, NASA ground controllers had to reason from evidence under pressure after an oxygen tank explosion. NASA describes how controllers identified the core question, “How to get back safely to Earth?”, computed new engine burns, tested new procedures in simulators, and used the lunar module as a lifeboat. This is reasoning because decisions were made from available facts, constraints, calculations, and tested procedures rather than impulse. [Source: NASA](https://www.nasa.gov/missions/apollo/apollo-13-mission-details/)
+
 ---
 
 ### Term: Argument
@@ -81,6 +84,9 @@ A description, explanation, story, thank-you note, or emotional appeal.
 
 **Non-Example:**
 “Thank you to everyone who volunteered at the event.”
+
+**Documented Real-World Example:**
+Martin Luther King Jr.’s “Letter from Birmingham Jail” is a documented argument, not merely an expression of feeling. King responds to critics by giving reasons for direct action and civil disobedience: unjust laws degrade human personality, segregation laws are unjust, and people have a moral responsibility to disobey unjust laws. [Source: Natural Law, Natural Rights, and American Constitutionalism](https://nlnrac.org/american/american-civil-rights-movements/primary-source-documents/letter-from-a-birmingham-jail)
 
 ---
 
@@ -101,6 +107,9 @@ A messy paragraph where the reasons and conclusion are mixed together.
 2. Premise
 3. Therefore, conclusion
 
+**Documented Real-World Example:**
+One standard-form reconstruction of King’s argument in “Letter from Birmingham Jail” is: (1) Any law that degrades human personality is unjust. (2) Segregation statutes degrade human personality. (3) Therefore, segregation statutes are unjust. Putting the argument into this form makes the premises and conclusion easier to inspect. [Source: Natural Law, Natural Rights, and American Constitutionalism](https://nlnrac.org/american/american-civil-rights-movements/primary-source-documents/letter-from-a-birmingham-jail)
+
 ---
 
 ### Term: Suppressed Premise
@@ -120,6 +129,9 @@ If a car makes you look cool, then you should buy it.
 **Common Confusion:**
 People often think the argument only includes what is explicitly said. But many arguments depend on hidden assumptions.
 
+**Documented Real-World Example:**
+Before the 2003 Iraq invasion, analysts noted that some speeches placed 9/11, terrorism, and Saddam Hussein close together without always stating the explicit conclusion that Iraq was involved in 9/11. The audience could supply a suppressed premise such as “states associated with terrorism after 9/11 are part of the same threat.” That missing premise helped connect statements that were not always asserted directly. [Source: Windsor Studies in Argumentation](https://windsor.scholarsportal.info/omp/index.php/wsia/catalog/download/19/51/200?inline=1)
+
 ---
 
 ### Term: Deductive Argument
@@ -138,6 +150,9 @@ All humans are mortal.
 Socrates is human.
 Therefore, Socrates is mortal.
 
+**Documented Real-World Example:**
+Legal scholars often reconstruct judicial reasoning as a syllogism. In discussions of *Youngstown Sheet & Tube Co. v. Sawyer*, the argument can be stated deductively: (1) The President’s power to issue an order must come from Congress or the Constitution. (2) Neither Congress nor the Constitution authorized the steel-seizure order. (3) Therefore, the President lacked power to issue the order. If the premises are accepted, the conclusion follows by structure. [Source: AustLII Legal Education Digest](https://www.austlii.edu.au/au/journals/LegEdDig/2007/36.html)
+
 ---
 
 ### Term: Inductive Argument
@@ -154,6 +169,9 @@ Deductive argument.
 **Example:**
 Most cars from this brand have been reliable, so this new model is probably reliable.
 
+**Documented Real-World Example:**
+John Snow’s 1854 cholera investigation is a classic real-world case of inductive reasoning. Snow mapped cholera deaths, noticed that many clustered around the Broad Street pump, compared households served by different water companies, and inferred that contaminated water was the likely source. The evidence made the conclusion strongly supported, though it was not a deductive certainty. [Source: National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC7150208/)
+
 ---
 
 ### Term: Fallacy
@@ -166,6 +184,9 @@ A fallacy is a reasoning trap.
 
 **Examples Mentioned:**
 Vagueness, ambiguity, irrelevance, ad hominem arguments, appeals to ignorance, and begging the question.
+
+**Documented Real-World Example:**
+The Federal Trade Commission’s 2016 “all natural” advertising cases show how fallacies and reasoning errors can matter outside classrooms. Consumers could be led by a vague positive phrase toward a conclusion about product purity, even when the products contained synthetic ingredients. The reasoning mistake is tempting because the label sounds meaningful before its exact meaning is tested. [Source: FTC](https://www.ftc.gov/news-events/news/press-releases/2016/04/four-companies-agree-stop-falsely-promoting-their-personal-care-products-all-natural-or-100-natural)
 
 ---
 
