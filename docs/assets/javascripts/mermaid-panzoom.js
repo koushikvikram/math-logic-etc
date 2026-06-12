@@ -1,13 +1,17 @@
 (function () {
-  const processed = new WeakSet();
+  const rendered = new WeakSet();
+  const zoomed = new WeakSet();
+  let rendering = false;
+  let scheduled = false;
+  let initialized = false;
 
   function makeZoomable(container) {
-    if (processed.has(container)) return;
+    if (zoomed.has(container)) return;
 
     const svg = container.querySelector("svg");
     if (!svg) return;
 
-    processed.add(container);
+    zoomed.add(container);
     container.classList.add("mermaid-zoomable");
 
     const hint = document.createElement("div");
@@ -35,22 +39,86 @@
     });
   }
 
-  function enableMermaidPanZoom() {
-    if (typeof svgPanZoom !== "function") return;
-    document.querySelectorAll(".mermaid").forEach(makeZoomable);
+  function prepareCodeFence(code) {
+    if (rendered.has(code)) return null;
+
+    const source = code.textContent.trim();
+    if (!source) return null;
+
+    rendered.add(code);
+
+    const container = document.createElement("div");
+    container.className = "mermaid";
+    container.textContent = source;
+
+    const wrapper = code.closest(".highlight") || code.closest("pre") || code;
+    wrapper.replaceWith(container);
+
+    return container;
   }
 
-  const observer = new MutationObserver(enableMermaidPanZoom);
+  async function renderAndZoomMermaid() {
+    if (rendering) return;
+    if (typeof mermaid !== "object" || typeof svgPanZoom !== "function") return;
+
+    rendering = true;
+
+    try {
+      if (!initialized) {
+        mermaid.initialize({ startOnLoad: false });
+        initialized = true;
+      }
+
+      const nodes = Array.from(
+        document.querySelectorAll("code.language-mermaid")
+      )
+        .map(prepareCodeFence)
+        .filter(Boolean);
+
+      document.querySelectorAll(".mermaid").forEach(function (container) {
+        if (container.querySelector("svg")) {
+          makeZoomable(container);
+          return;
+        }
+
+        if (rendered.has(container) || !container.textContent.trim()) return;
+
+        rendered.add(container);
+        nodes.push(container);
+      });
+
+      if (nodes.length > 0) {
+        await mermaid.run({ nodes });
+      }
+
+      document.querySelectorAll(".mermaid").forEach(makeZoomable);
+    } finally {
+      rendering = false;
+    }
+  }
+
+  function scheduleRender() {
+    if (scheduled) return;
+
+    scheduled = true;
+    window.requestAnimationFrame(function () {
+      scheduled = false;
+      renderAndZoomMermaid();
+    });
+  }
+
+  const observer = new MutationObserver(scheduleRender);
   observer.observe(document.documentElement, {
     childList: true,
     subtree: true,
   });
 
   if (typeof document$ !== "undefined") {
-    document$.subscribe(enableMermaidPanZoom);
+    document$.subscribe(scheduleRender);
   } else {
-    document.addEventListener("DOMContentLoaded", enableMermaidPanZoom);
+    document.addEventListener("DOMContentLoaded", scheduleRender);
   }
 
-  window.addEventListener("load", enableMermaidPanZoom);
+  window.addEventListener("load", scheduleRender);
+  scheduleRender();
 })();
