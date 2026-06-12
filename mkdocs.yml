@@ -1,0 +1,30 @@
+site_name: Math, Logic, Etc.
+site_description: Notes and exercises for math, logic, statistics, and probability.
+site_url: https://koushikvikram.github.io/math-logic-etc/
+
+docs_dir: docs
+site_dir: site
+
+exclude_docs: |
+  .DS_Store
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
