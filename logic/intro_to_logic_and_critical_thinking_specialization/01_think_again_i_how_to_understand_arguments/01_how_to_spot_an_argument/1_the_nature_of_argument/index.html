@@ -1,0 +1,6436 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Notes and exercises for math, logic, statistics, and probability.">
+      
+      
+      
+        <link rel="canonical" href="https://koushikvikram.github.io/math-logic-etc/logic/intro_to_logic_and_critical_thinking_specialization/01_think_again_i_how_to_understand_arguments/01_how_to_spot_an_argument/1_the_nature_of_argument/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../2_the_purposes_of_arguments/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>1. The Nature of Argument - Math, Logic, Etc.</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-the-nature-of-argument" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../.." title="Math, Logic, Etc." class="md-header__button md-logo" aria-label="Math, Logic, Etc." data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Math, Logic, Etc.
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              1. The Nature of Argument
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="Math, Logic, Etc." class="md-nav__button md-logo" aria-label="Math, Logic, Etc." data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Math, Logic, Etc.
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Math, Logic, Etc.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logic
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Logic
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intro to logic and critical thinking specialization
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Intro to logic and critical thinking specialization
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intro to Logic and Critical Thinking Specialization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 specialization overview
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 specialization overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_specialization_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Specialization Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_specialization_overview/final_project/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final Project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_specialization_overview/learning_objectives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Objectives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3" id="__nav_2_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 think again i how to understand arguments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 think again i how to understand arguments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Think Again I: How to Understand Arguments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3_2" id="__nav_2_2_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 welcome to the specialization
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 welcome to the specialization
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_welcome_to_the_specialization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to the Specialization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3_3" id="__nav_2_2_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 how to spot an argument
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 how to spot an argument
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Spot an Argument
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. The Nature of Argument
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. The Nature of Argument
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-why-arguments-matter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Why Arguments Matter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Why Arguments Matter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-core-ideas-in-order-of-appearance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Core Ideas in Order of Appearance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Core Ideas in Order of Appearance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea-1-the-course-is-about-learning-to-think-again" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 1: The course is about learning to “think again”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-2-the-course-focuses-on-reasoning-and-arguing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 2: The course focuses on reasoning and arguing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-3-learning-arguments-helps-you-avoid-bad-persuasion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 3: Learning arguments helps you avoid bad persuasion
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-definitions-and-distinctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Definitions and Distinctions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Definitions and Distinctions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#term-reasoning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Reasoning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-standard-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Standard Form
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-suppressed-premise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Suppressed Premise
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-deductive-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Deductive Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-inductive-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Inductive Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-fallacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Fallacy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-argument-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Argument Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Argument Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#original-argument-example-used-car-salesman" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Argument Example: Used Car Salesman
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#original-argument-example-lawyer-in-court" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Argument Example: Lawyer in Court
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#original-argument-example-friend-suggesting-a-trip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Argument Example: Friend Suggesting a Trip
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-argument-forms-and-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Argument Forms and Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Argument Forms and Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-argument-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Argument Pattern
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fallacies-and-reasoning-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Fallacies and Reasoning Errors
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Fallacies and Reasoning Errors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-vagueness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Vagueness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-ambiguity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Ambiguity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-irrelevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Irrelevance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-ad-hominem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Ad Hominem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-appeal-to-ignorance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Appeal to Ignorance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-begging-the-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Begging the Question
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-letter-to-the-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Letter to the Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-used-car-salesman" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Used Car Salesman
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-truth-tables-symbols-and-formal-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Truth Tables, Symbols, and Formal Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-critical-thinking-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Critical Thinking Application
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Critical Thinking Application">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-personal-beliefs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Personal Beliefs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-buying-decisions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Buying Decisions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-legal-judgment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Legal Judgment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-life-choices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Life Choices
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-quiz-assignment-exam-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Quiz / Assignment / Exam Relevance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Quiz / Assignment / Exam Relevance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-what-is-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: What is an argument?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-argument-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Argument analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-course-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Course structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-watch-carefully-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Watch Carefully For
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-compressed-takeaways-my-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Compressed Takeaways — My Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-one-line-mental-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. One-Line Mental Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-is-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. What is an Argument
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. What is an Argument">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lecture-title" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecture Title
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-core-ideas-in-order-of-appearance_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Core Ideas in Order of Appearance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Core Ideas in Order of Appearance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea-1-arguments-matter-but-they-are-not-everything" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 1: Arguments matter, but they are not everything
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-2-to-understand-arguments-first-distinguish-them-from-non-arguments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 2: To understand arguments, first distinguish them from non-arguments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-3-arguments-are-not-fights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 3: Arguments are not fights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-4-arguments-are-not-abuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 4: Arguments are not abuse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-5-arguments-are-not-complaints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 5: Arguments are not complaints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-6-arguments-are-not-mere-contradiction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 6: Arguments are not mere contradiction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-7-an-argument-is-an-intellectual-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 7: An argument is an intellectual process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-8-monty-pythons-definition-is-useful-but-incomplete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 8: Monty Python’s definition is useful but incomplete
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-9-arguments-can-give-different-kinds-of-reasons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 9: Arguments can give different kinds of reasons
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-definitions-and-distinctions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Definitions and Distinctions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Definitions and Distinctions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#term-argument_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-premise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Premise
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-contradiction-denial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Contradiction / Denial
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-reason-to-believe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Reason to Believe
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-reason-why" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Reason Why
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-proposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Proposition
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-argument-structure_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Argument Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Argument Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-structure-of-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Structure of an Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#original-example-ice-cream-disagreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Example: Ice Cream Disagreement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#original-example-mathematical-proof" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Example: Mathematical Proof
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-argument-forms-and-patterns_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Argument Forms and Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Argument Forms and Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pattern-1-mere-contradiction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 1: Mere Contradiction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattern-2-argument-as-reason-giving" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 2: Argument as Reason-Giving
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattern-3-explanation-like-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 3: Explanation-Like Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fallacies-and-reasoning-errors_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Fallacies and Reasoning Errors
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Fallacies and Reasoning Errors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-treating-a-fight-as-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Treating a Fight as an Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-treating-abuse-as-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Treating Abuse as an Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-treating-complaints-as-arguments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Treating Complaints as Arguments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-treating-contradiction-as-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Treating Contradiction as Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-worked-examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-monty-python-hitting-on-the-head" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Monty Python — Hitting on the Head
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-monty-python-abuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Monty Python — Abuse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-ice-cream-disagreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: Ice Cream Disagreement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-4-mathematical-proof" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 4: Mathematical Proof
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-truth-tables-symbols-and-formal-tools_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Truth Tables, Symbols, and Formal Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-critical-thinking-application_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Critical Thinking Application
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Critical Thinking Application">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-everyday-disagreements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Everyday Disagreements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-online-debates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Online Debates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-product-and-business-decisions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Product and Business Decisions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-personal-beliefs_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Personal Beliefs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-quiz-assignment-exam-relevance_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Quiz / Assignment / Exam Relevance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Quiz / Assignment / Exam Relevance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-what-arguments-are-not" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: What arguments are not
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-monty-pythons-definition-of-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Monty Python’s definition of argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-why-monty-pythons-definition-is-incomplete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Why Monty Python’s definition is incomplete
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-premises-and-conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Premises and conclusion
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-watch-carefully-for_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Watch Carefully For
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-compressed-takeaways-my-notes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Compressed Takeaways — My Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-one-line-mental-model_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. One-Line Mental Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_the_purposes_of_arguments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2 the purposes of arguments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_the_materials_of_arguments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3 the materials of arguments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_levels_of_language/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4 levels of language
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3_4" id="__nav_2_2_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 how to untangle an argument
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 how to untangle an argument
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_how_to_untangle_an_argument/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Untangle an Argument
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3_5" id="__nav_2_2_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 how to reconstruct an argument
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    03 how to reconstruct an argument
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_how_to_reconstruct_an_argument/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Reconstruct an Argument
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3_6" id="__nav_2_2_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 catch up and final quiz
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    04 catch up and final quiz
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_catch_up_and_final_quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catch-Up and Final Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_4" id="__nav_2_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 think again ii how to reason deductively
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 think again ii how to reason deductively
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_think_again_ii_how_to_reason_deductively/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Think Again II: How to Reason Deductively
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_4_2" id="__nav_2_2_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 welcome to the course
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 welcome to the course
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_think_again_ii_how_to_reason_deductively/00_welcome_to_the_course/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to the Course
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_4_3" id="__nav_2_2_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 propositional logic and truth tables
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 propositional logic and truth tables
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_think_again_ii_how_to_reason_deductively/01_propositional_logic_and_truth_tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Propositional Logic and Truth Tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_4_4" id="__nav_2_2_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 categorical logic and syllogisms
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 categorical logic and syllogisms
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_think_again_ii_how_to_reason_deductively/02_categorical_logic_and_syllogisms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categorical Logic and Syllogisms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_4_5" id="__nav_2_2_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 representing information
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    03 representing information
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_think_again_ii_how_to_reason_deductively/03_representing_information/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Representing Information
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_4_6" id="__nav_2_2_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 catch up and final quiz
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    04 catch up and final quiz
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_think_again_ii_how_to_reason_deductively/04_catch_up_and_final_quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catch-Up and Final Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5" id="__nav_2_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 think again iii how to reason inductively
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    03 think again iii how to reason inductively
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_think_again_iii_how_to_reason_inductively/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Think Again III: How to Reason Inductively
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5_2" id="__nav_2_2_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 welcome to the course
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 welcome to the course
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_think_again_iii_how_to_reason_inductively/00_welcome_to_the_course/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to the Course
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5_3" id="__nav_2_2_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 inductive arguments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 inductive arguments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_think_again_iii_how_to_reason_inductively/01_inductive_arguments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inductive Arguments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5_4" id="__nav_2_2_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 causal reasoning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 causal reasoning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_think_again_iii_how_to_reason_inductively/02_causal_reasoning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Causal Reasoning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5_5" id="__nav_2_2_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 chance and choice
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    03 chance and choice
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_think_again_iii_how_to_reason_inductively/03_chance_and_choice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chance and Choice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5_6" id="__nav_2_2_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 catch up and final quiz
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    04 catch up and final quiz
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_think_again_iii_how_to_reason_inductively/04_catch_up_and_final_quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catch-Up and Final Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_6" id="__nav_2_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 think again iv how to avoid fallacies
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    04 think again iv how to avoid fallacies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_think_again_iv_how_to_avoid_fallacies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Think Again IV: How to Avoid Fallacies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_6_2" id="__nav_2_2_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 welcome to the course
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 welcome to the course
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_think_again_iv_how_to_avoid_fallacies/00_welcome_to_the_course/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to the Course
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_6_3" id="__nav_2_2_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 fallacies of unclarity
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 fallacies of unclarity
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_think_again_iv_how_to_avoid_fallacies/01_fallacies_of_unclarity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fallacies of Unclarity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_6_4" id="__nav_2_2_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 fallacies of relevance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 fallacies of relevance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_think_again_iv_how_to_avoid_fallacies/02_fallacies_of_relevance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fallacies of Relevance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_6_5" id="__nav_2_2_6_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 fallacies of vacuity and circularity
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    03 fallacies of vacuity and circularity
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_think_again_iv_how_to_avoid_fallacies/03_fallacies_of_vacuity_and_circularity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fallacies of Vacuity and Circularity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_6_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_6_6" id="__nav_2_2_6_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 refutation its varieties and pitfalls
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_6_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    04 refutation its varieties and pitfalls
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_think_again_iv_how_to_avoid_fallacies/04_refutation_its_varieties_and_pitfalls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Refutation: Its Varieties and Pitfalls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_6_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_6_7" id="__nav_2_2_6_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 catch up and final quiz
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_6_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_6_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    05 catch up and final quiz
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_think_again_iv_how_to_avoid_fallacies/05_catch_up_and_final_quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catch-Up and Final Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_7" id="__nav_2_2_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Shared
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../shared/argument_forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Argument Forms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../shared/fallacies_index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fallacies Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../shared/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../shared/practice_questions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Practice Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../shared/source_links/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Source Links
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistics and probability
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Statistics and probability
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../statistics_and_probability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistics and Probability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-why-arguments-matter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Why Arguments Matter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Why Arguments Matter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-core-ideas-in-order-of-appearance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Core Ideas in Order of Appearance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Core Ideas in Order of Appearance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea-1-the-course-is-about-learning-to-think-again" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 1: The course is about learning to “think again”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-2-the-course-focuses-on-reasoning-and-arguing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 2: The course focuses on reasoning and arguing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-3-learning-arguments-helps-you-avoid-bad-persuasion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 3: Learning arguments helps you avoid bad persuasion
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-definitions-and-distinctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Definitions and Distinctions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Definitions and Distinctions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#term-reasoning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Reasoning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-standard-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Standard Form
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-suppressed-premise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Suppressed Premise
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-deductive-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Deductive Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-inductive-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Inductive Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-fallacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Fallacy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-argument-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Argument Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Argument Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#original-argument-example-used-car-salesman" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Argument Example: Used Car Salesman
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#original-argument-example-lawyer-in-court" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Argument Example: Lawyer in Court
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#original-argument-example-friend-suggesting-a-trip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Argument Example: Friend Suggesting a Trip
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-argument-forms-and-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Argument Forms and Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Argument Forms and Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-argument-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Argument Pattern
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fallacies-and-reasoning-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Fallacies and Reasoning Errors
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Fallacies and Reasoning Errors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-vagueness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Vagueness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-ambiguity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Ambiguity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-irrelevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Irrelevance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-ad-hominem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Ad Hominem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-appeal-to-ignorance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Appeal to Ignorance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fallacy-error-begging-the-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fallacy / Error: Begging the Question
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-letter-to-the-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Letter to the Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-used-car-salesman" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Used Car Salesman
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-truth-tables-symbols-and-formal-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Truth Tables, Symbols, and Formal Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-critical-thinking-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Critical Thinking Application
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Critical Thinking Application">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-personal-beliefs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Personal Beliefs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-buying-decisions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Buying Decisions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-legal-judgment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Legal Judgment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-life-choices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Life Choices
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-quiz-assignment-exam-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Quiz / Assignment / Exam Relevance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Quiz / Assignment / Exam Relevance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-what-is-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: What is an argument?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-argument-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Argument analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-course-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Course structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-watch-carefully-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Watch Carefully For
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-compressed-takeaways-my-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Compressed Takeaways — My Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-one-line-mental-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. One-Line Mental Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-is-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. What is an Argument
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. What is an Argument">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lecture-title" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecture Title
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-core-ideas-in-order-of-appearance_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Core Ideas in Order of Appearance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Core Ideas in Order of Appearance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea-1-arguments-matter-but-they-are-not-everything" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 1: Arguments matter, but they are not everything
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-2-to-understand-arguments-first-distinguish-them-from-non-arguments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 2: To understand arguments, first distinguish them from non-arguments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-3-arguments-are-not-fights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 3: Arguments are not fights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-4-arguments-are-not-abuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 4: Arguments are not abuse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-5-arguments-are-not-complaints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 5: Arguments are not complaints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-6-arguments-are-not-mere-contradiction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 6: Arguments are not mere contradiction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-7-an-argument-is-an-intellectual-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 7: An argument is an intellectual process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-8-monty-pythons-definition-is-useful-but-incomplete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 8: Monty Python’s definition is useful but incomplete
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idea-9-arguments-can-give-different-kinds-of-reasons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea 9: Arguments can give different kinds of reasons
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-definitions-and-distinctions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Definitions and Distinctions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Definitions and Distinctions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#term-argument_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-premise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Premise
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-contradiction-denial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Contradiction / Denial
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-reason-to-believe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Reason to Believe
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-reason-why" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Reason Why
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#term-proposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Term: Proposition
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-argument-structure_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Argument Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Argument Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-structure-of-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Structure of an Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#original-example-ice-cream-disagreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Example: Ice Cream Disagreement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#original-example-mathematical-proof" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Original Example: Mathematical Proof
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-argument-forms-and-patterns_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Argument Forms and Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Argument Forms and Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pattern-1-mere-contradiction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 1: Mere Contradiction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattern-2-argument-as-reason-giving" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 2: Argument as Reason-Giving
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattern-3-explanation-like-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 3: Explanation-Like Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fallacies-and-reasoning-errors_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Fallacies and Reasoning Errors
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Fallacies and Reasoning Errors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#error-treating-a-fight-as-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Treating a Fight as an Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-treating-abuse-as-an-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Treating Abuse as an Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-treating-complaints-as-arguments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Treating Complaints as Arguments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-treating-contradiction-as-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error: Treating Contradiction as Argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-worked-examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1-monty-python-hitting-on-the-head" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1: Monty Python — Hitting on the Head
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-monty-python-abuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 2: Monty Python — Abuse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-ice-cream-disagreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 3: Ice Cream Disagreement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-4-mathematical-proof" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 4: Mathematical Proof
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-truth-tables-symbols-and-formal-tools_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Truth Tables, Symbols, and Formal Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-critical-thinking-application_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Critical Thinking Application
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Critical Thinking Application">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-everyday-disagreements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Everyday Disagreements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-online-debates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Online Debates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-product-and-business-decisions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Product and Business Decisions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-this-applies-personal-beliefs_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where This Applies: Personal Beliefs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-quiz-assignment-exam-relevance_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Quiz / Assignment / Exam Relevance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Quiz / Assignment / Exam Relevance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-what-arguments-are-not" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: What arguments are not
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-monty-pythons-definition-of-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Monty Python’s definition of argument
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-why-monty-pythons-definition-is-incomplete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Why Monty Python’s definition is incomplete
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#likely-tested-concept-premises-and-conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Likely Tested Concept: Premises and conclusion
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-watch-carefully-for_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Watch Carefully For
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-compressed-takeaways-my-notes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Compressed Takeaways — My Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-one-line-mental-model_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. One-Line Mental Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="1-the-nature-of-argument">1. The Nature of Argument<a class="headerlink" href="#1-the-nature-of-argument" title="Permanent link">&para;</a></h1>
+<h2 id="1-why-arguments-matter">1. Why Arguments Matter<a class="headerlink" href="#1-why-arguments-matter" title="Permanent link">&para;</a></h2>
+<h3 id="1-core-ideas-in-order-of-appearance">1. Core Ideas in Order of Appearance<a class="headerlink" href="#1-core-ideas-in-order-of-appearance" title="Permanent link">&para;</a></h3>
+<h4 id="idea-1-the-course-is-about-learning-to-think-again">Idea 1: The course is about learning to “think again”<a class="headerlink" href="#idea-1-the-course-is-about-learning-to-think-again" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+The course is not about memorizing the instructors’ opinions. It is about learning a better way to think about issues that matter to you.</p>
+<p><strong>Why It Matters:</strong>
+Many important life decisions require careful reasoning, not impulse, habit, emotion, or social pressure.</p>
+<p><strong>Common Confusion:</strong>
+Critical thinking is not the same as being argumentative or skeptical about everything. It means thinking more carefully and more deeply.</p>
+<hr />
+<h4 id="idea-2-the-course-focuses-on-reasoning-and-arguing">Idea 2: The course focuses on reasoning and arguing<a class="headerlink" href="#idea-2-the-course-focuses-on-reasoning-and-arguing" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+Reasoning is the process of using reasons to support beliefs and actions. Arguments are the way those reasons are expressed.</p>
+<p><strong>Why It Matters:</strong>
+If you can understand arguments, you can understand the reasons people are giving. If you can create good arguments, you can have better reasons for what you believe and do.</p>
+<p><strong>Common Confusion:</strong>
+In everyday speech, “argument” often means a fight. In logic, an argument means a structured set of reasons offered in support of a conclusion.</p>
+<hr />
+<h4 id="idea-3-learning-arguments-helps-you-avoid-bad-persuasion">Idea 3: Learning arguments helps you avoid bad persuasion<a class="headerlink" href="#idea-3-learning-arguments-helps-you-avoid-bad-persuasion" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+People may try to convince you using weak, emotional, misleading, or manipulative arguments.</p>
+<p><strong>Why It Matters:</strong>
+You need to know when someone is giving you a good reason versus when they are merely trying to influence you.</p>
+<p><strong>Examples from the lecture:</strong>
+A used car salesman may try to persuade you by saying you will look cool in the car. A lawyer may try to persuade a jury. An evangelist may try to change your religious beliefs. A friend may try to convince you to go on a cross-country trip.</p>
+<p><strong>Common Confusion:</strong>
+A reason can sound appealing without being a good reason.</p>
+<hr />
+<h3 id="2-definitions-and-distinctions">2. Definitions and Distinctions<a class="headerlink" href="#2-definitions-and-distinctions" title="Permanent link">&para;</a></h3>
+<h4 id="term-reasoning">Term: Reasoning<a class="headerlink" href="#term-reasoning" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+The process of using reasons to decide what to believe or do.</p>
+<p><strong>In My Own Words:</strong>
+Reasoning is thinking with support. It is not just having an opinion; it is having grounds for that opinion.</p>
+<p><strong>Contrast With:</strong>
+Arbitrary belief or action.</p>
+<p><strong>Example:</strong>
+“I should not buy this car just because it looks cool. I should consider price, reliability, safety, and whether I need it.”</p>
+<p><strong>Non-Example:</strong>
+“I’ll buy this car because I feel like it.”</p>
+<hr />
+<h4 id="term-argument">Term: Argument<a class="headerlink" href="#term-argument" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+A way of expressing reasons in support of a belief, decision, or conclusion.</p>
+<p><strong>In My Own Words:</strong>
+An argument is a reason-giving structure.</p>
+<p><strong>Contrast With:</strong>
+A description, explanation, story, thank-you note, or emotional appeal.</p>
+<p><strong>Example:</strong>
+“You should vote for this candidate because they have experience, sound policies, and a strong record.”</p>
+<p><strong>Non-Example:</strong>
+“Thank you to everyone who volunteered at the event.”</p>
+<hr />
+<h4 id="term-standard-form">Term: Standard Form<a class="headerlink" href="#term-standard-form" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+A structured way of laying out an argument so that its premises and conclusion are clear.</p>
+<p><strong>In My Own Words:</strong>
+Standard form cleans up an argument and makes it easier to inspect.</p>
+<p><strong>Contrast With:</strong>
+A messy paragraph where the reasons and conclusion are mixed together.</p>
+<p><strong>Example Format:</strong></p>
+<ol>
+<li>Premise</li>
+<li>Premise</li>
+<li>Therefore, conclusion</li>
+</ol>
+<hr />
+<h4 id="term-suppressed-premise">Term: Suppressed Premise<a class="headerlink" href="#term-suppressed-premise" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+A missing or unstated premise that is needed for the argument to work.</p>
+<p><strong>In My Own Words:</strong>
+It is something the speaker assumes but does not say out loud.</p>
+<p><strong>Example:</strong>
+“You should buy this car because it looks cool.”</p>
+<p><strong>Possible Suppressed Premise:</strong>
+If a car makes you look cool, then you should buy it.</p>
+<p><strong>Common Confusion:</strong>
+People often think the argument only includes what is explicitly said. But many arguments depend on hidden assumptions.</p>
+<hr />
+<h4 id="term-deductive-argument">Term: Deductive Argument<a class="headerlink" href="#term-deductive-argument" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+An argument that aims to be logically valid.</p>
+<p><strong>In My Own Words:</strong>
+A deductive argument tries to make the conclusion follow necessarily from the premises.</p>
+<p><strong>Contrast With:</strong>
+Inductive argument.</p>
+<p><strong>Example:</strong>
+All humans are mortal.
+Socrates is human.
+Therefore, Socrates is mortal.</p>
+<hr />
+<h4 id="term-inductive-argument">Term: Inductive Argument<a class="headerlink" href="#term-inductive-argument" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+An argument that does not try to be deductively valid, but instead gives support that makes the conclusion more likely or reasonable.</p>
+<p><strong>In My Own Words:</strong>
+Inductive reasoning deals with probability, patterns, explanations, analogies, and evidence.</p>
+<p><strong>Contrast With:</strong>
+Deductive argument.</p>
+<p><strong>Example:</strong>
+Most cars from this brand have been reliable, so this new model is probably reliable.</p>
+<hr />
+<h4 id="term-fallacy">Term: Fallacy<a class="headerlink" href="#term-fallacy" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+A common and tempting mistake in reasoning.</p>
+<p><strong>In My Own Words:</strong>
+A fallacy is a reasoning trap.</p>
+<p><strong>Examples Mentioned:</strong>
+Vagueness, ambiguity, irrelevance, ad hominem arguments, appeals to ignorance, and begging the question.</p>
+<hr />
+<h3 id="3-argument-structure">3. Argument Structure<a class="headerlink" href="#3-argument-structure" title="Permanent link">&para;</a></h3>
+<h4 id="original-argument-example-used-car-salesman">Original Argument Example: Used Car Salesman<a class="headerlink" href="#original-argument-example-used-car-salesman" title="Permanent link">&para;</a></h4>
+<p><strong>Original Argument:</strong>
+“You should buy this car because it looks really cool, and you will look even cooler sitting in it.”</p>
+<p><strong>Conclusion:</strong>
+You should buy this car.</p>
+<p><strong>Premises:</strong></p>
+<ol>
+<li>The car looks really cool.</li>
+<li>You will look cooler sitting in the car.</li>
+</ol>
+<p><strong>Hidden Assumptions:</strong></p>
+<ul>
+<li>Looking cool is an important reason to buy a car.</li>
+<li>This benefit outweighs other factors like price, safety, reliability, and need.</li>
+</ul>
+<p><strong>Argument Type:</strong>
+Practical reasoning / persuasive argument.</p>
+<p><strong>Strength Assessment:</strong>
+Weak unless the buyer’s main goal is appearance and the car also satisfies other important criteria.</p>
+<p><strong>Improved Version:</strong>
+“You should consider buying this car if it fits your budget, is mechanically reliable, meets your transportation needs, and if appearance is important to you.”</p>
+<hr />
+<h4 id="original-argument-example-lawyer-in-court">Original Argument Example: Lawyer in Court<a class="headerlink" href="#original-argument-example-lawyer-in-court" title="Permanent link">&para;</a></h4>
+<p><strong>Original Argument:</strong>
+A lawyer tries to convince the jury that the defendant is guilty or not guilty.</p>
+<p><strong>Conclusion:</strong>
+The defendant should be found guilty or not guilty.</p>
+<p><strong>Premises:</strong>
+Depend on the evidence presented.</p>
+<p><strong>Hidden Assumptions:</strong></p>
+<ul>
+<li>The evidence is reliable.</li>
+<li>The witnesses are credible.</li>
+<li>The legal standard has been met.</li>
+</ul>
+<p><strong>Argument Type:</strong>
+Evidence-based legal argument.</p>
+<p><strong>Strength Assessment:</strong>
+Depends on the quality of evidence and reasoning.</p>
+<p><strong>Lesson:</strong>
+Serious decisions should not be made like flipping a coin. They require reasons.</p>
+<hr />
+<h4 id="original-argument-example-friend-suggesting-a-trip">Original Argument Example: Friend Suggesting a Trip<a class="headerlink" href="#original-argument-example-friend-suggesting-a-trip" title="Permanent link">&para;</a></h4>
+<p><strong>Original Argument:</strong>
+“Let’s go for a cross-country trip. It’ll be great.”</p>
+<p><strong>Conclusion:</strong>
+We should go on a cross-country trip.</p>
+<p><strong>Premises:</strong></p>
+<ol>
+<li>The trip will be great.</li>
+</ol>
+<p><strong>Hidden Assumptions:</strong></p>
+<ul>
+<li>If an experience will be great, we should do it.</li>
+<li>The costs, time, risks, and responsibilities are acceptable.</li>
+</ul>
+<p><strong>Argument Type:</strong>
+Practical argument.</p>
+<p><strong>Strength Assessment:</strong>
+Incomplete. More reasons are needed.</p>
+<p><strong>Improved Version:</strong>
+“We should consider going on a cross-country trip because we have time, the cost is manageable, the route is interesting, and it would be meaningful for us.”</p>
+<hr />
+<h3 id="4-argument-forms-and-patterns">4. Argument Forms and Patterns<a class="headerlink" href="#4-argument-forms-and-patterns" title="Permanent link">&para;</a></h3>
+<p>This introductory lecture does not yet teach specific formal argument patterns like modus ponens or modus tollens. However, it introduces the general pattern of argument analysis.</p>
+<h4 id="general-argument-pattern">General Argument Pattern<a class="headerlink" href="#general-argument-pattern" title="Permanent link">&para;</a></h4>
+<p><strong>Pattern:</strong></p>
+<ol>
+<li>Reason / Premise</li>
+<li>Reason / Premise</li>
+<li>Therefore, conclusion</li>
+</ol>
+<p><strong>Valid or Invalid?:</strong>
+Depends on the structure and content of the argument.</p>
+<p><strong>Plain-English Meaning:</strong>
+An argument gives support for a claim.</p>
+<p><strong>Example:</strong>
+The car is reliable.
+The car is affordable.
+The car meets my needs.
+Therefore, I should buy the car.</p>
+<p><strong>How to Spot It:</strong>
+Look for conclusion indicators like “therefore,” “so,” “thus,” or “hence.”
+Look for premise indicators like “because,” “since,” “given that,” or “for the reason that.”</p>
+<p><strong>Common Trap:</strong>
+Mistaking persuasion for proof.</p>
+<hr />
+<h3 id="5-fallacies-and-reasoning-errors">5. Fallacies and Reasoning Errors<a class="headerlink" href="#5-fallacies-and-reasoning-errors" title="Permanent link">&para;</a></h3>
+<p>The lecture previews fallacies that will be covered later.</p>
+<h4 id="fallacy-error-vagueness">Fallacy / Error: Vagueness<a class="headerlink" href="#fallacy-error-vagueness" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Using unclear or imprecise terms in an argument.</p>
+<p><strong>Why It Fails:</strong>
+If the meaning is unclear, the reasoning becomes difficult to evaluate.</p>
+<p><strong>Example:</strong>
+“This car is cool, so you should buy it.”</p>
+<p><strong>Better Reasoning:</strong>
+Specify what “cool” means and explain why it matters.</p>
+<p><strong>How I Might Fall for This:</strong>
+I may accept vague positive words like “great,” “smart,” “successful,” or “high quality” without asking what they specifically mean.</p>
+<hr />
+<h4 id="fallacy-error-ambiguity">Fallacy / Error: Ambiguity<a class="headerlink" href="#fallacy-error-ambiguity" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Using a word or phrase with more than one meaning.</p>
+<p><strong>Why It Fails:</strong>
+The argument may shift meanings without the listener noticing.</p>
+<p><strong>Example:</strong>
+Not fully developed in this lecture, but introduced as a major topic.</p>
+<p><strong>Better Reasoning:</strong>
+Clarify the meaning of key terms.</p>
+<p><strong>How I Might Fall for This:</strong>
+I may assume a word has one meaning when the speaker is using it in multiple ways.</p>
+<hr />
+<h4 id="fallacy-error-irrelevance">Fallacy / Error: Irrelevance<a class="headerlink" href="#fallacy-error-irrelevance" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Giving a reason that does not actually support the conclusion.</p>
+<p><strong>Why It Fails:</strong>
+The reason may be emotionally powerful but logically disconnected.</p>
+<p><strong>Example:</strong>
+“You should buy this car because you will look cool.”</p>
+<p><strong>Better Reasoning:</strong>
+Ask whether the reason is actually relevant to the decision.</p>
+<p><strong>How I Might Fall for This:</strong>
+I may be persuaded by status, confidence, charm, fear, or emotion instead of evidence.</p>
+<hr />
+<h4 id="fallacy-error-ad-hominem">Fallacy / Error: Ad Hominem<a class="headerlink" href="#fallacy-error-ad-hominem" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Attacking the person instead of addressing the argument.</p>
+<p><strong>Why It Fails:</strong>
+A person’s character does not automatically prove their argument false.</p>
+<p><strong>Example:</strong>
+The lecture mentions ad hominem as a fallacy to be studied later.</p>
+<p><strong>Better Reasoning:</strong>
+Evaluate the argument itself.</p>
+<hr />
+<h4 id="fallacy-error-appeal-to-ignorance">Fallacy / Error: Appeal to Ignorance<a class="headerlink" href="#fallacy-error-appeal-to-ignorance" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Arguing that something is true because it has not been proven false, or false because it has not been proven true.</p>
+<p><strong>Why It Fails:</strong>
+Lack of evidence against a claim is not always evidence for it.</p>
+<p><strong>Example:</strong>
+The lecture previews this as a later topic.</p>
+<hr />
+<h4 id="fallacy-error-begging-the-question">Fallacy / Error: Begging the Question<a class="headerlink" href="#fallacy-error-begging-the-question" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Assuming the very thing that the argument is supposed to prove.</p>
+<p><strong>Why It Fails:</strong>
+The argument goes in a circle instead of giving independent support.</p>
+<p><strong>Example:</strong>
+The lecture says this is a major fallacy people commit frequently.</p>
+<hr />
+<h3 id="6-worked-examples">6. Worked Examples<a class="headerlink" href="#6-worked-examples" title="Permanent link">&para;</a></h3>
+<h4 id="example-1-letter-to-the-editor">Example 1: Letter to the Editor<a class="headerlink" href="#example-1-letter-to-the-editor" title="Permanent link">&para;</a></h4>
+<p><strong>Example:</strong>
+Some letters to the editor contain arguments, while others do not.</p>
+<p><strong>Question Being Asked:</strong>
+Does this passage contain an argument?</p>
+<p><strong>Step 1 — Identify the Conclusion:</strong>
+If the letter tries to convince readers to believe or do something, it likely has a conclusion.</p>
+<p><strong>Step 2 — Identify the Premises:</strong>
+Look for reasons offered in support of that conclusion.</p>
+<p><strong>Step 3 — Identify the Logical Form:</strong>
+The argument may be political, practical, moral, or evidence-based.</p>
+<p><strong>Step 4 — Test the Reasoning:</strong>
+Ask whether the reasons actually support the conclusion.</p>
+<p><strong>Step 5 — Final Judgment:</strong>
+Not every passage is an argument. Some merely express thanks, describe events, or share feelings.</p>
+<p><strong>Lesson Learned:</strong>
+Before evaluating an argument, first determine whether there is an argument at all.</p>
+<hr />
+<h4 id="example-2-used-car-salesman">Example 2: Used Car Salesman<a class="headerlink" href="#example-2-used-car-salesman" title="Permanent link">&para;</a></h4>
+<p><strong>Example:</strong>
+A salesman says you should buy a car because it looks cool and makes you look cool.</p>
+<p><strong>Question Being Asked:</strong>
+Is this a good reason to buy the car?</p>
+<p><strong>Step 1 — Identify the Conclusion:</strong>
+You should buy the car.</p>
+<p><strong>Step 2 — Identify the Premises:</strong>
+The car looks cool.
+You will look cool in it.</p>
+<p><strong>Step 3 — Identify the Logical Form:</strong>
+Practical argument based on appearance/status.</p>
+<p><strong>Step 4 — Test the Reasoning:</strong>
+Ask whether appearance is enough to justify buying a car.</p>
+<p><strong>Step 5 — Final Judgment:</strong>
+The argument is weak unless appearance is the buyer’s main criterion and other practical concerns are satisfied.</p>
+<p><strong>Lesson Learned:</strong>
+A reason may be psychologically persuasive without being logically strong.</p>
+<hr />
+<h3 id="7-truth-tables-symbols-and-formal-tools">7. Truth Tables, Symbols, and Formal Tools<a class="headerlink" href="#7-truth-tables-symbols-and-formal-tools" title="Permanent link">&para;</a></h3>
+<p>This lecture does not yet introduce formal symbols or truth tables.</p>
+<p>However, it previews that the course will later cover:</p>
+<ul>
+<li>Propositional logic</li>
+<li>Categorical logic</li>
+<li>Deductive validity</li>
+<li>Formal structure of arguments</li>
+</ul>
+<p><strong>Mistake to Avoid:</strong>
+Do not jump into symbolic logic before understanding the basic structure of arguments: premises, conclusion, hidden assumptions, and purpose.</p>
+<hr />
+<h3 id="8-critical-thinking-application">8. Critical Thinking Application<a class="headerlink" href="#8-critical-thinking-application" title="Permanent link">&para;</a></h3>
+<h4 id="where-this-applies-personal-beliefs">Where This Applies: Personal Beliefs<a class="headerlink" href="#where-this-applies-personal-beliefs" title="Permanent link">&para;</a></h4>
+<p><strong>Bad Reasoning Version:</strong>
+“I believe this because someone persuasive told me.”</p>
+<p><strong>Better Reasoning Version:</strong>
+“What reasons were given? Are they good reasons? Do they actually support the conclusion?”</p>
+<p><strong>Decision Lesson:</strong>
+Do not outsource your beliefs to confident people.</p>
+<hr />
+<h4 id="where-this-applies-buying-decisions">Where This Applies: Buying Decisions<a class="headerlink" href="#where-this-applies-buying-decisions" title="Permanent link">&para;</a></h4>
+<p><strong>Bad Reasoning Version:</strong>
+“This product looks impressive, so I should buy it.”</p>
+<p><strong>Better Reasoning Version:</strong>
+“What problem does this solve? What evidence supports the purchase? What are the tradeoffs?”</p>
+<p><strong>Decision Lesson:</strong>
+Persuasion is not the same as justification.</p>
+<hr />
+<h4 id="where-this-applies-legal-judgment">Where This Applies: Legal Judgment<a class="headerlink" href="#where-this-applies-legal-judgment" title="Permanent link">&para;</a></h4>
+<p><strong>Bad Reasoning Version:</strong>
+“The lawyer sounded convincing, so the defendant must be guilty.”</p>
+<p><strong>Better Reasoning Version:</strong>
+“What evidence was presented? Does it meet the required standard? Are there alternative explanations?”</p>
+<p><strong>Decision Lesson:</strong>
+High-stakes decisions require careful argument evaluation.</p>
+<hr />
+<h4 id="where-this-applies-life-choices">Where This Applies: Life Choices<a class="headerlink" href="#where-this-applies-life-choices" title="Permanent link">&para;</a></h4>
+<p><strong>Bad Reasoning Version:</strong>
+“My friend says the trip will be great, so I should go.”</p>
+<p><strong>Better Reasoning Version:</strong>
+“What are the reasons? What are the costs, risks, benefits, and alternatives?”</p>
+<p><strong>Decision Lesson:</strong>
+Enthusiasm is not enough. Big commitments require reasons.</p>
+<hr />
+<h3 id="9-quiz-assignment-exam-relevance">9. Quiz / Assignment / Exam Relevance<a class="headerlink" href="#9-quiz-assignment-exam-relevance" title="Permanent link">&para;</a></h3>
+<h4 id="likely-tested-concept-what-is-an-argument">Likely Tested Concept: What is an argument?<a class="headerlink" href="#likely-tested-concept-what-is-an-argument" title="Permanent link">&para;</a></h4>
+<p><strong>How They Might Ask It:</strong>
+They may give a passage and ask whether it contains an argument.</p>
+<p><strong>What to Watch For:</strong>
+Does the passage offer reasons in support of a conclusion?</p>
+<p><strong>My Rule of Thumb:</strong>
+No reasons + no conclusion = probably not an argument.</p>
+<p><strong>Practice Question:</strong>
+“Thank you to everyone who helped clean the park yesterday.”
+Is this an argument?</p>
+<p><strong>Answer:</strong>
+No.</p>
+<p><strong>Explanation:</strong>
+It expresses gratitude but does not offer reasons for a conclusion.</p>
+<hr />
+<h4 id="likely-tested-concept-argument-analysis">Likely Tested Concept: Argument analysis<a class="headerlink" href="#likely-tested-concept-argument-analysis" title="Permanent link">&para;</a></h4>
+<p><strong>How They Might Ask It:</strong>
+They may ask you to identify the conclusion, premises, or missing assumptions.</p>
+<p><strong>What to Watch For:</strong>
+The conclusion may not appear at the end. The premises may be scattered throughout the passage.</p>
+<p><strong>My Rule of Thumb:</strong>
+Ask: “What is the speaker trying to get me to believe or do?”</p>
+<hr />
+<h4 id="likely-tested-concept-course-structure">Likely Tested Concept: Course structure<a class="headerlink" href="#likely-tested-concept-course-structure" title="Permanent link">&para;</a></h4>
+<p><strong>How They Might Ask It:</strong>
+They may ask what the four parts of the course are.</p>
+<p><strong>Answer:</strong></p>
+<ol>
+<li>Analyze arguments</li>
+<li>Deductive arguments</li>
+<li>Inductive arguments</li>
+<li>Fallacies</li>
+</ol>
+<hr />
+<h3 id="10-watch-carefully-for">10. Watch Carefully For<a class="headerlink" href="#10-watch-carefully-for" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Not every passage contains an argument.</li>
+<li>Arguments are expressions of reasons.</li>
+<li>The first task is to identify whether an argument is present.</li>
+<li>Then identify the conclusion and premises.</li>
+<li>Then put the argument into standard form.</li>
+<li>Then look for missing or suppressed premises.</li>
+<li>Deductive arguments aim at logical validity.</li>
+<li>Inductive arguments work differently from deductive arguments.</li>
+<li>Fallacies are common, tempting reasoning mistakes.</li>
+<li>Persuasive examples are not always good arguments.</li>
+<li>The course is not trying to tell you what to believe; it is trying to teach you how to reason better.</li>
+</ul>
+<hr />
+<h3 id="11-compressed-takeaways-my-notes">11. Compressed Takeaways — My Notes<a class="headerlink" href="#11-compressed-takeaways-my-notes" title="Permanent link">&para;</a></h3>
+<ol>
+<li>The course is called <strong>Think Again: How to Reason and Argue</strong>.</li>
+<li>Its purpose is to help students think more deeply about issues that matter to them.</li>
+<li>Reasoning matters because most people do not want arbitrary or unjustified beliefs.</li>
+<li>Arguments are ways of expressing reasons.</li>
+<li>Understanding arguments helps us understand reasons.</li>
+<li>Formulating good arguments helps us justify our own beliefs and actions.</li>
+<li>Evaluating arguments helps us avoid manipulation by bad arguments.</li>
+<li>The course has four parts: analysis, deduction, induction, and fallacies.</li>
+<li>Argument analysis includes identifying arguments, extracting premises and conclusions, putting them in standard form, and supplying missing premises.</li>
+<li>The course will also cover deductive logic, inductive reasoning, probability, decision making, and common fallacies.</li>
+</ol>
+<hr />
+<h3 id="12-one-line-mental-model">12. One-Line Mental Model<a class="headerlink" href="#12-one-line-mental-model" title="Permanent link">&para;</a></h3>
+<p><strong>This lecture is really about:</strong>
+Learning that good thinking begins by identifying, understanding, and evaluating the reasons behind beliefs and actions.</p>
+<h2 id="2-what-is-an-argument">2. What is an Argument<a class="headerlink" href="#2-what-is-an-argument" title="Permanent link">&para;</a></h2>
+<h3 id="lecture-title">Lecture Title<a class="headerlink" href="#lecture-title" title="Permanent link">&para;</a></h3>
+<p><strong>What Arguments Are — and What Arguments Are Not</strong> </p>
+<hr />
+<h3 id="1-core-ideas-in-order-of-appearance_1">1. Core Ideas in Order of Appearance<a class="headerlink" href="#1-core-ideas-in-order-of-appearance_1" title="Permanent link">&para;</a></h3>
+<h4 id="idea-1-arguments-matter-but-they-are-not-everything">Idea 1: Arguments matter, but they are not everything<a class="headerlink" href="#idea-1-arguments-matter-but-they-are-not-everything" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+Arguments are important because they help us reason well, but life is not only about arguments. Emotions, relationships, experiences, and other human concerns also matter.</p>
+<p><strong>Why It Matters:</strong>
+The course is not saying that logic replaces life. It is saying that when we do reason, decide, debate, or evaluate claims, we need to understand how arguments work.</p>
+<p><strong>Common Confusion:</strong>
+Thinking that because arguments matter, everything must be turned into an argument.</p>
+<hr />
+<h4 id="idea-2-to-understand-arguments-first-distinguish-them-from-non-arguments">Idea 2: To understand arguments, first distinguish them from non-arguments<a class="headerlink" href="#idea-2-to-understand-arguments-first-distinguish-them-from-non-arguments" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+Before we can analyze arguments, we need to know what does <strong>not</strong> count as an argument.</p>
+<p><strong>Why It Matters:</strong>
+Many things look or sound like arguments but are not actually arguments. These include fights, abuse, complaints, contradictions, stories, and dictionaries.</p>
+<p><strong>Common Confusion:</strong>
+Mistaking any heated exchange for an argument.</p>
+<hr />
+<h4 id="idea-3-arguments-are-not-fights">Idea 3: Arguments are not fights<a class="headerlink" href="#idea-3-arguments-are-not-fights" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+An argument, in logic, is not the same thing as a physical or verbal fight.</p>
+<p><strong>Why It Matters:</strong>
+You do not win an argument by overpowering someone, yelling louder, or intimidating them.</p>
+<p><strong>Common Confusion:</strong>
+In ordinary language, people often say “they were arguing” when they mean “they were fighting.”</p>
+<hr />
+<h4 id="idea-4-arguments-are-not-abuse">Idea 4: Arguments are not abuse<a class="headerlink" href="#idea-4-arguments-are-not-abuse" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+Calling someone names or insulting them is not the same as giving reasons.</p>
+<p><strong>Why It Matters:</strong>
+Abuse may be emotionally forceful, but it does not prove anything.</p>
+<p><strong>Common Confusion:</strong>
+Thinking that attacking the person weakens the person’s argument.</p>
+<hr />
+<h4 id="idea-5-arguments-are-not-complaints">Idea 5: Arguments are not complaints<a class="headerlink" href="#idea-5-arguments-are-not-complaints" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+A complaint expresses dissatisfaction, frustration, or emotion. It does not necessarily give reasons for a conclusion.</p>
+<p><strong>Why It Matters:</strong>
+Complaints may reveal how someone feels, but they may not establish what anyone should believe or do.</p>
+<p><strong>Common Confusion:</strong>
+Mistaking emotional expression for reasoning.</p>
+<hr />
+<h4 id="idea-6-arguments-are-not-mere-contradiction">Idea 6: Arguments are not mere contradiction<a class="headerlink" href="#idea-6-arguments-are-not-mere-contradiction" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+Simply denying what someone says is not an argument.</p>
+<p><strong>Why It Matters:</strong>
+Disagreement alone does not provide reasons.</p>
+<p><strong>Example:</strong>
+One person says, “The best ice cream flavor is Coconut Almond Fudge Chip.”
+Another person says, “No, it isn’t.”</p>
+<p>That is a disagreement, not an argument.</p>
+<p><strong>Common Confusion:</strong>
+Thinking that saying “no” is enough to argue against a claim.</p>
+<hr />
+<h4 id="idea-7-an-argument-is-an-intellectual-process">Idea 7: An argument is an intellectual process<a class="headerlink" href="#idea-7-an-argument-is-an-intellectual-process" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+Arguing means giving reasons, not merely asserting, denying, insulting, or complaining.</p>
+<p><strong>Why It Matters:</strong>
+The essence of argument is rational support.</p>
+<p><strong>Common Confusion:</strong>
+Thinking an argument is mainly about winning. In logic, an argument is mainly about giving support for a conclusion.</p>
+<hr />
+<h4 id="idea-8-monty-pythons-definition-is-useful-but-incomplete">Idea 8: Monty Python’s definition is useful but incomplete<a class="headerlink" href="#idea-8-monty-pythons-definition-is-useful-but-incomplete" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+Monty Python defines an argument as a connected series of statements intended to establish a proposition. This is close, but not perfect.</p>
+<p><strong>Why It Matters:</strong>
+Some arguments do not establish something new. Instead, they explain why something already accepted is true.</p>
+<p><strong>Example:</strong>
+A proof of the Pythagorean theorem may not convince people that the theorem is true, because they may already believe it. But it helps them understand <strong>why</strong> it is true.</p>
+<p><strong>Common Confusion:</strong>
+Thinking all arguments are meant only to prove unknown or disputed claims.</p>
+<hr />
+<h4 id="idea-9-arguments-can-give-different-kinds-of-reasons">Idea 9: Arguments can give different kinds of reasons<a class="headerlink" href="#idea-9-arguments-can-give-different-kinds-of-reasons" title="Permanent link">&para;</a></h4>
+<p><strong>Plain-English Meaning:</strong>
+Arguments may give reasons to believe something is true, or reasons why something is true.</p>
+<p><strong>Why It Matters:</strong>
+This distinction makes the definition of argument broader and more accurate.</p>
+<p><strong>Common Confusion:</strong>
+Treating explanation and proof as exactly the same thing.</p>
+<hr />
+<h3 id="2-definitions-and-distinctions_1">2. Definitions and Distinctions<a class="headerlink" href="#2-definitions-and-distinctions_1" title="Permanent link">&para;</a></h3>
+<h4 id="term-argument_1">Term: Argument<a class="headerlink" href="#term-argument_1" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+A connected series of sentences, statements, or propositions in which some are premises and one is a conclusion, and the premises are intended to provide some kind of reason for the conclusion.</p>
+<p><strong>In My Own Words:</strong>
+An argument is a structured attempt to support a conclusion with reasons.</p>
+<p><strong>Contrast With:</strong>
+A fight, insult, complaint, contradiction, novel, dictionary, or mere assertion.</p>
+<p><strong>Example:</strong>
+“You should not buy that car because it is overpriced, unreliable, and more expensive to repair than similar cars.”</p>
+<p><strong>Non-Example:</strong>
+“You’re an idiot if you buy that car.”</p>
+<hr />
+<h4 id="term-premise">Term: Premise<a class="headerlink" href="#term-premise" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+A statement in an argument that is intended to provide support for the conclusion.</p>
+<p><strong>In My Own Words:</strong>
+A premise is a reason.</p>
+<p><strong>Contrast With:</strong>
+Conclusion.</p>
+<p><strong>Example:</strong>
+“The car is unreliable.”</p>
+<p><strong>Non-Example:</strong>
+“Therefore, you should not buy the car.”</p>
+<hr />
+<h4 id="term-conclusion">Term: Conclusion<a class="headerlink" href="#term-conclusion" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+The statement that the premises are intended to support.</p>
+<p><strong>In My Own Words:</strong>
+The conclusion is what the argument is trying to get you to believe or accept.</p>
+<p><strong>Contrast With:</strong>
+Premise.</p>
+<p><strong>Example:</strong>
+“Therefore, you should not buy the car.”</p>
+<p><strong>Non-Example:</strong>
+“The car has poor safety ratings.”</p>
+<hr />
+<h4 id="term-contradiction-denial">Term: Contradiction / Denial<a class="headerlink" href="#term-contradiction-denial" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+In the lecture’s discussion, contradiction means simply denying what another person says.</p>
+<p><strong>In My Own Words:</strong>
+It means saying “no, that’s false” without giving reasons.</p>
+<p><strong>Contrast With:</strong>
+Argument.</p>
+<p><strong>Example:</strong>
+Person A: “This is the best ice cream.”
+Person B: “No, it isn’t.”</p>
+<p><strong>Non-Example:</strong>
+“No, it isn’t the best ice cream because it is too sweet, too expensive, and has an unpleasant texture.”</p>
+<hr />
+<h4 id="term-reason-to-believe">Term: Reason to Believe<a class="headerlink" href="#term-reason-to-believe" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+A reason that supports believing that a proposition is true.</p>
+<p><strong>In My Own Words:</strong>
+Evidence or support that helps establish a claim.</p>
+<p><strong>Example:</strong>
+“The road is wet, so it probably rained.”</p>
+<hr />
+<h4 id="term-reason-why">Term: Reason Why<a class="headerlink" href="#term-reason-why" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+A reason that explains why a proposition is true.</p>
+<p><strong>In My Own Words:</strong>
+An explanatory reason that helps us understand the truth of something.</p>
+<p><strong>Example:</strong>
+“The road is wet because it rained.”</p>
+<hr />
+<h4 id="term-proposition">Term: Proposition<a class="headerlink" href="#term-proposition" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Something that can be true or false.</p>
+<p><strong>In My Own Words:</strong>
+A claim or statement with truth value.</p>
+<p><strong>Example:</strong>
+“The car is expensive.”</p>
+<p><strong>Non-Example:</strong>
+“Ouch!” or “Please close the door.”</p>
+<hr />
+<h3 id="3-argument-structure_1">3. Argument Structure<a class="headerlink" href="#3-argument-structure_1" title="Permanent link">&para;</a></h3>
+<h4 id="general-structure-of-an-argument">General Structure of an Argument<a class="headerlink" href="#general-structure-of-an-argument" title="Permanent link">&para;</a></h4>
+<p><strong>Original Argument Pattern:</strong>
+A connected series of statements where some statements support another statement.</p>
+<p><strong>Conclusion:</strong>
+The claim being supported.</p>
+<p><strong>Premises:</strong></p>
+<ol>
+<li>Reason supporting the conclusion.</li>
+<li>Another reason supporting the conclusion.</li>
+<li>Possibly another reason supporting the conclusion.</li>
+</ol>
+<p><strong>Hidden Assumptions:</strong>
+There may be unstated ideas connecting the premises to the conclusion.</p>
+<p><strong>Argument Type:</strong>
+General argument structure.</p>
+<p><strong>Strength Assessment:</strong>
+Depends on whether the premises actually provide good reason for the conclusion.</p>
+<p><strong>Improved Version:</strong>
+Make the premises and conclusion explicit.</p>
+<hr />
+<h4 id="original-example-ice-cream-disagreement">Original Example: Ice Cream Disagreement<a class="headerlink" href="#original-example-ice-cream-disagreement" title="Permanent link">&para;</a></h4>
+<p><strong>Original Exchange:</strong>
+Person A: “The best flavor is Ben and Jerry’s Coconut Almond Fudge Chip.”
+Person B: “No, it isn’t.”</p>
+<p><strong>Conclusion:</strong>
+There is no real supported conclusion yet.</p>
+<p><strong>Premises:</strong>
+None are given.</p>
+<p><strong>Hidden Assumptions:</strong>
+Each person has personal taste preferences, but neither has given reasons.</p>
+<p><strong>Argument Type:</strong>
+Not an argument. It is merely disagreement.</p>
+<p><strong>Strength Assessment:</strong>
+No argument has been made.</p>
+<p><strong>Improved Version:</strong>
+“Coconut Almond Fudge Chip is the best flavor because it has a good balance of sweetness, texture, chocolate, coconut, and crunch.”</p>
+<hr />
+<h4 id="original-example-mathematical-proof">Original Example: Mathematical Proof<a class="headerlink" href="#original-example-mathematical-proof" title="Permanent link">&para;</a></h4>
+<p><strong>Original Argument:</strong>
+A proof of the Pythagorean theorem.</p>
+<p><strong>Conclusion:</strong>
+The Pythagorean theorem is true.</p>
+<p><strong>Premises:</strong>
+The axioms, definitions, and earlier proven claims used in the proof.</p>
+<p><strong>Hidden Assumptions:</strong>
+The rules of the mathematical system are accepted.</p>
+<p><strong>Argument Type:</strong>
+Deductive / mathematical argument.</p>
+<p><strong>Strength Assessment:</strong>
+Strong if the proof correctly shows how the theorem follows from the axioms.</p>
+<p><strong>Lesson:</strong>
+Some arguments are not mainly trying to establish belief. They may help us understand why something is true.</p>
+<hr />
+<h3 id="4-argument-forms-and-patterns_1">4. Argument Forms and Patterns<a class="headerlink" href="#4-argument-forms-and-patterns_1" title="Permanent link">&para;</a></h3>
+<h4 id="pattern-1-mere-contradiction">Pattern 1: Mere Contradiction<a class="headerlink" href="#pattern-1-mere-contradiction" title="Permanent link">&para;</a></h4>
+<p><strong>Pattern:</strong></p>
+<ol>
+<li>Person A asserts P.</li>
+<li>Person B says not-P.</li>
+</ol>
+<p><strong>Valid or Invalid?:</strong>
+This is not an argument.</p>
+<p><strong>Plain-English Meaning:</strong>
+Disagreement alone does not count as reasoning.</p>
+<p><strong>Example:</strong>
+A: “This is the best ice cream.”
+B: “No, it isn’t.”</p>
+<p><strong>How to Spot It:</strong>
+There is denial but no reason.</p>
+<p><strong>Common Trap:</strong>
+Mistaking opposition for argument.</p>
+<hr />
+<h4 id="pattern-2-argument-as-reason-giving">Pattern 2: Argument as Reason-Giving<a class="headerlink" href="#pattern-2-argument-as-reason-giving" title="Permanent link">&para;</a></h4>
+<p><strong>Pattern:</strong></p>
+<ol>
+<li>Premise 1</li>
+<li>Premise 2</li>
+<li>Therefore, conclusion</li>
+</ol>
+<p><strong>Valid or Invalid?:</strong>
+Depends on the relation between the premises and conclusion.</p>
+<p><strong>Plain-English Meaning:</strong>
+The premises are supposed to provide support for the conclusion.</p>
+<p><strong>Example:</strong>
+This car is reliable.
+This car is affordable.
+This car meets my needs.
+Therefore, I should buy this car.</p>
+<p><strong>How to Spot It:</strong>
+Look for a claim being supported by reasons.</p>
+<p><strong>Common Trap:</strong>
+Looking only for conclusion words like “therefore.” Some arguments do not use obvious signal words.</p>
+<hr />
+<h4 id="pattern-3-explanation-like-argument">Pattern 3: Explanation-Like Argument<a class="headerlink" href="#pattern-3-explanation-like-argument" title="Permanent link">&para;</a></h4>
+<p><strong>Pattern:</strong></p>
+<ol>
+<li>Accepted claim / conclusion</li>
+<li>Reasons showing why it is true</li>
+</ol>
+<p><strong>Valid or Invalid?:</strong>
+Depends on whether the explanation correctly connects the claim to deeper reasons.</p>
+<p><strong>Plain-English Meaning:</strong>
+Some arguments explain why something is true rather than proving it to someone who doubts it.</p>
+<p><strong>Example:</strong>
+A mathematical proof may explain why a theorem follows from axioms.</p>
+<p><strong>How to Spot It:</strong>
+The conclusion may already be accepted, but the argument reveals its deeper support.</p>
+<p><strong>Common Trap:</strong>
+Thinking that if everyone already believes the conclusion, there is no argument.</p>
+<hr />
+<h3 id="5-fallacies-and-reasoning-errors_1">5. Fallacies and Reasoning Errors<a class="headerlink" href="#5-fallacies-and-reasoning-errors_1" title="Permanent link">&para;</a></h3>
+<h4 id="error-treating-a-fight-as-an-argument">Error: Treating a Fight as an Argument<a class="headerlink" href="#error-treating-a-fight-as-an-argument" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Confusing physical or verbal conflict with reason-giving.</p>
+<p><strong>Why It Fails:</strong>
+Force does not establish truth.</p>
+<p><strong>Example:</strong>
+Winning by yelling, threatening, or intimidating.</p>
+<p><strong>Better Reasoning:</strong>
+Give reasons that support your conclusion.</p>
+<p><strong>How I Might Fall for This:</strong>
+I may think someone has a better argument because they are more forceful or confident.</p>
+<hr />
+<h4 id="error-treating-abuse-as-an-argument">Error: Treating Abuse as an Argument<a class="headerlink" href="#error-treating-abuse-as-an-argument" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Using insults instead of reasons.</p>
+<p><strong>Why It Fails:</strong>
+Name-calling does not show that a conclusion is true or false.</p>
+<p><strong>Example:</strong>
+“You’re stupid, so your view is wrong.”</p>
+<p><strong>Better Reasoning:</strong>
+Address the claim itself.</p>
+<p><strong>How I Might Fall for This:</strong>
+I may dismiss someone’s argument because I dislike them.</p>
+<hr />
+<h4 id="error-treating-complaints-as-arguments">Error: Treating Complaints as Arguments<a class="headerlink" href="#error-treating-complaints-as-arguments" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Mistaking emotional dissatisfaction for reasoning.</p>
+<p><strong>Why It Fails:</strong>
+A complaint may express a feeling without supporting a conclusion.</p>
+<p><strong>Example:</strong>
+“This is terrible. I hate this.”</p>
+<p><strong>Better Reasoning:</strong>
+Explain what is wrong and why it matters.</p>
+<p><strong>How I Might Fall for This:</strong>
+I may assume strong emotion equals strong evidence.</p>
+<hr />
+<h4 id="error-treating-contradiction-as-argument">Error: Treating Contradiction as Argument<a class="headerlink" href="#error-treating-contradiction-as-argument" title="Permanent link">&para;</a></h4>
+<p><strong>Definition:</strong>
+Thinking that denial alone counts as an argument.</p>
+<p><strong>Why It Fails:</strong>
+Saying “no” gives no support.</p>
+<p><strong>Example:</strong>
+“That’s false.”
+“No, it isn’t.”
+“You’re wrong.”</p>
+<p><strong>Better Reasoning:</strong>
+Give reasons for the denial.</p>
+<p><strong>How I Might Fall for This:</strong>
+I may mistake debate-style back-and-forth for actual reasoning.</p>
+<hr />
+<h3 id="6-worked-examples_1">6. Worked Examples<a class="headerlink" href="#6-worked-examples_1" title="Permanent link">&para;</a></h3>
+<h4 id="example-1-monty-python-hitting-on-the-head">Example 1: Monty Python — Hitting on the Head<a class="headerlink" href="#example-1-monty-python-hitting-on-the-head" title="Permanent link">&para;</a></h4>
+<p><strong>Example:</strong>
+The lecture uses Monty Python to show that arguments are not like hitting people on the head.</p>
+<p><strong>Question Being Asked:</strong>
+Can force win an argument?</p>
+<p><strong>Step 1 — Identify the Conclusion:</strong>
+Force is not argument.</p>
+<p><strong>Step 2 — Identify the Premises:</strong>
+Arguments require reasons.
+Physical force does not provide reasons.</p>
+<p><strong>Step 3 — Identify the Logical Form:</strong>
+Conceptual distinction.</p>
+<p><strong>Step 4 — Test the Reasoning:</strong>
+The reasoning works because force and reason-giving are different activities.</p>
+<p><strong>Step 5 — Final Judgment:</strong>
+Hitting someone may overpower them, but it does not prove anything.</p>
+<p><strong>Lesson Learned:</strong>
+Argument belongs to reasoning, not violence.</p>
+<hr />
+<h4 id="example-2-monty-python-abuse">Example 2: Monty Python — Abuse<a class="headerlink" href="#example-2-monty-python-abuse" title="Permanent link">&para;</a></h4>
+<p><strong>Example:</strong>
+The lecture distinguishes argument from verbal abuse.</p>
+<p><strong>Question Being Asked:</strong>
+Does insulting someone count as arguing?</p>
+<p><strong>Step 1 — Identify the Conclusion:</strong>
+Abuse is not argument.</p>
+<p><strong>Step 2 — Identify the Premises:</strong>
+Arguments require reasons.
+Insults do not provide reasons.</p>
+<p><strong>Step 3 — Identify the Logical Form:</strong>
+Conceptual distinction.</p>
+<p><strong>Step 4 — Test the Reasoning:</strong>
+The reasoning works because insults attack the person rather than support a conclusion.</p>
+<p><strong>Step 5 — Final Judgment:</strong>
+Abuse is not argument.</p>
+<p><strong>Lesson Learned:</strong>
+Name-calling may express hostility, but it does not justify a claim.</p>
+<hr />
+<h4 id="example-3-ice-cream-disagreement">Example 3: Ice Cream Disagreement<a class="headerlink" href="#example-3-ice-cream-disagreement" title="Permanent link">&para;</a></h4>
+<p><strong>Example:</strong>
+One person says Coconut Almond Fudge Chip is the best ice cream. Another says, “No, it isn’t.”</p>
+<p><strong>Question Being Asked:</strong>
+Is this an argument?</p>
+<p><strong>Step 1 — Identify the Conclusion:</strong>
+No supported conclusion is offered.</p>
+<p><strong>Step 2 — Identify the Premises:</strong>
+No premises are offered.</p>
+<p><strong>Step 3 — Identify the Logical Form:</strong>
+Mere assertion and denial.</p>
+<p><strong>Step 4 — Test the Reasoning:</strong>
+There is no reasoning to test.</p>
+<p><strong>Step 5 — Final Judgment:</strong>
+This is not an argument. It is disagreement.</p>
+<p><strong>Lesson Learned:</strong>
+An argument requires reasons, not just opposing claims.</p>
+<hr />
+<h4 id="example-4-mathematical-proof">Example 4: Mathematical Proof<a class="headerlink" href="#example-4-mathematical-proof" title="Permanent link">&para;</a></h4>
+<p><strong>Example:</strong>
+A proof of the Pythagorean theorem.</p>
+<p><strong>Question Being Asked:</strong>
+Must an argument always establish something previously unknown?</p>
+<p><strong>Step 1 — Identify the Conclusion:</strong>
+The Pythagorean theorem is true.</p>
+<p><strong>Step 2 — Identify the Premises:</strong>
+The axioms and steps of the proof.</p>
+<p><strong>Step 3 — Identify the Logical Form:</strong>
+Deductive proof.</p>
+<p><strong>Step 4 — Test the Reasoning:</strong>
+The proof shows how the theorem is connected to the axioms.</p>
+<p><strong>Step 5 — Final Judgment:</strong>
+The argument may not establish belief for the first time, but it explains why the proposition is true.</p>
+<p><strong>Lesson Learned:</strong>
+Arguments can support understanding, not just belief.</p>
+<hr />
+<h3 id="7-truth-tables-symbols-and-formal-tools_1">7. Truth Tables, Symbols, and Formal Tools<a class="headerlink" href="#7-truth-tables-symbols-and-formal-tools_1" title="Permanent link">&para;</a></h3>
+<p>This lecture does not introduce truth tables or formal symbolic tools yet.</p>
+<p>However, it prepares for formal logic by introducing the basic components of arguments:</p>
+<ul>
+<li>Sentences</li>
+<li>Statements</li>
+<li>Propositions</li>
+<li>Premises</li>
+<li>Conclusions</li>
+<li>Reasons</li>
+<li>Logical structure</li>
+</ul>
+<p><strong>Mistake to Avoid:</strong>
+Do not treat formal logic as the starting point. First understand what an argument is.</p>
+<hr />
+<h3 id="8-critical-thinking-application_1">8. Critical Thinking Application<a class="headerlink" href="#8-critical-thinking-application_1" title="Permanent link">&para;</a></h3>
+<h4 id="where-this-applies-everyday-disagreements">Where This Applies: Everyday Disagreements<a class="headerlink" href="#where-this-applies-everyday-disagreements" title="Permanent link">&para;</a></h4>
+<p><strong>Bad Reasoning Version:</strong>
+“You’re wrong.”
+“No, you’re wrong.”</p>
+<p><strong>Better Reasoning Version:</strong>
+“I disagree because here are the reasons.”</p>
+<p><strong>Decision Lesson:</strong>
+Disagreement becomes useful only when reasons are given.</p>
+<hr />
+<h4 id="where-this-applies-online-debates">Where This Applies: Online Debates<a class="headerlink" href="#where-this-applies-online-debates" title="Permanent link">&para;</a></h4>
+<p><strong>Bad Reasoning Version:</strong>
+Insults, mockery, dunking, sarcasm, and contradiction.</p>
+<p><strong>Better Reasoning Version:</strong>
+Identify the claim, ask for reasons, evaluate the support.</p>
+<p><strong>Decision Lesson:</strong>
+Most online fighting is not argument in the logical sense.</p>
+<hr />
+<h4 id="where-this-applies-product-and-business-decisions">Where This Applies: Product and Business Decisions<a class="headerlink" href="#where-this-applies-product-and-business-decisions" title="Permanent link">&para;</a></h4>
+<p><strong>Bad Reasoning Version:</strong>
+“This feature is stupid.”
+“No, it’s great.”</p>
+<p><strong>Better Reasoning Version:</strong>
+“This feature should be prioritized because users have repeatedly requested it, it supports our core use case, and the implementation cost is low.”</p>
+<p><strong>Decision Lesson:</strong>
+Good decisions require reasons, not opinions shouted with confidence.</p>
+<hr />
+<h4 id="where-this-applies-personal-beliefs_1">Where This Applies: Personal Beliefs<a class="headerlink" href="#where-this-applies-personal-beliefs_1" title="Permanent link">&para;</a></h4>
+<p><strong>Bad Reasoning Version:</strong>
+“I believe this because I strongly feel it.”</p>
+<p><strong>Better Reasoning Version:</strong>
+“What reasons support this belief? Are they reasons to believe it, or reasons why it is true?”</p>
+<p><strong>Decision Lesson:</strong>
+Strong belief is not the same as justified belief.</p>
+<hr />
+<h3 id="9-quiz-assignment-exam-relevance_1">9. Quiz / Assignment / Exam Relevance<a class="headerlink" href="#9-quiz-assignment-exam-relevance_1" title="Permanent link">&para;</a></h3>
+<h4 id="likely-tested-concept-what-arguments-are-not">Likely Tested Concept: What arguments are not<a class="headerlink" href="#likely-tested-concept-what-arguments-are-not" title="Permanent link">&para;</a></h4>
+<p><strong>How They Might Ask It:</strong>
+They may give examples and ask whether each one is an argument.</p>
+<p><strong>What to Watch For:</strong>
+Does the passage contain reasons supporting a conclusion?</p>
+<p><strong>My Rule of Thumb:</strong>
+No premises, no argument.</p>
+<p><strong>Practice Question:</strong>
+“You’re completely wrong.”</p>
+<p>Is this an argument?</p>
+<p><strong>Answer:</strong>
+No.</p>
+<p><strong>Explanation:</strong>
+It denies a claim but gives no reason.</p>
+<hr />
+<h4 id="likely-tested-concept-monty-pythons-definition-of-argument">Likely Tested Concept: Monty Python’s definition of argument<a class="headerlink" href="#likely-tested-concept-monty-pythons-definition-of-argument" title="Permanent link">&para;</a></h4>
+<p><strong>How They Might Ask It:</strong>
+They may ask what is useful about the definition “a connected series of statements intended to establish a proposition.”</p>
+<p><strong>What to Watch For:</strong>
+The definition captures that arguments are made of statements and have a purpose.</p>
+<p><strong>My Rule of Thumb:</strong>
+An argument is not a random list of statements. It is structured toward a conclusion.</p>
+<hr />
+<h4 id="likely-tested-concept-why-monty-pythons-definition-is-incomplete">Likely Tested Concept: Why Monty Python’s definition is incomplete<a class="headerlink" href="#likely-tested-concept-why-monty-pythons-definition-is-incomplete" title="Permanent link">&para;</a></h4>
+<p><strong>How They Might Ask It:</strong>
+They may ask why the definition is too narrow.</p>
+<p><strong>What to Watch For:</strong>
+Not all arguments are intended to establish new belief. Some help us understand why something is true.</p>
+<p><strong>Practice Question:</strong>
+Why is a mathematical proof still an argument if people already believe the theorem?</p>
+<p><strong>Answer:</strong>
+Because it shows how the theorem follows from the axioms and helps explain why it is true.</p>
+<hr />
+<h4 id="likely-tested-concept-premises-and-conclusion">Likely Tested Concept: Premises and conclusion<a class="headerlink" href="#likely-tested-concept-premises-and-conclusion" title="Permanent link">&para;</a></h4>
+<p><strong>How They Might Ask It:</strong>
+They may ask you to identify the parts of an argument.</p>
+<p><strong>What to Watch For:</strong>
+Premises provide reasons. The conclusion is what those reasons support.</p>
+<p><strong>My Rule of Thumb:</strong>
+Ask: “What is this trying to support?” That is the conclusion. Then ask: “What support is being offered?” Those are the premises.</p>
+<hr />
+<h3 id="10-watch-carefully-for_1">10. Watch Carefully For<a class="headerlink" href="#10-watch-carefully-for_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Arguments are not fights.</li>
+<li>Arguments are not verbal abuse.</li>
+<li>Arguments are not complaints.</li>
+<li>Arguments are not mere contradictions.</li>
+<li>An argument requires reasons.</li>
+<li>A premise is a reason offered in support of a conclusion.</li>
+<li>A conclusion is the claim being supported.</li>
+<li>Arguments are made of language: sentences, statements, or propositions.</li>
+<li>The purpose of an argument is to give some kind of reason for a conclusion.</li>
+<li>Some arguments provide reasons to believe something is true.</li>
+<li>Other arguments provide reasons why something is true.</li>
+<li>A good definition of argument must be broad enough to include different kinds of reasons.</li>
+</ul>
+<hr />
+<h3 id="11-compressed-takeaways-my-notes_1">11. Compressed Takeaways — My Notes<a class="headerlink" href="#11-compressed-takeaways-my-notes_1" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Arguments matter because they help us reason well.</li>
+<li>To understand arguments, we must first distinguish them from non-arguments.</li>
+<li>Arguments are not fights, abuse, complaints, or mere contradictions.</li>
+<li>Simply denying someone’s claim is not arguing.</li>
+<li>Arguing is an intellectual process.</li>
+<li>Arguments are made of language: sentences, statements, or propositions.</li>
+<li>Arguments contain premises and a conclusion.</li>
+<li>Premises are intended to provide reasons for the conclusion.</li>
+<li>Some arguments establish a proposition; others explain why a proposition is true.</li>
+<li>The best working definition: an argument is a connected series of statements where premises provide some kind of reason for a conclusion.</li>
+</ol>
+<hr />
+<h3 id="12-one-line-mental-model_1">12. One-Line Mental Model<a class="headerlink" href="#12-one-line-mental-model_1" title="Permanent link">&para;</a></h3>
+<p><strong>This lecture is really about:</strong>
+An argument is not conflict, insult, complaint, or contradiction; it is a structured act of giving reasons for a conclusion.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.top", "search.highlight", "search.suggest"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
