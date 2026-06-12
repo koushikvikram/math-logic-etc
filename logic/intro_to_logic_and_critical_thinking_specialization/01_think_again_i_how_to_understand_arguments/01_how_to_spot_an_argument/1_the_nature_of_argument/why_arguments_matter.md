@@ -304,6 +304,9 @@ If the meaning is unclear, the reasoning becomes difficult to evaluate.
 **Example:**
 “This car is cool, so you should buy it.”
 
+**Documented Real-World Example:**
+In 2016, the Federal Trade Commission charged companies with falsely advertising personal-care products as “all natural” or “100% natural” even though the products contained synthetic ingredients. The phrase “natural” can sound reassuring while remaining unclear unless the seller specifies exactly what it excludes. The FTC’s California Naturel case documented a sunscreen advertised as “all natural” even though it contained dimethicone, a synthetic ingredient. [Source: FTC](https://www.ftc.gov/news-events/news/press-releases/2016/04/four-companies-agree-stop-falsely-promoting-their-personal-care-products-all-natural-or-100-natural)
+
 **Better Reasoning:**
 Specify what “cool” means and explain why it matters.
 
@@ -322,6 +325,9 @@ The argument may shift meanings without the listener noticing.
 
 **Example:**
 Not fully developed in this lecture, but introduced as a major topic.
+
+**Documented Real-World Example:**
+During President Bill Clinton’s 1998 grand jury testimony, he famously said, “It depends on what the meaning of the word ‘is’ is.” He was distinguishing between “is” as present-tense only and “is” as including whether something had ever been true. The ambiguity mattered because the wording affected whether an earlier denial sounded false or technically defensible. [Source: Slate](https://slate.com/news-and-politics/1998/09/bill-clinton-and-the-meaning-of-is.html)
 
 **Better Reasoning:**
 Clarify the meaning of key terms.
@@ -342,6 +348,9 @@ The reason may be emotionally powerful but logically disconnected.
 **Example:**
 “You should buy this car because you will look cool.”
 
+**Documented Real-World Example:**
+In *City of Chicago v. Sessions* (2018), the Seventh Circuit described one of the Attorney General’s arguments as “a red herring.” The case was about whether federal grant conditions could require local law enforcement to assist with federal immigration enforcement, but the government framed the issue as whether localities could “thwart federal law enforcement.” The court said that broader framing was irrelevant to the actual legal question before it. [Source: Cornell Wex](https://www.law.cornell.edu/wex/red_herring)
+
 **Better Reasoning:**
 Ask whether the reason is actually relevant to the decision.
 
@@ -361,6 +370,9 @@ A person’s character does not automatically prove their argument false.
 **Example:**
 The lecture mentions ad hominem as a fallacy to be studied later.
 
+**Documented Real-World Example:**
+In the 2004 Bush-Kerry presidential debates, John Kerry criticized the coalition strategy in Iraq. George W. Bush replied partly by saying that a candidate could not lead if he “denigrates the contributions” of allied soldiers. Argumentation scholars have used this exchange as an example of ad hominem because it shifted from Kerry’s claim about coalition strength to Kerry’s character and fitness to lead. [Source: Rozenberg Quarterly](https://rozenbergquarterly.com/issa-proceedings-2006-ad-hominem-argument-in-the-bushkerry-presidential-debates/)
+
 **Better Reasoning:**
 Evaluate the argument itself.
 
@@ -377,6 +389,9 @@ Lack of evidence against a claim is not always evidence for it.
 **Example:**
 The lecture previews this as a later topic.
 
+**Documented Real-World Example:**
+During the McCarthy era, Senator Joseph McCarthy described one case by saying there was “nothing in the files to disprove” Communist connections. That treats a lack of disproof as if it were evidence of guilt. The problem is that not finding evidence against an accusation does not by itself prove the accusation true. [Source: Fallacy Files](https://www.fallacyfiles.org/ignorant.html)
+
 ---
 
 ### Fallacy / Error: Begging the Question
@@ -389,6 +404,9 @@ The argument goes in a circle instead of giving independent support.
 
 **Example:**
 The lecture says this is a major fallacy people commit frequently.
+
+**Documented Real-World Example:**
+At a 2017 press conference, President Donald Trump said, “The news is fake because so much of the news is fake.” The reason repeats the conclusion in nearly the same words, so it does not give independent evidence that the specific news being discussed was false. [Source: Dakota Free Press quoting CNN transcript](https://dakotafreepress.com/2017/02/17/trump-begs-the-question-the-news-is-fake-because-so-much-of-the-news-is-fake/)
 
 ---
 
