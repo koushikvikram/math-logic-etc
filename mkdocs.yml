@@ -20,9 +20,8 @@ extra_css:
   - assets/stylesheets/mermaid-panzoom.css
 
 extra_javascript:
-  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
   - https://unpkg.com/svg-pan-zoom@3.6.2/dist/svg-pan-zoom.min.js
-  - assets/javascripts/mermaid-panzoom.js
+  - assets/javascripts/mermaid-render-panzoom.js
 
 markdown_extensions:
   - admonition
