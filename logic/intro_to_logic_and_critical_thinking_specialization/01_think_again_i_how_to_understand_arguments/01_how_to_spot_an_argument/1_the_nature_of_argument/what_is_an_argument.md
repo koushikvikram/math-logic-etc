@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Core Ideas in Order of Appearance
+## 1. Core Ideas in Order of Appearance — 9 ideas
 
 ### Idea 1: Arguments matter, but they are not everything
 
@@ -134,7 +134,7 @@ Treating explanation and proof as exactly the same thing.
 
 ---
 
-## 2. Definitions and Distinctions
+## 2. Definitions and Distinctions — 7 terms
 
 ### Term: Argument
 
@@ -255,7 +255,7 @@ A claim or statement with truth value.
 
 ---
 
-## 3. Argument Structure
+## 3. Argument Structure — 3 examples
 
 ### General Structure of an Argument
 
@@ -336,7 +336,7 @@ Some arguments are not mainly trying to establish belief. They may help us under
 
 ---
 
-## 4. Argument Forms and Patterns
+## 4. Argument Forms and Patterns — 3 patterns
 
 ### Pattern 1: Mere Contradiction
 
@@ -415,7 +415,7 @@ Thinking that if everyone already believes the conclusion, there is no argument.
 
 ---
 
-## 5. Fallacies and Reasoning Errors
+## 5. Fallacies and Reasoning Errors — 4 errors
 
 ### Error: Treating a Fight as an Argument
 
@@ -495,7 +495,7 @@ I may mistake debate-style back-and-forth for actual reasoning.
 
 ---
 
-## 6. Worked Examples
+## 6. Worked Examples — 4 examples
 
 ### Example 1: Monty Python — Hitting on the Head
 
@@ -611,7 +611,7 @@ Arguments can support understanding, not just belief.
 
 ---
 
-## 7. Truth Tables, Symbols, and Formal Tools
+## 7. Truth Tables, Symbols, and Formal Tools — 7 tools/concepts
 
 This lecture does not introduce truth tables or formal symbolic tools yet.
 
@@ -630,7 +630,7 @@ Do not treat formal logic as the starting point. First understand what an argume
 
 ---
 
-## 8. Critical Thinking Application
+## 8. Critical Thinking Application — 4 applications
 
 ### Where This Applies: Everyday Disagreements
 
@@ -686,7 +686,7 @@ Strong belief is not the same as justified belief.
 
 ---
 
-## 9. Quiz / Assignment / Exam Relevance
+## 9. Quiz / Assignment / Exam Relevance — 4 likely tested concepts
 
 ### Likely Tested Concept: What arguments are not
 
@@ -754,7 +754,7 @@ Ask: “What is this trying to support?” That is the conclusion. Then ask: “
 
 ---
 
-## 10. Watch Carefully For
+## 10. Watch Carefully For — 12 points
 
 * Arguments are not fights.
 * Arguments are not verbal abuse.
@@ -771,7 +771,7 @@ Ask: “What is this trying to support?” That is the conclusion. Then ask: “
 
 ---
 
-## 11. Compressed Takeaways — My Notes
+## 11. Compressed Takeaways — 10 takeaways
 
 1. Arguments matter because they help us reason well.
 2. To understand arguments, we must first distinguish them from non-arguments.
@@ -786,7 +786,7 @@ Ask: “What is this trying to support?” That is the conclusion. Then ask: “
 
 ---
 
-## 12. One-Line Mental Model
+## 12. One-Line Mental Model — 1 mental model
 
 **This lecture is really about:**
 An argument is not conflict, insult, complaint, or contradiction; it is a structured act of giving reasons for a conclusion.

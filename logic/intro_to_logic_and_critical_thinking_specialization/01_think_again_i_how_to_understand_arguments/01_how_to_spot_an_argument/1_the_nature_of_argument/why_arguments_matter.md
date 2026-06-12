@@ -1,6 +1,6 @@
 # 1. Why Arguments Matter
 
-## 1. Core Ideas in Order of Appearance
+## 1. Core Ideas in Order of Appearance — 3 ideas
 
 ### Idea 1: The course is about learning to “think again”
 
@@ -44,7 +44,7 @@ A reason can sound appealing without being a good reason.
 
 ---
 
-## 2. Definitions and Distinctions
+## 2. Definitions and Distinctions — 7 terms
 
 ### Term: Reasoning
 
@@ -169,7 +169,7 @@ Vagueness, ambiguity, irrelevance, ad hominem arguments, appeals to ignorance, a
 
 ---
 
-## 3. Argument Structure
+## 3. Argument Structure — 3 examples
 
 ### Original Argument Example: Used Car Salesman
 
@@ -256,7 +256,7 @@ Incomplete. More reasons are needed.
 
 ---
 
-## 4. Argument Forms and Patterns
+## 4. Argument Forms and Patterns — 1 pattern
 
 This introductory lecture does not yet teach specific formal argument patterns like modus ponens or modus tollens. However, it introduces the general pattern of argument analysis.
 
@@ -289,7 +289,7 @@ Mistaking persuasion for proof.
 
 ---
 
-## 5. Fallacies and Reasoning Errors
+## 5. Fallacies and Reasoning Errors — 6 errors
 
 The lecture previews fallacies that will be covered later.
 
@@ -392,7 +392,7 @@ The lecture says this is a major fallacy people commit frequently.
 
 ---
 
-## 6. Worked Examples
+## 6. Worked Examples — 2 examples
 
 ### Example 1: Letter to the Editor
 
@@ -451,7 +451,7 @@ A reason may be psychologically persuasive without being logically strong.
 
 ---
 
-## 7. Truth Tables, Symbols, and Formal Tools
+## 7. Truth Tables, Symbols, and Formal Tools — 4 tools/concepts
 
 This lecture does not yet introduce formal symbols or truth tables.
 
@@ -467,7 +467,7 @@ Do not jump into symbolic logic before understanding the basic structure of argu
 
 ---
 
-## 8. Critical Thinking Application
+## 8. Critical Thinking Application — 4 applications
 
 ### Where This Applies: Personal Beliefs
 
@@ -521,7 +521,7 @@ Enthusiasm is not enough. Big commitments require reasons.
 
 ---
 
-## 9. Quiz / Assignment / Exam Relevance
+## 9. Quiz / Assignment / Exam Relevance — 3 likely tested concepts
 
 ### Likely Tested Concept: What is an argument?
 
@@ -573,7 +573,7 @@ They may ask what the four parts of the course are.
 
 ---
 
-## 10. Watch Carefully For
+## 10. Watch Carefully For — 11 points
 
 * Not every passage contains an argument.
 * Arguments are expressions of reasons.
@@ -589,7 +589,7 @@ They may ask what the four parts of the course are.
 
 ---
 
-## 11. Compressed Takeaways — My Notes
+## 11. Compressed Takeaways — 10 takeaways
 
 1. The course is called **Think Again: How to Reason and Argue**.
 2. Its purpose is to help students think more deeply about issues that matter to them.
@@ -604,7 +604,7 @@ They may ask what the four parts of the course are.
 
 ---
 
-## 12. One-Line Mental Model
+## 12. One-Line Mental Model — 1 mental model
 
 **This lecture is really about:**
 Learning that good thinking begins by identifying, understanding, and evaluating the reasons behind beliefs and actions.
