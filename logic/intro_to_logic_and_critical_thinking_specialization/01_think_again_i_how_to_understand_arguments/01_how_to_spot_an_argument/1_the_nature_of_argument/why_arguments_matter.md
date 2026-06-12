@@ -206,8 +206,8 @@ Vagueness, ambiguity, irrelevance, ad hominem arguments, appeals to ignorance, a
 **Documented Real-World Example:**
 The Federal Trade Commission’s 2016 “all natural” advertising cases show how fallacies and reasoning errors can matter outside classrooms. Consumers could be led by a vague positive phrase toward a conclusion about product purity, even when the products contained synthetic ingredients. The reasoning mistake is tempting because the label sounds meaningful before its exact meaning is tested. [Source: FTC](https://www.ftc.gov/news-events/news/press-releases/2016/04/four-companies-agree-stop-falsely-promoting-their-personal-care-products-all-natural-or-100-natural)
 
-![Federal Trade Commission seal](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_the_United_States_Federal_Trade_Commission.svg/500px-Seal_of_the_United_States_Federal_Trade_Commission.svg.png)
-*Image: Federal Trade Commission seal. Source: Wikimedia Commons.*
+![Maui Naturals All Natural Sunscreen front label](https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=Maui+Natural+Sunscreen+Front+Image+2019.jpg&setid=1f9016b3-c773-4f02-a785-f712ee8c320b&type=img)
+*Image: Sunscreen label using “All Natural” advertising language. Source: DailyMed / National Library of Medicine.*
 
 ---
 
@@ -349,8 +349,8 @@ If the meaning is unclear, the reasoning becomes difficult to evaluate.
 **Documented Real-World Example:**
 In 2016, the Federal Trade Commission charged companies with falsely advertising personal-care products as “all natural” or “100% natural” even though the products contained synthetic ingredients. The phrase “natural” can sound reassuring while remaining unclear unless the seller specifies exactly what it excludes. The FTC’s California Naturel case documented a sunscreen advertised as “all natural” even though it contained dimethicone, a synthetic ingredient. [Source: FTC](https://www.ftc.gov/news-events/news/press-releases/2016/04/four-companies-agree-stop-falsely-promoting-their-personal-care-products-all-natural-or-100-natural)
 
-![Federal Trade Commission seal](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_the_United_States_Federal_Trade_Commission.svg/500px-Seal_of_the_United_States_Federal_Trade_Commission.svg.png)
-*Image: Federal Trade Commission seal, representing the documented enforcement action. Source: Wikimedia Commons.*
+![Maui Naturals All Natural Sunscreen front label](https://dailymed.nlm.nih.gov/dailymed/image.cfm?name=Maui+Natural+Sunscreen+Front+Image+2019.jpg&setid=1f9016b3-c773-4f02-a785-f712ee8c320b&type=img)
+*Image: Sunscreen label using “All Natural” advertising language. Source: DailyMed / National Library of Medicine.*
 
 **Better Reasoning:**
 Specify what “cool” means and explain why it matters.
