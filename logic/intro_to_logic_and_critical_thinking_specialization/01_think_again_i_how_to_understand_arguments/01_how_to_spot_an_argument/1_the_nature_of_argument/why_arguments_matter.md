@@ -86,7 +86,7 @@ A description, explanation, story, thank-you note, or emotional appeal.
 “Thank you to everyone who volunteered at the event.”
 
 **Documented Real-World Example:**
-Martin Luther King Jr.’s “Letter from Birmingham Jail” is a documented argument, not merely an expression of feeling. King responds to critics by giving reasons for direct action and civil disobedience: unjust laws degrade human personality, segregation laws are unjust, and people have a moral responsibility to disobey unjust laws. [Source: Natural Law, Natural Rights, and American Constitutionalism](https://nlnrac.org/american/american-civil-rights-movements/primary-source-documents/letter-from-a-birmingham-jail)
+Martin Luther King Jr.’s “Letter from Birmingham Jail” is a documented argument, not merely an expression of feeling. King responds to critics by giving reasons for direct action and civil disobedience: unjust laws degrade human personality, segregation laws are unjust, and people have a moral responsibility to disobey unjust laws. [Source: Stanford King Institute](https://okra.stanford.edu/link/document630416-041)
 
 ---
 
@@ -108,7 +108,7 @@ A messy paragraph where the reasons and conclusion are mixed together.
 3. Therefore, conclusion
 
 **Documented Real-World Example:**
-One standard-form reconstruction of King’s argument in “Letter from Birmingham Jail” is: (1) Any law that degrades human personality is unjust. (2) Segregation statutes degrade human personality. (3) Therefore, segregation statutes are unjust. Putting the argument into this form makes the premises and conclusion easier to inspect. [Source: Natural Law, Natural Rights, and American Constitutionalism](https://nlnrac.org/american/american-civil-rights-movements/primary-source-documents/letter-from-a-birmingham-jail)
+One standard-form reconstruction of King’s argument in “Letter from Birmingham Jail” is: (1) Any law that degrades human personality is unjust. (2) Segregation statutes degrade human personality. (3) Therefore, segregation statutes are unjust. Putting the argument into this form makes the premises and conclusion easier to inspect. [Source: Stanford King Institute](https://okra.stanford.edu/link/document630416-041)
 
 ---
 
