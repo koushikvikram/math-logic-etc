@@ -1,0 +1,28 @@
+.mermaid {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  margin: 1em 0;
+  overflow: hidden;
+}
+
+.mermaid svg {
+  cursor: grab;
+  display: block;
+  min-height: 28rem;
+}
+
+.mermaid svg:active {
+  cursor: grabbing;
+}
+
+.mermaid-zoomable {
+  height: min(72vh, 48rem);
+}
+
+.mermaid-zoom-hint {
+  background: var(--md-code-bg-color);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+  padding: 0.35rem 0.6rem;
+}
