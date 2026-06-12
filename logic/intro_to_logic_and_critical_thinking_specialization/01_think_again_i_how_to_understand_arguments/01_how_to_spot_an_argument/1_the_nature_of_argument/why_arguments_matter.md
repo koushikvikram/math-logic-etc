@@ -66,6 +66,9 @@ Arbitrary belief or action.
 **Documented Real-World Example:**
 During Apollo 13, NASA ground controllers had to reason from evidence under pressure after an oxygen tank explosion. NASA describes how controllers identified the core question, “How to get back safely to Earth?”, computed new engine burns, tested new procedures in simulators, and used the lunar module as a lifeboat. This is reasoning because decisions were made from available facts, constraints, calculations, and tested procedures rather than impulse. [Source: NASA](https://www.nasa.gov/missions/apollo/apollo-13-mission-details/)
 
+![Apollo 13 Mission Control](https://commons.wikimedia.org/wiki/Special:FilePath/Mission%20Operations%20Control%20Room%20during%20Apollo%2013.jpg?width=900)
+*Image: Apollo 13 Mission Control during the crisis. Source: NASA / Wikimedia Commons.*
+
 ---
 
 ### Term: Argument
@@ -87,6 +90,9 @@ A description, explanation, story, thank-you note, or emotional appeal.
 
 **Documented Real-World Example:**
 Martin Luther King Jr.’s “Letter from Birmingham Jail” is a documented argument, not merely an expression of feeling. King responds to critics by giving reasons for direct action and civil disobedience: unjust laws degrade human personality, segregation laws are unjust, and people have a moral responsibility to disobey unjust laws. [Source: Stanford King Institute](https://okra.stanford.edu/link/document630416-041)
+
+![Recreation of Martin Luther King Jr.'s Birmingham Jail cell](https://commons.wikimedia.org/wiki/Special:FilePath/Recreation%20of%20Martin%20Luther%20King%27s%20Cell%20in%20Birmingham%20Jail%20-%20National%20Civil%20Rights%20Museum%20-%20Downtown%20Memphis%20-%20Tennessee%20-%20USA.jpg?width=900)
+*Image: Recreation of King’s Birmingham Jail cell at the National Civil Rights Museum. Source: Wikimedia Commons.*
 
 ---
 
@@ -110,6 +116,9 @@ A messy paragraph where the reasons and conclusion are mixed together.
 **Documented Real-World Example:**
 One standard-form reconstruction of King’s argument in “Letter from Birmingham Jail” is: (1) Any law that degrades human personality is unjust. (2) Segregation statutes degrade human personality. (3) Therefore, segregation statutes are unjust. Putting the argument into this form makes the premises and conclusion easier to inspect. [Source: Stanford King Institute](https://okra.stanford.edu/link/document630416-041)
 
+![Recreation of Martin Luther King Jr.'s Birmingham Jail cell](https://commons.wikimedia.org/wiki/Special:FilePath/Recreation%20of%20Martin%20Luther%20King%27s%20Cell%20in%20Birmingham%20Jail%20-%20National%20Civil%20Rights%20Museum%20-%20Downtown%20Memphis%20-%20Tennessee%20-%20USA.jpg?width=900)
+*Image: The Birmingham Jail setting helps situate the argument being reconstructed. Source: Wikimedia Commons.*
+
 ---
 
 ### Term: Suppressed Premise
@@ -132,6 +141,9 @@ People often think the argument only includes what is explicitly said. But many 
 **Documented Real-World Example:**
 Before the 2003 Iraq invasion, analysts noted that some speeches placed 9/11, terrorism, and Saddam Hussein close together without always stating the explicit conclusion that Iraq was involved in 9/11. The audience could supply a suppressed premise such as “states associated with terrorism after 9/11 are part of the same threat.” That missing premise helped connect statements that were not always asserted directly. [Source: Windsor Studies in Argumentation](https://windsor.scholarsportal.info/omp/index.php/wsia/catalog/download/19/51/200?inline=1)
 
+![President George W. Bush announcing Operation Iraqi Freedom](https://commons.wikimedia.org/wiki/Special:FilePath/Bush%20announces%20Operation%20Iraqi%20Freedom%202003.jpg?width=900)
+*Image: President George W. Bush announcing Operation Iraqi Freedom in 2003. Source: White House / Wikimedia Commons.*
+
 ---
 
 ### Term: Deductive Argument
@@ -153,6 +165,9 @@ Therefore, Socrates is mortal.
 **Documented Real-World Example:**
 Legal scholars often reconstruct judicial reasoning as a syllogism. In discussions of *Youngstown Sheet & Tube Co. v. Sawyer*, the argument can be stated deductively: (1) The President’s power to issue an order must come from Congress or the Constitution. (2) Neither Congress nor the Constitution authorized the steel-seizure order. (3) Therefore, the President lacked power to issue the order. If the premises are accepted, the conclusion follows by structure. [Source: AustLII Legal Education Digest](https://www.austlii.edu.au/au/journals/LegEdDig/2007/36.html)
 
+![United States Supreme Court Building](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/United_States_Supreme_Court_Building_on_a_Clear_Day.jpg/960px-United_States_Supreme_Court_Building_on_a_Clear_Day.jpg)
+*Image: United States Supreme Court Building, where Youngstown was decided. Source: Wikimedia Commons.*
+
 ---
 
 ### Term: Inductive Argument
@@ -172,6 +187,9 @@ Most cars from this brand have been reliable, so this new model is probably reli
 **Documented Real-World Example:**
 John Snow’s 1854 cholera investigation is a classic real-world case of inductive reasoning. Snow mapped cholera deaths, noticed that many clustered around the Broad Street pump, compared households served by different water companies, and inferred that contaminated water was the likely source. The evidence made the conclusion strongly supported, though it was not a deductive certainty. [Source: National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC7150208/)
 
+![John Snow cholera map](https://upload.wikimedia.org/wikipedia/commons/c/c7/Snow-cholera-map.jpg)
+*Image: John Snow’s cholera map showing cases clustered around water pumps. Source: Wikimedia Commons.*
+
 ---
 
 ### Term: Fallacy
@@ -187,6 +205,9 @@ Vagueness, ambiguity, irrelevance, ad hominem arguments, appeals to ignorance, a
 
 **Documented Real-World Example:**
 The Federal Trade Commission’s 2016 “all natural” advertising cases show how fallacies and reasoning errors can matter outside classrooms. Consumers could be led by a vague positive phrase toward a conclusion about product purity, even when the products contained synthetic ingredients. The reasoning mistake is tempting because the label sounds meaningful before its exact meaning is tested. [Source: FTC](https://www.ftc.gov/news-events/news/press-releases/2016/04/four-companies-agree-stop-falsely-promoting-their-personal-care-products-all-natural-or-100-natural)
+
+![Federal Trade Commission seal](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_the_United_States_Federal_Trade_Commission.svg/500px-Seal_of_the_United_States_Federal_Trade_Commission.svg.png)
+*Image: Federal Trade Commission seal. Source: Wikimedia Commons.*
 
 ---
 
@@ -328,6 +349,9 @@ If the meaning is unclear, the reasoning becomes difficult to evaluate.
 **Documented Real-World Example:**
 In 2016, the Federal Trade Commission charged companies with falsely advertising personal-care products as “all natural” or “100% natural” even though the products contained synthetic ingredients. The phrase “natural” can sound reassuring while remaining unclear unless the seller specifies exactly what it excludes. The FTC’s California Naturel case documented a sunscreen advertised as “all natural” even though it contained dimethicone, a synthetic ingredient. [Source: FTC](https://www.ftc.gov/news-events/news/press-releases/2016/04/four-companies-agree-stop-falsely-promoting-their-personal-care-products-all-natural-or-100-natural)
 
+![Federal Trade Commission seal](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_the_United_States_Federal_Trade_Commission.svg/500px-Seal_of_the_United_States_Federal_Trade_Commission.svg.png)
+*Image: Federal Trade Commission seal, representing the documented enforcement action. Source: Wikimedia Commons.*
+
 **Better Reasoning:**
 Specify what “cool” means and explain why it matters.
 
@@ -349,6 +373,9 @@ Not fully developed in this lecture, but introduced as a major topic.
 
 **Documented Real-World Example:**
 During President Bill Clinton’s 1998 grand jury testimony, he famously said, “It depends on what the meaning of the word ‘is’ is.” He was distinguishing between “is” as present-tense only and “is” as including whether something had ever been true. The ambiguity mattered because the wording affected whether an earlier denial sounded false or technically defensible. [Source: Slate](https://slate.com/news-and-politics/1998/09/bill-clinton-and-the-meaning-of-is.html)
+
+![Ken Starr testifying before the House Judiciary Committee](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ken_Starr_testifying_before_the_House_Judiciary_Committee.jpg/960px-Ken_Starr_testifying_before_the_House_Judiciary_Committee.jpg)
+*Image: Ken Starr testifying during the Clinton impeachment inquiry. Source: Library of Congress / Wikimedia Commons.*
 
 **Better Reasoning:**
 Clarify the meaning of key terms.
@@ -372,6 +399,9 @@ The reason may be emotionally powerful but logically disconnected.
 **Documented Real-World Example:**
 In *City of Chicago v. Sessions* (2018), the Seventh Circuit described one of the Attorney General’s arguments as “a red herring.” The case was about whether federal grant conditions could require local law enforcement to assist with federal immigration enforcement, but the government framed the issue as whether localities could “thwart federal law enforcement.” The court said that broader framing was irrelevant to the actual legal question before it. [Source: Cornell Wex](https://www.law.cornell.edu/wex/red_herring)
 
+![Dirksen Federal Building](https://upload.wikimedia.org/wikipedia/commons/2/2a/Dirksen_Federal_Building.jpg)
+*Image: Dirksen Federal Building, home of the Seventh Circuit. Source: U.S. Government / Wikimedia Commons.*
+
 **Better Reasoning:**
 Ask whether the reason is actually relevant to the decision.
 
@@ -394,6 +424,9 @@ The lecture mentions ad hominem as a fallacy to be studied later.
 **Documented Real-World Example:**
 In the 2004 Bush-Kerry presidential debates, John Kerry criticized the coalition strategy in Iraq. George W. Bush replied partly by saying that a candidate could not lead if he “denigrates the contributions” of allied soldiers. Argumentation scholars have used this exchange as an example of ad hominem because it shifted from Kerry’s claim about coalition strength to Kerry’s character and fitness to lead. [Source: Rozenberg Quarterly](https://rozenbergquarterly.com/issa-proceedings-2006-ad-hominem-argument-in-the-bushkerry-presidential-debates/)
 
+![Bush and Kerry campaign signs in 2004](https://upload.wikimedia.org/wikipedia/commons/c/ca/Bush_Kerry_2004.jpg)
+*Image: Bush and Kerry campaign signs from the 2004 election. Source: Wikimedia Commons.*
+
 **Better Reasoning:**
 Evaluate the argument itself.
 
@@ -413,6 +446,9 @@ The lecture previews this as a later topic.
 **Documented Real-World Example:**
 During the McCarthy era, Senator Joseph McCarthy described one case by saying there was “nothing in the files to disprove” Communist connections. That treats a lack of disproof as if it were evidence of guilt. The problem is that not finding evidence against an accusation does not by itself prove the accusation true. [Source: Fallacy Files](https://www.fallacyfiles.org/ignorant.html)
 
+![Senator Joseph McCarthy](https://upload.wikimedia.org/wikipedia/commons/0/08/Senator_Joseph_R._McCarthy%2C_ca._1954.png)
+*Image: Senator Joseph McCarthy, ca. 1954. Source: National Archives / Wikimedia Commons.*
+
 ---
 
 ### Fallacy / Error: Begging the Question
@@ -428,6 +464,9 @@ The lecture says this is a major fallacy people commit frequently.
 
 **Documented Real-World Example:**
 At a 2017 press conference, President Donald Trump said, “The news is fake because so much of the news is fake.” The reason repeats the conclusion in nearly the same words, so it does not give independent evidence that the specific news being discussed was false. [Source: Dakota Free Press quoting CNN transcript](https://dakotafreepress.com/2017/02/17/trump-begs-the-question-the-news-is-fake-because-so-much-of-the-news-is-fake/)
+
+![Donald Trump at a 2017 press conference](https://upload.wikimedia.org/wikipedia/commons/7/70/President_of_the_United_States_Donald_Trump_%26_President_of_Finland_Sauli_Niinist%C3%B6_Joint_Press_Conference%2C_August_28%2C_2017.jpg)
+*Image: Donald Trump at a 2017 press conference. Source: Wikimedia Commons.*
 
 ---
 
