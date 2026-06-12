@@ -771,7 +771,96 @@ Ask: “What is this trying to support?” That is the conclusion. Then ask: “
 
 ---
 
-## 11. Compressed Takeaways — 10 takeaways
+## 11. Big Picture Diagram — 1 diagram
+
+The big-picture mental model is:
+
+```text
+Not Every Exchange Is an Argument → Arguments Require Reasons → Reasons Support Conclusions
+```
+
+```mermaid
+flowchart TD
+    A["Human Communication"] --> B{"Is it an argument?"}
+
+    B -->|No| C["Non-Arguments"]
+    C --> C1["Fight"]
+    C --> C2["Abuse"]
+    C --> C3["Complaint"]
+    C --> C4["Mere Contradiction"]
+    C --> C5["Novel or Dictionary"]
+
+    B -->|Yes| D["Argument"]
+
+    D --> E["Made of language"]
+    E --> E1["Sentences"]
+    E --> E2["Statements"]
+    E --> E3["Propositions"]
+
+    D --> F["Has parts"]
+    F --> F1["Premises"]
+    F --> F2["Conclusion"]
+
+    F1 --> G["Premises provide reasons"]
+    G --> F2
+
+    F2 --> H["Conclusion is what the reasons support"]
+
+    G --> I{"What kind of reason?"}
+    I -->|Reason to believe| J["Shows that a proposition is true"]
+    I -->|Reason why| K["Explains why a proposition is true"]
+
+    J --> L["Better understanding of argument"]
+    K --> L
+```
+
+The lecture’s main job is to separate **arguments** from things that merely resemble arguments: fights, abuse, complaints, contradiction, novels, and dictionaries. It then defines an argument as a connected series of statements where some statements are **premises** and one is the **conclusion**, with the premises giving some kind of reason for the conclusion. 
+
+### Ultra-Compact Version — 1 diagram
+
+This is the version I would memorize:
+
+```mermaid
+flowchart LR
+    A["Communication"] --> B["Argument or Not?"]
+    B --> C["Not Argument"]
+    B --> D["Argument"]
+    C --> C1["Fight, Abuse, Complaint, Contradiction"]
+    D --> E["Premises"]
+    D --> F["Conclusion"]
+    E --> G["Reasons"]
+    G --> F
+```
+
+### Hand-Drawn Version
+
+```text
+                 WHAT IS AN ARGUMENT?
+
+                  Human communication
+                          ↓
+                Is it an argument?
+                  /             \
+                 /               \
+               No                 Yes
+               ↓                   ↓
+   Fight / Abuse / Complaint     Premises
+   Mere contradiction / Story        ↓
+                                     ↓
+                                  Reasons
+                                     ↓
+                                  Conclusion
+                                     ↓
+                        Reason to believe / Reason why
+```
+
+### One-Line Memory Hook
+
+**An argument is not conflict; it is reasons arranged to support a conclusion.**
+
+---
+
+## 12. Compressed Takeaways — 10 takeaways
 
 1. Arguments matter because they help us reason well.
 2. To understand arguments, we must first distinguish them from non-arguments.
@@ -786,7 +875,7 @@ Ask: “What is this trying to support?” That is the conclusion. Then ask: “
 
 ---
 
-## 12. One-Line Mental Model — 1 mental model
+## 13. One-Line Mental Model — 1 mental model
 
 **This lecture is really about:**
 An argument is not conflict, insult, complaint, or contradiction; it is a structured act of giving reasons for a conclusion.

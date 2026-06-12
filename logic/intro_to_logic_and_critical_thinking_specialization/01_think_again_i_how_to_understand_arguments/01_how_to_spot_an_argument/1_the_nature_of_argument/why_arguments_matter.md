@@ -589,7 +589,85 @@ They may ask what the four parts of the course are.
 
 ---
 
-## 11. Compressed Takeaways — 10 takeaways
+## 11. Big Picture Diagram — 1 diagram
+
+The big-picture mental model is:
+
+```text
+Reasons → Arguments → Better Thinking → Better Decisions
+```
+
+```mermaid
+flowchart TD
+    A["Issues that matter to your life"] --> B["Think again"]
+
+    B --> C["Reason more carefully"]
+    C --> D["Look for reasons"]
+
+    D --> E["Arguments express reasons"]
+
+    E --> F["Understand other people's arguments"]
+    E --> G["Formulate your own arguments"]
+
+    F --> H["Avoid bad persuasion"]
+    G --> I["Justify your own beliefs and actions"]
+
+    H --> J["Spot weak or manipulative arguments"]
+    I --> K["Have better reasons for what you think and do"]
+
+    J --> L["Better judgment"]
+    K --> L
+
+    L --> M["Less arbitrary belief and action"]
+```
+
+This fits the lecture because Sinnott-Armstrong frames the whole course around learning to reason better by understanding arguments, since arguments are how reasons get expressed. He also emphasizes that this helps with both forming your own beliefs and avoiding bad arguments from others. 
+
+### Ultra-Compact Version — 1 diagram
+
+This is the version I would memorize:
+
+```mermaid
+flowchart LR
+    A["Life Issues"] --> B["Think Again"]
+    B --> C["Reasons"]
+    C --> D["Arguments"]
+    D --> E["Analyze"]
+    E --> F["Evaluate"]
+    F --> G["Better Beliefs and Actions"]
+```
+
+### Hand-Drawn Version
+
+```text
+                 THINK AGAIN
+
+        Issues that matter to your life
+                    ↓
+             Reason carefully
+                    ↓
+             Look for reasons
+                    ↓
+          Arguments express reasons
+              /                 \
+             /                   \
+Understand others          Formulate your own
+      ↓                           ↓
+Avoid bad persuasion       Justify beliefs/actions
+              \                 /
+               \               /
+                Better judgment
+                    ↓
+        Less arbitrary belief and action
+```
+
+### One-Line Memory Hook
+
+**Arguments are the bridge between reasons and better judgment.**
+
+---
+
+## 12. Compressed Takeaways — 10 takeaways
 
 1. The course is called **Think Again: How to Reason and Argue**.
 2. Its purpose is to help students think more deeply about issues that matter to them.
@@ -604,7 +682,7 @@ They may ask what the four parts of the course are.
 
 ---
 
-## 12. One-Line Mental Model — 1 mental model
+## 13. One-Line Mental Model — 1 mental model
 
 **This lecture is really about:**
 Learning that good thinking begins by identifying, understanding, and evaluating the reasons behind beliefs and actions.
