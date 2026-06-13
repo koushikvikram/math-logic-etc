@@ -1,0 +1,127 @@
+{
+  "name": "Lecture 1: Predicates, Sets, and Proofs",
+  "children": [
+    {
+      "name": "Course Information",
+      "children": [
+        {
+          "name": "Schedule: Lectures Tue/Thu, Recitations Wed/Fri"
+        },
+        {
+          "name": "Recitations: Mandatory attendance, 10% grade"
+        },
+        {
+          "name": "Warmup Problems: Canvas, infinite retries"
+        },
+        {
+          "name": "Problem Sets: Weekly, solve together, write alone"
+        },
+        {
+          "name": "Late Policy: 1% per hour penalty for 50 hours, then 50% credit"
+        }
+      ]
+    },
+    {
+      "name": "Mathematical Proofs",
+      "children": [
+        {
+          "name": "Definition: Logical deductions from axioms"
+        },
+        {
+          "name": "Truth Methods: Science, legal, religion, proof"
+        },
+        {
+          "name": "Propositions: Statements that are true or false"
+        },
+        {
+          "name": "Predicates: Propositions depending on variables"
+        },
+        {
+          "name": "Counterexample: Single instance to disprove"
+        }
+      ]
+    },
+    {
+      "name": "Boolean Operators",
+      "children": [
+        {
+          "name": "NOT: Proposition is false"
+        },
+        {
+          "name": "AND: Both propositions true"
+        },
+        {
+          "name": "OR: Inclusive, at least one true"
+        },
+        {
+          "name": "Implication (A implies B)",
+          "children": [
+            {
+              "name": "Truth Table: False implies true is true"
+            },
+            {
+              "name": "Contrapositive: Equivalent statement"
+            },
+            {
+              "name": "Converse & Inverse: Not equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Set Theory",
+      "children": [
+        {
+          "name": "Set: Unordered collection, no repeats"
+        },
+        {
+          "name": "Common Sets: N, Z, Q, R, C"
+        },
+        {
+          "name": "Empty Set: Contains nothing, subset of all sets"
+        },
+        {
+          "name": "Set Operations",
+          "children": [
+            {
+              "name": "Union: In A or B"
+            },
+            {
+              "name": "Intersection: In both A and B"
+            },
+            {
+              "name": "Difference: In A but not B"
+            }
+          ]
+        },
+        {
+          "name": "Set Builder Notation: Defined by predicates"
+        },
+        {
+          "name": "Tuples: Ordered lists, repeats allowed"
+        }
+      ]
+    },
+    {
+      "name": "Axioms",
+      "children": [
+        {
+          "name": "Definition: Propositions assumed true"
+        },
+        {
+          "name": "Parallel Postulate: Euclid's non-provable axiom"
+        },
+        {
+          "name": "Consistency: No proved contradictions"
+        },
+        {
+          "name": "Completeness: Every truth provable"
+        },
+        {
+          "name": "Gödel's Incompleteness Theorem: Consistency vs Completeness"
+        }
+      ]
+    }
+  ]
+}
