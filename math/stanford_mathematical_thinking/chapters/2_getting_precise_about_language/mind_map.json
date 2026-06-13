@@ -1,0 +1,209 @@
+{
+  "name": "Precision in Mathematical Language",
+  "children": [
+    {
+      "name": "Language Contexts",
+      "children": [
+        {
+          "name": "Everyday Language",
+          "children": [
+            {
+              "name": "Relies on context"
+            },
+            {
+              "name": "Shared background knowledge"
+            },
+            {
+              "name": "Tolerates ambiguity"
+            }
+          ]
+        },
+        {
+          "name": "Mathematical Language",
+          "children": [
+            {
+              "name": "Paramount need for precision"
+            },
+            {
+              "name": "Reliance on literal meaning"
+            },
+            {
+              "name": "Limited shared understanding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mathematical Statements",
+      "children": [
+        {
+          "name": "Mathematical Objects",
+          "children": [
+            {
+              "name": "Integers"
+            },
+            {
+              "name": "Real numbers"
+            },
+            {
+              "name": "Sets"
+            },
+            {
+              "name": "Functions"
+            }
+          ]
+        },
+        {
+          "name": "Truth determined by proof"
+        },
+        {
+          "name": "Four Linguistic Forms",
+          "children": [
+            {
+              "name": "Object a has property P"
+            },
+            {
+              "name": "Every object type T has property P"
+            },
+            {
+              "name": "There is an object type T having property P"
+            },
+            {
+              "name": "If Statement A, then Statement B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Logical Combinators",
+      "children": [
+        {
+          "name": "And (Conjunction, ∧)",
+          "children": [
+            {
+              "name": "Joint assertion of statements"
+            },
+            {
+              "name": "True only if both conjuncts true"
+            },
+            {
+              "name": "Independent of order"
+            }
+          ]
+        },
+        {
+          "name": "Or (Disjunction, ∨)",
+          "children": [
+            {
+              "name": "Inclusive usage in math"
+            },
+            {
+              "name": "True if at least one disjunct true"
+            }
+          ]
+        },
+        {
+          "name": "Not (Negation, ¬)",
+          "children": [
+            {
+              "name": "Claim that a statement is false"
+            },
+            {
+              "name": "Precise mathematical negation"
+            }
+          ]
+        },
+        {
+          "name": "Implication (Conditional, ⇒)",
+          "children": [
+            {
+              "name": "Truth part vs Causation part"
+            },
+            {
+              "name": "Antecedent and Consequent"
+            },
+            {
+              "name": "False only if T implies F"
+            },
+            {
+              "name": "Terminology",
+              "children": [
+                {
+                  "name": "Sufficient condition"
+                },
+                {
+                  "name": "Necessary condition"
+                },
+                {
+                  "name": "If and only if (iff)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Equivalence (Biconditional, ⇔)",
+          "children": [
+            {
+              "name": "Mutual implication"
+            },
+            {
+              "name": "True if both have same truth value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quantifiers",
+      "children": [
+        {
+          "name": "Existential (∃)",
+          "children": [
+            {
+              "name": "There exists"
+            },
+            {
+              "name": "At least one object"
+            }
+          ]
+        },
+        {
+          "name": "Universal (∀)",
+          "children": [
+            {
+              "name": "For all / For every"
+            },
+            {
+              "name": "Implicit vs Explicit quantification"
+            }
+          ]
+        },
+        {
+          "name": "Negation Rules",
+          "children": [
+            {
+              "name": "Negation of For All is There Exists Not"
+            },
+            {
+              "name": "Negation of There Exists is For All Not"
+            }
+          ]
+        },
+        {
+          "name": "Structural Principles",
+          "children": [
+            {
+              "name": "Importance of quantifier order"
+            },
+            {
+              "name": "Significance of the domain"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

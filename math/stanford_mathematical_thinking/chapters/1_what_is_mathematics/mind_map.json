@@ -1,0 +1,105 @@
+{
+  "name": "What is Mathematics?",
+  "children": [
+    {
+      "name": "Historical Development",
+      "children": [
+        {
+          "name": "Egyptians/Babylonians (Utilitarian)"
+        },
+        {
+          "name": "Ancient Greeks (Theorems and Proofs)"
+        },
+        {
+          "name": "17th Century (Calculus and Probability)"
+        },
+        {
+          "name": "Modern Era (60-70 Categories)"
+        }
+      ]
+    },
+    {
+      "name": "Science of Patterns",
+      "children": [
+        {
+          "name": "Arithmetic (Number Patterns)"
+        },
+        {
+          "name": "Geometry (Shape Patterns)"
+        },
+        {
+          "name": "Calculus (Motion Patterns)"
+        },
+        {
+          "name": "Logic (Reasoning Patterns)"
+        },
+        {
+          "name": "Probability (Chance Patterns)"
+        },
+        {
+          "name": "Topology (Position Patterns)"
+        },
+        {
+          "name": "Fractal Geometry (Self-similarity)"
+        }
+      ]
+    },
+    {
+      "name": "Mathematical Notation",
+      "children": [
+        {
+          "name": "Abstract Symbols and Formulas"
+        },
+        {
+          "name": "Language of Science"
+        },
+        {
+          "name": "Comparison to Musical Notation"
+        },
+        {
+          "name": "Makes Invisible Visible"
+        }
+      ]
+    },
+    {
+      "name": "Modern Conceptual Shift",
+      "children": [
+        {
+          "name": "19th Century Transition"
+        },
+        {
+          "name": "From Calculation to Understanding"
+        },
+        {
+          "name": "Abstract Concepts and Relationships"
+        },
+        {
+          "name": "Functions as Input-Output Behavior"
+        },
+        {
+          "name": "Logical Deduction from Concepts"
+        }
+      ]
+    },
+    {
+      "name": "Why Learn Mathematics?",
+      "children": [
+        {
+          "name": "Cultural Inheritance"
+        },
+        {
+          "name": "Type 1: Problem Solvers"
+        },
+        {
+          "name": "Type 2: Innovative Mathematical Thinkers"
+        },
+        {
+          "name": "Adaptation and Teamwork"
+        },
+        {
+          "name": "Learning How to Learn"
+        }
+      ]
+    }
+  ]
+}

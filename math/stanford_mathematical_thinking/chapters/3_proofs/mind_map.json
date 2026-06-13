@@ -1,0 +1,137 @@
+{
+  "name": "Mathematical Proofs",
+  "children": [
+    {
+      "name": "Nature and Purpose",
+      "children": [
+        {
+          "name": "Establish truth"
+        },
+        {
+          "name": "Communicate explanation"
+        },
+        {
+          "name": "Logically sound reasoning"
+        },
+        {
+          "name": "Convince self and others"
+        }
+      ]
+    },
+    {
+      "name": "General Characteristics",
+      "children": [
+        {
+          "name": "Creative act of mind"
+        },
+        {
+          "name": "Preempts counterarguments"
+        },
+        {
+          "name": "No fixed template format"
+        },
+        {
+          "name": "Professional cross-examination"
+        }
+      ]
+    },
+    {
+      "name": "Proof by Contradiction",
+      "children": [
+        {
+          "name": "Assume negation of goal"
+        },
+        {
+          "name": "Deduce a false consequence"
+        },
+        {
+          "name": "Clear starting point"
+        },
+        {
+          "name": "Useful for non-existence"
+        }
+      ]
+    },
+    {
+      "name": "Proving Conditionals and Biconditionals",
+      "children": [
+        {
+          "name": "Direct proof: Assume phi"
+        },
+        {
+          "name": "Contrapositive equivalence"
+        },
+        {
+          "name": "Biconditional: Prove both ways"
+        }
+      ]
+    },
+    {
+      "name": "Proving Quantified Statements",
+      "children": [
+        {
+          "name": "Existence Statements",
+          "children": [
+            {
+              "name": "Find specific example"
+            },
+            {
+              "name": "Proof by cases"
+            }
+          ]
+        },
+        {
+          "name": "Universal Statements",
+          "children": [
+            {
+              "name": "Arbitrary element approach"
+            },
+            {
+              "name": "Proof by contradiction"
+            },
+            {
+              "name": "Mathematical induction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mathematical Induction",
+      "children": [
+        {
+          "name": "Initial step: Verify A(1)"
+        },
+        {
+          "name": "Induction step: Prove A(n) implies A(n+1)"
+        },
+        {
+          "name": "Principle of induction"
+        },
+        {
+          "name": "Strong induction variant"
+        }
+      ]
+    },
+    {
+      "name": "Notable Examples",
+      "children": [
+        {
+          "name": "Fermat's Last Theorem"
+        },
+        {
+          "name": "Goldbach Conjecture"
+        },
+        {
+          "name": "Irrationality of sqrt(2)"
+        },
+        {
+          "name": "Infinitude of primes"
+        },
+        {
+          "name": "Gauss's arithmetic sum"
+        }
+      ]
+    }
+  ]
+}
