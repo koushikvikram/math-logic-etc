@@ -35,7 +35,7 @@ jobs:
         run: |
           rm -rf docs/logic docs/statistics_and_probability
           cp -R logic docs/logic
-          cp -R statistics_and_probability docs/statistics_and_probability
+          cp -R math/statistics_and_probability docs/statistics_and_probability
 
       - name: Set up uv
         uses: astral-sh/setup-uv@v5
