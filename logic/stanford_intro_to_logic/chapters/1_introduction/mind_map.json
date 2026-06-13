@@ -1,0 +1,139 @@
+{
+  "name": "Introduction to Logic",
+  "children": [
+    {
+      "name": "Elements of Logic",
+      "children": [
+        {
+          "name": "Logical Sentences"
+        },
+        {
+          "name": "Logical Theories"
+        },
+        {
+          "name": "Logical Entailment"
+        },
+        {
+          "name": "Possible Worlds"
+        }
+      ]
+    },
+    {
+      "name": "Logical Reasoning",
+      "children": [
+        {
+          "name": "Logical Proofs"
+        },
+        {
+          "name": "Rules of Inference"
+        },
+        {
+          "name": "Types of Reasoning",
+          "children": [
+            {
+              "name": "Deduction (Guaranteed)"
+            },
+            {
+              "name": "Induction (Particular to General)"
+            },
+            {
+              "name": "Abduction (Effect to Cause)"
+            },
+            {
+              "name": "Analogy (Similarity)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Formalization",
+      "children": [
+        {
+          "name": "Natural Language Issues",
+          "children": [
+            {
+              "name": "Grammatical Complexity"
+            },
+            {
+              "name": "Ambiguity"
+            },
+            {
+              "name": "Syntactic Errors"
+            }
+          ]
+        },
+        {
+          "name": "Formal Language Benefits"
+        },
+        {
+          "name": "Algebraic Analogy"
+        },
+        {
+          "name": "Propositional Resolution"
+        }
+      ]
+    },
+    {
+      "name": "Automation",
+      "children": [
+        {
+          "name": "Logic Technology Systems"
+        },
+        {
+          "name": "Applications",
+          "children": [
+            {
+              "name": "Mathematics"
+            },
+            {
+              "name": "Engineering Design"
+            },
+            {
+              "name": "Database Systems"
+            },
+            {
+              "name": "Data Integration"
+            },
+            {
+              "name": "Logical Spreadsheets"
+            },
+            {
+              "name": "Law and Business Rules"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reading Guide",
+      "children": [
+        {
+          "name": "Propositional Logic",
+          "children": [
+            {
+              "name": "Conditions"
+            },
+            {
+              "name": "Boolean Connectives"
+            }
+          ]
+        },
+        {
+          "name": "Relational Logic",
+          "children": [
+            {
+              "name": "Objects and Relations"
+            },
+            {
+              "name": "Quantifiers and Variables"
+            }
+          ]
+        },
+        {
+          "name": "Expressiveness vs Computability"
+        }
+      ]
+    }
+  ]
+}

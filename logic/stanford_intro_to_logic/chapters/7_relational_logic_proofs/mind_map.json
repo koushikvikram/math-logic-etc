@@ -1,0 +1,140 @@
+{
+  "name": "Relational Logic Proofs",
+  "children": [
+    {
+      "name": "Logical Entailment",
+      "children": [
+        {
+          "name": "Truth Assignment Satisfaction"
+        },
+        {
+          "name": "Herbrand Bases"
+        },
+        {
+          "name": "Finite Proofs vs Infinite Truth Tables"
+        }
+      ]
+    },
+    {
+      "name": "Fitch System Extension",
+      "children": [
+        {
+          "name": "Universal Introduction (UI)",
+          "children": [
+            {
+              "name": "Arbitrary to Universal"
+            },
+            {
+              "name": "Free Variable Restriction"
+            }
+          ]
+        },
+        {
+          "name": "Universal Elimination (UE)",
+          "children": [
+            {
+              "name": "General to Particular"
+            },
+            {
+              "name": "Term Substitutability"
+            }
+          ]
+        },
+        {
+          "name": "Existential Introduction (EI)",
+          "children": [
+            {
+              "name": "Particular to Existential"
+            },
+            {
+              "name": "Substitutability Condition"
+            }
+          ]
+        },
+        {
+          "name": "Existential Elimination (EE)",
+          "children": [
+            {
+              "name": "Existential Target"
+            },
+            {
+              "name": "Universal Implication Antecedent"
+            },
+            {
+              "name": "Or Elimination Analogy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Structured Proofs",
+      "children": [
+        {
+          "name": "Sequence of Sentences"
+        },
+        {
+          "name": "Premises and Assumptions"
+        },
+        {
+          "name": "Nested Subproofs"
+        },
+        {
+          "name": "Inference Rule Application"
+        }
+      ]
+    },
+    {
+      "name": "Examples",
+      "children": [
+        {
+          "name": "Loves Problem",
+          "children": [
+            {
+              "name": "Jack and Jill"
+            },
+            {
+              "name": "Everyone loves everyone"
+            }
+          ]
+        },
+        {
+          "name": "Faster Than Problem",
+          "children": [
+            {
+              "name": "Horses, Dogs, and Greyhounds"
+            },
+            {
+              "name": "Transitivity Relationship"
+            }
+          ]
+        },
+        {
+          "name": "Quantifier Theorems",
+          "children": [
+            {
+              "name": "Universally Quantified Implications"
+            },
+            {
+              "name": "Existential Quantifier Movement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Proof Properties",
+      "children": [
+        {
+          "name": "Soundness"
+        },
+        {
+          "name": "Completeness"
+        },
+        {
+          "name": "Finite Provability"
+        }
+      ]
+    }
+  ]
+}

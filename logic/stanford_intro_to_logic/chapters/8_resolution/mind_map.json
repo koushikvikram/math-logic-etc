@@ -1,0 +1,180 @@
+{
+  "name": "Resolution",
+  "children": [
+    {
+      "name": "Clausal Form",
+      "children": [
+        {
+          "name": "Definitions",
+          "children": [
+            {
+              "name": "Literal"
+            },
+            {
+              "name": "Clause"
+            },
+            {
+              "name": "Clause Set"
+            }
+          ]
+        },
+        {
+          "name": "Conversion Steps",
+          "children": [
+            {
+              "name": "1. Implications out"
+            },
+            {
+              "name": "2. Negations in"
+            },
+            {
+              "name": "3. Standardize variables"
+            },
+            {
+              "name": "4. Existentials out",
+              "children": [
+                {
+                  "name": "Skolem constant"
+                },
+                {
+                  "name": "Skolem function"
+                }
+              ]
+            },
+            {
+              "name": "5. Alls out"
+            },
+            {
+              "name": "6. Disjunctions in (CNF)"
+            },
+            {
+              "name": "7. Operators out"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unification",
+      "children": [
+        {
+          "name": "Substitution",
+          "children": [
+            {
+              "name": "Domain and Range"
+            },
+            {
+              "name": "Pure vs. Impure"
+            },
+            {
+              "name": "Composition"
+            }
+          ]
+        },
+        {
+          "name": "Unifier",
+          "children": [
+            {
+              "name": "Unifiable vs. Nonunifiable"
+            },
+            {
+              "name": "Most General Unifier (mgu)"
+            }
+          ]
+        },
+        {
+          "name": "Procedure",
+          "children": [
+            {
+              "name": "Recursive comparison"
+            },
+            {
+              "name": "Variable binding"
+            },
+            {
+              "name": "Occur check"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resolution Principle",
+      "children": [
+        {
+          "name": "Variable Renaming"
+        },
+        {
+          "name": "Factors"
+        },
+        {
+          "name": "Resolvent"
+        }
+      ]
+    },
+    {
+      "name": "Reasoning Applications",
+      "children": [
+        {
+          "name": "Resolution Derivation"
+        },
+        {
+          "name": "Unsatisfiability (Empty Clause)"
+        },
+        {
+          "name": "Logical Entailment (Refutation)"
+        },
+        {
+          "name": "Answer Extraction",
+          "children": [
+            {
+              "name": "Fill-in-the-blank questions"
+            },
+            {
+              "name": "Answer literals"
+            },
+            {
+              "name": "Goal clauses"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strategies",
+      "children": [
+        {
+          "name": "Deletion Strategies",
+          "children": [
+            {
+              "name": "Pure literal elimination"
+            },
+            {
+              "name": "Tautology elimination"
+            },
+            {
+              "name": "Subsumption elimination"
+            }
+          ]
+        },
+        {
+          "name": "Restriction Strategies",
+          "children": [
+            {
+              "name": "Unit Resolution (Horn clauses)"
+            },
+            {
+              "name": "Input Resolution"
+            },
+            {
+              "name": "Linear Resolution (Ancestry-filtered)"
+            },
+            {
+              "name": "Set of Support Resolution"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

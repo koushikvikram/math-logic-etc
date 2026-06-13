@@ -1,0 +1,92 @@
+{
+  "name": "Propositional Satisfiability (SAT)",
+  "children": [
+    {
+      "name": "Overview",
+      "children": [
+        {
+          "name": "Definition"
+        },
+        {
+          "name": "Logical Reductions"
+        },
+        {
+          "name": "SAT Solver Applications"
+        }
+      ]
+    },
+    {
+      "name": "Truth Table Method",
+      "children": [
+        {
+          "name": "Exhaustive Assignment Check"
+        },
+        {
+          "name": "Completeness"
+        },
+        {
+          "name": "Exponential Complexity"
+        }
+      ]
+    },
+    {
+      "name": "Backtracking Search",
+      "children": [
+        {
+          "name": "Partial Truth Assignments"
+        },
+        {
+          "name": "Systematic Tree Search"
+        },
+        {
+          "name": "Pruning Falsified Branches"
+        },
+        {
+          "name": "Optimizations",
+          "children": [
+            {
+              "name": "Simplification"
+            },
+            {
+              "name": "Unit Propagation"
+            }
+          ]
+        },
+        {
+          "name": "DPLL Method"
+        }
+      ]
+    },
+    {
+      "name": "GSAT (Incomplete Search)",
+      "children": [
+        {
+          "name": "Heuristic Model Sampling"
+        },
+        {
+          "name": "Local Search Optimization"
+        },
+        {
+          "name": "Flipping Propositions"
+        },
+        {
+          "name": "Local Optima Strategies",
+          "children": [
+            {
+              "name": "Randomized Restarts"
+            },
+            {
+              "name": "Plateau Moves"
+            },
+            {
+              "name": "Noisy Moves"
+            }
+          ]
+        },
+        {
+          "name": "Incompleteness"
+        }
+      ]
+    }
+  ]
+}

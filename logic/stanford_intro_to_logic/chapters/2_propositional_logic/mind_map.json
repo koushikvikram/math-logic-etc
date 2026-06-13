@@ -1,0 +1,164 @@
+{
+  "name": "Propositional Logic",
+  "children": [
+    {
+      "name": "Introduction",
+      "children": [
+        {
+          "name": "Propositions as conditions"
+        },
+        {
+          "name": "True or False values"
+        },
+        {
+          "name": "Logical relationships"
+        }
+      ]
+    },
+    {
+      "name": "Syntax",
+      "children": [
+        {
+          "name": "Simple Sentences",
+          "children": [
+            {
+              "name": "Proposition constants"
+            },
+            {
+              "name": "Naming rules (lower case start)"
+            }
+          ]
+        },
+        {
+          "name": "Compound Sentences",
+          "children": [
+            {
+              "name": "Negations (¬)"
+            },
+            {
+              "name": "Conjunctions (∧)"
+            },
+            {
+              "name": "Disjunctions (∨)"
+            },
+            {
+              "name": "Implications (⇒)"
+            },
+            {
+              "name": "Biconditionals (⇔)"
+            }
+          ]
+        },
+        {
+          "name": "Operator Precedence",
+          "children": [
+            {
+              "name": "Hierarchy (¬ > ∧ > ∨ > ⇒/⇔)"
+            },
+            {
+              "name": "Right associativity"
+            }
+          ]
+        },
+        {
+          "name": "Definitions",
+          "children": [
+            {
+              "name": "Propositional Vocabulary"
+            },
+            {
+              "name": "Propositional Language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Semantics",
+      "children": [
+        {
+          "name": "Truth Assignments (0 and 1)"
+        },
+        {
+          "name": "Operator Rules",
+          "children": [
+            {
+              "name": "Negation: reverses value"
+            },
+            {
+              "name": "Conjunction: true if both true"
+            },
+            {
+              "name": "Disjunction: inclusive or"
+            },
+            {
+              "name": "Implication: material implication"
+            },
+            {
+              "name": "Biconditional: values agree"
+            }
+          ]
+        },
+        {
+          "name": "Evaluation",
+          "children": [
+            {
+              "name": "Determining truth values"
+            },
+            {
+              "name": "Inside-out technique"
+            }
+          ]
+        },
+        {
+          "name": "Satisfaction vs Falsification"
+        }
+      ]
+    },
+    {
+      "name": "Satisfaction",
+      "children": [
+        {
+          "name": "Truth Tables (2^n rows)"
+        },
+        {
+          "name": "Solving for assignments"
+        }
+      ]
+    },
+    {
+      "name": "Logical Properties",
+      "children": [
+        {
+          "name": "Valid: true in all assignments"
+        },
+        {
+          "name": "Unsatisfiable: false in all assignments"
+        },
+        {
+          "name": "Contingent: mixed truth values"
+        },
+        {
+          "name": "Satisfiable: valid or contingent"
+        },
+        {
+          "name": "Falsifiable: unsatisfiable or contingent"
+        }
+      ]
+    },
+    {
+      "name": "Propositional Entailment",
+      "children": [
+        {
+          "name": "Logical Entailment (|=)"
+        },
+        {
+          "name": "Truth Table Method"
+        },
+        {
+          "name": "Unsatisfiability Theorem"
+        }
+      ]
+    }
+  ]
+}

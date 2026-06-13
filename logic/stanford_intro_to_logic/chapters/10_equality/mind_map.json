@@ -1,0 +1,100 @@
+{
+  "name": "Equality in Relational Logic",
+  "children": [
+    {
+      "name": "Core Concept",
+      "children": [
+        {
+          "name": "Co-referentiality"
+        },
+        {
+          "name": "Multiple terms for one object"
+        },
+        {
+          "name": "Infix operator (=)"
+        }
+      ]
+    },
+    {
+      "name": "Properties of Equality",
+      "children": [
+        {
+          "name": "Equivalence Relation"
+        },
+        {
+          "name": "Reflexivity (x=x)"
+        },
+        {
+          "name": "Symmetry (x=y implies y=x)"
+        },
+        {
+          "name": "Transitivity (x=y & y=z implies x=z)"
+        }
+      ]
+    },
+    {
+      "name": "Substitution",
+      "children": [
+        {
+          "name": "Substitution Axioms"
+        },
+        {
+          "name": "Unary/Binary relation constants"
+        },
+        {
+          "name": "Function constants"
+        },
+        {
+          "name": "Maintaining truth values"
+        }
+      ]
+    },
+    {
+      "name": "Fitch with Equality",
+      "children": [
+        {
+          "name": "Equality Introduction",
+          "children": [
+            {
+              "name": "Reflexivity instances"
+            }
+          ]
+        },
+        {
+          "name": "Equality Elimination (QE)",
+          "children": [
+            {
+              "name": "Replacing equal terms"
+            },
+            {
+              "name": "Substitutability condition"
+            },
+            {
+              "name": "Bidirectional use of equations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Group Theory Example",
+      "children": [
+        {
+          "name": "Algebraic structure axioms"
+        },
+        {
+          "name": "Associativity"
+        },
+        {
+          "name": "Left and Right Identity (e)"
+        },
+        {
+          "name": "Left and Right Inverse (inv)"
+        },
+        {
+          "name": "Theorem: inv(inv(x)) = x"
+        }
+      ]
+    }
+  ]
+}

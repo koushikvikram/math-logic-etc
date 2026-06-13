@@ -1,0 +1,173 @@
+{
+  "name": "Propositional Proofs",
+  "children": [
+    {
+      "name": "Introduction",
+      "children": [
+        {
+          "name": "Alternative to truth tables"
+        },
+        {
+          "name": "Avoids exponential complexity"
+        },
+        {
+          "name": "Symbolic manipulation"
+        }
+      ]
+    },
+    {
+      "name": "Linear Proofs",
+      "children": [
+        {
+          "name": "Basic Components",
+          "children": [
+            {
+              "name": "Schema with metavariables"
+            },
+            {
+              "name": "Rules of inference"
+            },
+            {
+              "name": "Rule instances"
+            },
+            {
+              "name": "Axiom schemas"
+            }
+          ]
+        },
+        {
+          "name": "Mendelson Axiom Schemas",
+          "children": [
+            {
+              "name": "Implication Creation (IC)"
+            },
+            {
+              "name": "Implication Distribution (ID)"
+            },
+            {
+              "name": "Contradiction Realization (CR)"
+            }
+          ]
+        },
+        {
+          "name": "Sequence of sentences"
+        },
+        {
+          "name": "Provability operator (turnstile)"
+        }
+      ]
+    },
+    {
+      "name": "Structured Proofs",
+      "children": [
+        {
+          "name": "Nested subproofs"
+        },
+        {
+          "name": "Operations",
+          "children": [
+            {
+              "name": "Arbitrary assumptions"
+            },
+            {
+              "name": "Ordinary rules of inference"
+            },
+            {
+              "name": "Structured rules of inference"
+            }
+          ]
+        },
+        {
+          "name": "Rules of Scope",
+          "children": [
+            {
+              "name": "Access earlier items in current subproof"
+            },
+            {
+              "name": "Access items in superproofs"
+            },
+            {
+              "name": "Cannot use nested results in outer rules"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fitch Proof System",
+      "children": [
+        {
+          "name": "Ordinary Rules",
+          "children": [
+            {
+              "name": "And Introduction/Elimination"
+            },
+            {
+              "name": "Or Introduction/Elimination"
+            },
+            {
+              "name": "Negation Introduction/Elimination"
+            },
+            {
+              "name": "Implication Elimination"
+            },
+            {
+              "name": "Biconditional Introduction/Elimination"
+            }
+          ]
+        },
+        {
+          "name": "Structured Rules",
+          "children": [
+            {
+              "name": "Implication Introduction"
+            }
+          ]
+        },
+        {
+          "name": "Proof Operations",
+          "children": [
+            {
+              "name": "Premise operation"
+            },
+            {
+              "name": "Reiteration operation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soundness and Completeness",
+      "children": [
+        {
+          "name": "Soundness",
+          "children": [
+            {
+              "name": "Provable implies logically entailed"
+            }
+          ]
+        },
+        {
+          "name": "Completeness",
+          "children": [
+            {
+              "name": "Logically entailed implies provable"
+            }
+          ]
+        },
+        {
+          "name": "System Status",
+          "children": [
+            {
+              "name": "Mendelson: Sound/Complete for Negation/Implication"
+            },
+            {
+              "name": "Fitch: Sound/Complete for full language"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

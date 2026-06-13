@@ -1,0 +1,131 @@
+{
+  "name": "Induction",
+  "children": [
+    {
+      "name": "Introduction",
+      "children": [
+        {
+          "name": "Specific to General"
+        },
+        {
+          "name": "Incomplete Induction"
+        },
+        {
+          "name": "Complete Induction"
+        },
+        {
+          "name": "Mathematical Induction"
+        }
+      ]
+    },
+    {
+      "name": "Domain Closure",
+      "children": [
+        {
+          "name": "Finite Languages"
+        },
+        {
+          "name": "Exhaustive Instances"
+        },
+        {
+          "name": "Sound Rule of Inference"
+        }
+      ]
+    },
+    {
+      "name": "Linear Induction",
+      "children": [
+        {
+          "name": "Linear Languages"
+        },
+        {
+          "name": "Base Element"
+        },
+        {
+          "name": "Successor Function"
+        },
+        {
+          "name": "Rule Components",
+          "children": [
+            {
+              "name": "Base Case"
+            },
+            {
+              "name": "Inductive Case",
+              "children": [
+                {
+                  "name": "Inductive Hypothesis"
+                },
+                {
+                  "name": "Inductive Conclusion"
+                }
+              ]
+            },
+            {
+              "name": "Overall Conclusion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tree Induction",
+      "children": [
+        {
+          "name": "Tree Languages"
+        },
+        {
+          "name": "Multiple Unary Functions"
+        },
+        {
+          "name": "Recursive Rules"
+        }
+      ]
+    },
+    {
+      "name": "Structural Induction",
+      "children": [
+        {
+          "name": "General Form"
+        },
+        {
+          "name": "Multiple Object Constants"
+        },
+        {
+          "name": "N-ary Function Constants"
+        },
+        {
+          "name": "Binary Function Example"
+        }
+      ]
+    },
+    {
+      "name": "Multidimensional Induction",
+      "children": [
+        {
+          "name": "Multivariate Induction"
+        },
+        {
+          "name": "Multiple Variables"
+        },
+        {
+          "name": "Nested Inductive Proofs"
+        }
+      ]
+    },
+    {
+      "name": "Embedded Induction",
+      "children": [
+        {
+          "name": "Intermediate Conclusions"
+        },
+        {
+          "name": "Alternative Results"
+        },
+        {
+          "name": "Problem Decomposition"
+        }
+      ]
+    }
+  ]
+}

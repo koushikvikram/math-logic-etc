@@ -1,0 +1,233 @@
+{
+  "name": "Relational Logic",
+  "children": [
+    {
+      "name": "Introduction",
+      "children": [
+        {
+          "name": "Extension of Propositional Logic"
+        },
+        {
+          "name": "Variables and Quantifiers"
+        },
+        {
+          "name": "General Fact Expression"
+        }
+      ]
+    },
+    {
+      "name": "Syntax",
+      "children": [
+        {
+          "name": "Vocabulary",
+          "children": [
+            {
+              "name": "Object Constants"
+            },
+            {
+              "name": "Function Constants"
+            },
+            {
+              "name": "Relation Constants"
+            },
+            {
+              "name": "Variables (u, v, w, x, y, z)"
+            }
+          ]
+        },
+        {
+          "name": "Arity",
+          "children": [
+            {
+              "name": "Unary (1 argument)"
+            },
+            {
+              "name": "Binary (2 arguments)"
+            },
+            {
+              "name": "Ternary (3 arguments)"
+            },
+            {
+              "name": "N-ary (n arguments)"
+            }
+          ]
+        },
+        {
+          "name": "Terms",
+          "children": [
+            {
+              "name": "Object Constant"
+            },
+            {
+              "name": "Variable"
+            },
+            {
+              "name": "Functional Expression"
+            }
+          ]
+        },
+        {
+          "name": "Sentences",
+          "children": [
+            {
+              "name": "Relational Sentences"
+            },
+            {
+              "name": "Logical Sentences"
+            },
+            {
+              "name": "Quantified Sentences",
+              "children": [
+                {
+                  "name": "Universal (∀)"
+                },
+                {
+                  "name": "Existential (∃)"
+                },
+                {
+                  "name": "Scope"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Variable Concepts",
+      "children": [
+        {
+          "name": "Ground (no variables)"
+        },
+        {
+          "name": "Bound (inside scope)"
+        },
+        {
+          "name": "Free (outside scope)"
+        },
+        {
+          "name": "Open (has free variables)"
+        },
+        {
+          "name": "Closed (no free variables)"
+        }
+      ]
+    },
+    {
+      "name": "Semantics",
+      "children": [
+        {
+          "name": "Herbrand Semantics"
+        },
+        {
+          "name": "Herbrand Base (ground atoms)"
+        },
+        {
+          "name": "Truth Assignment"
+        },
+        {
+          "name": "Instances (replacement by ground terms)"
+        },
+        {
+          "name": "Satisfaction Rules"
+        }
+      ]
+    },
+    {
+      "name": "Application Examples",
+      "children": [
+        {
+          "name": "Sorority World (interpersonal relations)"
+        },
+        {
+          "name": "Blocks World (spatial relations)"
+        },
+        {
+          "name": "Modular Arithmetic (finite integers)"
+        },
+        {
+          "name": "Peano Arithmetic (natural numbers)"
+        },
+        {
+          "name": "Linked Lists (nested sequences)"
+        },
+        {
+          "name": "Pseudo English (grammatical syntax)"
+        },
+        {
+          "name": "Metalevel Logic (logic within logic)"
+        }
+      ]
+    },
+    {
+      "name": "Properties of Sentences",
+      "children": [
+        {
+          "name": "Validity (true in all assignments)"
+        },
+        {
+          "name": "Satisfiability (true in some assignment)"
+        },
+        {
+          "name": "Unsatisfiability (true in no assignment)"
+        },
+        {
+          "name": "Contingency (neither valid nor unsatisfiable)"
+        },
+        {
+          "name": "Falsifiability (false in some assignment)"
+        },
+        {
+          "name": "Logical Entailment"
+        }
+      ]
+    },
+    {
+      "name": "Subsets and Complexity",
+      "children": [
+        {
+          "name": "Finite Relational Logic (FRL)",
+          "children": [
+            {
+              "name": "Finite Herbrand Base"
+            },
+            {
+              "name": "Decidable"
+            },
+            {
+              "name": "Compact"
+            }
+          ]
+        },
+        {
+          "name": "Omega Relational Logic (ORL)",
+          "children": [
+            {
+              "name": "Infinite Object Constants"
+            },
+            {
+              "name": "Semidecidable"
+            },
+            {
+              "name": "Not Compact"
+            }
+          ]
+        },
+        {
+          "name": "General Relational Logic (GRL)",
+          "children": [
+            {
+              "name": "Includes Function Constants"
+            },
+            {
+              "name": "Not Semidecidable"
+            },
+            {
+              "name": "Highly Expressive"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

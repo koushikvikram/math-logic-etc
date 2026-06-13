@@ -1,0 +1,119 @@
+{
+  "name": "Propositional Resolution",
+  "children": [
+    {
+      "name": "Introduction",
+      "children": [
+        {
+          "name": "Rule of inference"
+        },
+        {
+          "name": "Sound and complete"
+        },
+        {
+          "name": "Small search space"
+        }
+      ]
+    },
+    {
+      "name": "Clausal Form",
+      "children": [
+        {
+          "name": "Definitions",
+          "children": [
+            {
+              "name": "Literal (atomic or negated)"
+            },
+            {
+              "name": "Clausal sentence (disjunction)"
+            },
+            {
+              "name": "Clause (set of literals)"
+            },
+            {
+              "name": "Empty clause (unsatisfiable)"
+            }
+          ]
+        },
+        {
+          "name": "Conversion Procedure (I-N-D-O)",
+          "children": [
+            {
+              "name": "Implications (I)"
+            },
+            {
+              "name": "Negations (N)"
+            },
+            {
+              "name": "Distribution (D)"
+            },
+            {
+              "name": "Operators (O)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resolution Principle",
+      "children": [
+        {
+          "name": "Complementary literals"
+        },
+        {
+          "name": "Literal merging"
+        },
+        {
+          "name": "Single pair resolution constraint"
+        },
+        {
+          "name": "Related Inference Rules",
+          "children": [
+            {
+              "name": "Implication Elimination"
+            },
+            {
+              "name": "Negation Introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resolution Reasoning",
+      "children": [
+        {
+          "name": "Resolution derivation (sequence)"
+        },
+        {
+          "name": "Completeness",
+          "children": [
+            {
+              "name": "Not generatively complete"
+            },
+            {
+              "name": "Refutation complete (unsatisfiability)"
+            }
+          ]
+        },
+        {
+          "name": "Resolution Proof",
+          "children": [
+            {
+              "name": "Refutation Theorem"
+            },
+            {
+              "name": "Negate goal and add to premises"
+            },
+            {
+              "name": "Derive empty clause"
+            }
+          ]
+        },
+        {
+          "name": "Guaranteed termination"
+        }
+      ]
+    }
+  ]
+}
