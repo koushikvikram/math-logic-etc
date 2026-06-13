@@ -456,6 +456,37 @@ Video: [Joseph McCarthy's Downfall Was Accusing the Army of Communism](https://w
 ![Senator Joseph McCarthy](https://upload.wikimedia.org/wikipedia/commons/0/08/Senator_Joseph_R._McCarthy%2C_ca._1954.png)
 *Image: Senator Joseph McCarthy, ca. 1954. Source: National Archives / Wikimedia Commons.*
 
+**Documented Real-World Example:**
+During Enron’s collapse, CEO Kenneth Lay reassured employees that Enron stock was “an incredible bargain” and said, “the third quarter is looking great.” The SEC later said Lay also made false or misleading statements such as “the balance sheet is strong.” This encouraged the bad investing inference: because management was reassuring people, audited statements existed, and fraud had not yet been proven, investors could treat Enron as safe. The problem is that absence of proven fraud is not positive evidence of business quality, accounting integrity, or investment safety.
+[Source: SEC](https://www.sec.gov/news/press/2004-94.htm) ([Securities and Exchange Commission][1])
+[Transcript Source: U.S. Department of Justice Enron Exhibit](https://www.justice.gov/archive/enron/exhibit/03-08/BBC-0001/OCR/7644.001.TXT) ([Department of Justice][2])
+
+Video: [Enron: The Smartest Guys in the Room — Official Trailer](https://www.youtube.com/watch?v=-w6duQhWuVk) ([YouTube][3])
+
+![Enron found guilty](https://s.hdnux.com/photos/01/46/27/34/26834743/3/ratio2x3_960.jpg)
+*Image: 'Permanently tainted': What the Enron name means to readers impacted by its collapse. Source: Houson Chronicle.*
+
+[1]: https://www.sec.gov/news/press/2004-94.htm?utm_source=chatgpt.com "SEC Charges Kenneth L. Lay, Enron's Former Chairman ..."
+[2]: https://www.justice.gov/archive/enron/exhibit/03-08/BBC-0001/OCR/7644.001.TXT?utm_source=chatgpt.com "https://www.justice.gov/archive/enron/exhibit/03-0..."
+[3]: https://www.youtube.com/watch?v=-w6duQhWuVk&utm_source=chatgpt.com "The Smartest Guys in the Room (2005) Official Trailer #1"
+
+If we turn the documented statements into the flawed investor argument, it becomes:
+
+```text
+Premise 1: Kenneth Lay says, “The balance sheet is strong.”
+Premise 2: Analysts trust Enron’s certified financial statements.
+Premise 3: Analysts still rate Enron buy or strong buy.
+Premise 4: No fraud has yet been publicly proven.
+
+Bad conclusion:
+Therefore, Enron is safe to own.
+
+Correct conclusion:
+Therefore, Enron appears accepted by management, auditors, and analysts — but I still need independent evidence.
+```
+
+**One-line lesson**: Actual Enron-era statements gave investors reassurance, not proof. The mistake was treating reassurance as evidence of innocence.
+
 ---
 
 ### Fallacy / Error: Begging the Question
