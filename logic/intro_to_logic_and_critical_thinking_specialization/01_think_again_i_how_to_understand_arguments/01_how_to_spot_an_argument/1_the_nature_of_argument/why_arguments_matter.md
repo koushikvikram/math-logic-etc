@@ -444,8 +444,10 @@ Lack of evidence against a claim is not always evidence for it.
 The lecture previews this as a later topic.
 
 **Documented Real-World Example:**
-During the McCarthy era, Senator Joseph McCarthy described one case by saying there was “nothing in the files to disprove” Communist connections. That treats a lack of disproof as if it were evidence of guilt. The problem is that not finding evidence against an accusation does not by itself prove the accusation true. Joseph McCarthy's Downfall Was Accusing the Army of Communism
+During the McCarthy era, Senator Joseph McCarthy described one case by saying there was “nothing in the files to disprove” Communist connections. That treats a lack of disproof as if it were evidence of guilt. The problem is that not finding evidence against an accusation does not by itself prove the accusation true. 
  [Source: Fallacy Files](https://www.fallacyfiles.org/ignorant.html)
+
+Video: [Joseph McCarthy's Downfall Was Accusing the Army of Communism](https://www.youtube.com/watch?v=14CTeElwq-A)
 
 ![Senator Joseph McCarthy](https://upload.wikimedia.org/wikipedia/commons/0/08/Senator_Joseph_R._McCarthy%2C_ca._1954.png)
 *Image: Senator Joseph McCarthy, ca. 1954. Source: National Archives / Wikimedia Commons.*
