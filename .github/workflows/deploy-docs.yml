@@ -33,9 +33,9 @@ jobs:
 
       - name: Materialize docs assets
         run: |
-          rm -rf docs/logic docs/statistics_and_probability
+          rm -rf docs/logic docs/math
           cp -R logic docs/logic
-          cp -R math/statistics_and_probability docs/statistics_and_probability
+          cp -R math docs/math
 
       - name: Set up uv
         uses: astral-sh/setup-uv@v5
