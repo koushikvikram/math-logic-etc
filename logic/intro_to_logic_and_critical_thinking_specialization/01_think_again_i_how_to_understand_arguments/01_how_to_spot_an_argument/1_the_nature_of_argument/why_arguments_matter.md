@@ -374,8 +374,10 @@ Not fully developed in this lecture, but introduced as a major topic.
 **Documented Real-World Example:**
 During President Bill Clinton’s 1998 grand jury testimony, he famously said, “It depends on what the meaning of the word ‘is’ is.” He was distinguishing between “is” as present-tense only and “is” as including whether something had ever been true. The ambiguity mattered because the wording affected whether an earlier denial sounded false or technically defensible. [Source: Slate](https://slate.com/news-and-politics/1998/09/bill-clinton-and-the-meaning-of-is.html)
 
-![Ken Starr testifying before the House Judiciary Committee](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ken_Starr_testifying_before_the_House_Judiciary_Committee.jpg/960px-Ken_Starr_testifying_before_the_House_Judiciary_Committee.jpg)
-*Image: Ken Starr testifying during the Clinton impeachment inquiry. Source: Library of Congress / Wikimedia Commons.*
+Video: [President Clinton's semantic dance around the meaning of the word "is"](https://www.youtube.com/watch?v=0_ipnwoPczQ)
+
+![President Clinton during videotaped grand jury testimony](https://cdnph.upi.com/pv/upi/a161470033366d0d6e48bc2ec4933ca0/WAP98092101.jpg)
+*Image: President Clinton during his videotaped grand jury testimony in the White House Map Room. Source: UPI.*
 
 **Better Reasoning:**
 Clarify the meaning of key terms.
@@ -424,8 +426,10 @@ The lecture mentions ad hominem as a fallacy to be studied later.
 **Documented Real-World Example:**
 In the 2004 Bush-Kerry presidential debates, John Kerry criticized the coalition strategy in Iraq. George W. Bush replied partly by saying that a candidate could not lead if he “denigrates the contributions” of allied soldiers. Argumentation scholars have used this exchange as an example of ad hominem because it shifted from Kerry’s claim about coalition strength to Kerry’s character and fitness to lead. [Source: Rozenberg Quarterly](https://rozenbergquarterly.com/issa-proceedings-2006-ad-hominem-argument-in-the-bushkerry-presidential-debates/)
 
-![Bush and Kerry campaign signs in 2004](https://upload.wikimedia.org/wikipedia/commons/c/ca/Bush_Kerry_2004.jpg)
-*Image: Bush and Kerry campaign signs from the 2004 election. Source: Wikimedia Commons.*
+Video: [Bush: "Kerry Comments Insulting and Shameful"](https://www.youtube.com/watch?v=TbZ5jPJk4Dg)
+
+![George W. Bush and John Kerry shaking hands after a 2004 presidential debate](https://cdnph.upi.com/pv/upi/cffa1a4fc5a4328bda9e500a98145029/PRESIDENTIAL-DEBATE.jpg)
+*Image: George W. Bush and John Kerry after the third 2004 presidential debate. Source: UPI.*
 
 **Better Reasoning:**
 Evaluate the argument itself.
