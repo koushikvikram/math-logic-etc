@@ -489,7 +489,7 @@ Therefore, Enron appears accepted by management, auditors, and analysts — but 
 
 ---
 
-### Fallacy / Error: Begging the Question
+### Fallacy / Error: Begging the Question (*petitio principii* in Latin, usually translated as “assuming the initial point”)
 
 **Definition:**
 Assuming the very thing that the argument is supposed to prove.
