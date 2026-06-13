@@ -1,11 +1,5 @@
 # 2. What is an Argument
 
-## Lecture Title
-
-**What Arguments Are — and What Arguments Are Not** 
-
----
-
 ## 1. Core Ideas in Order of Appearance — 9 ideas
 
 ### Idea 1: Arguments matter, but they are not everything
@@ -153,6 +147,12 @@ A fight, insult, complaint, contradiction, novel, dictionary, or mere assertion.
 **Non-Example:**
 “You’re an idiot if you buy that car.”
 
+**Documented Real-World Example:**
+Martin Luther King Jr.’s “Letter from Birmingham Jail” is an argument because it gives reasons for direct action and civil disobedience. King does not merely express frustration; he supports conclusions about unjust laws, moral responsibility, and why waiting for justice can itself preserve injustice. [Source: Stanford King Institute](https://okra.stanford.edu/link/document630416-041)
+
+![Recreation of Martin Luther King Jr.'s Birmingham Jail cell](https://commons.wikimedia.org/wiki/Special:FilePath/Recreation%20of%20Martin%20Luther%20King%27s%20Cell%20in%20Birmingham%20Jail%20-%20National%20Civil%20Rights%20Museum%20-%20Downtown%20Memphis%20-%20Tennessee%20-%20USA.jpg?width=900)
+*Image: Recreation of King’s Birmingham Jail cell at the National Civil Rights Museum. Source: Wikimedia Commons.*
+
 ---
 
 ### Term: Premise
@@ -172,6 +172,12 @@ Conclusion.
 **Non-Example:**
 “Therefore, you should not buy the car.”
 
+**Documented Real-World Example:**
+The 1964 Surgeon General’s report on smoking used scientific findings as premises for its public-health conclusions. Claims about lung cancer, chronic bronchitis, and mortality were not the final policy conclusion by themselves; they functioned as reasons supporting the conclusion that smoking damages health. [Source: National Library of Medicine](https://profiles.nlm.nih.gov/spotlight/nn/catalog/nlm:nlmuid-101584932X814-img)
+
+![Cover of the 1964 Surgeon General report Smoking and Health](https://commons.wikimedia.org/wiki/Special:FilePath/Smoking%20and%20Health%201964%20report%20cover.jpg?width=700)
+*Image: Cover of the 1964 Surgeon General report Smoking and Health. Source: Wikimedia Commons / U.S. Public Health Service.*
+
 ---
 
 ### Term: Conclusion
@@ -190,6 +196,12 @@ Premise.
 
 **Non-Example:**
 “The car has poor safety ratings.”
+
+**Documented Real-World Example:**
+In *Brown v. Board of Education*, the Supreme Court’s central conclusion was that racial segregation in public schools violates equal protection. The legal reasoning supported that conclusion by examining the meaning and effects of segregated schooling. [Source: National Archives](https://www.archives.gov/exhibits/documented-rights/exhibit/section5/detail/brown-judgment-transcript.html)
+
+![Judgment in Brown v. Board of Education](https://commons.wikimedia.org/wiki/Special:FilePath/Judgment%2C%20Brown%20v.%20Board%20of%20Education%20-%20NARA%20-%20301669.jpg?width=700)
+*Image: Judgment document in Brown v. Board of Education. Source: National Archives / Wikimedia Commons.*
 
 ---
 
@@ -211,6 +223,14 @@ Person B: “No, it isn’t.”
 **Non-Example:**
 “No, it isn’t the best ice cream because it is too sweet, too expensive, and has an unpleasant texture.”
 
+**Documented Real-World Example:**
+Monty Python’s “Argument Clinic” makes this distinction explicit. The customer says, “An argument isn’t just contradiction,” and defines argument as “a connected series of statements intended to establish a proposition.” The joke works because the other speaker keeps merely contradicting him. [Source: Monty Python transcript](https://mcli.cogdogblog.com/smc/ml/montypythonargument.html)
+
+Video: [Monty Python Argument Clinic](https://www.youtube.com/watch?v=xpAvcGcEc0k)
+
+![Monty Python Argument Clinic video thumbnail](https://img.youtube.com/vi/xpAvcGcEc0k/hqdefault.jpg)
+*Image: Thumbnail for the Monty Python “Argument Clinic” sketch. Source: YouTube.*
+
 ---
 
 ### Term: Reason to Believe
@@ -224,6 +244,12 @@ Evidence or support that helps establish a claim.
 **Example:**
 “The road is wet, so it probably rained.”
 
+**Documented Real-World Example:**
+The 1964 Surgeon General’s report gave readers reasons to believe that smoking causes serious disease by reviewing thousands of scientific studies. Its evidence supported belief in a public-health conclusion. [Source: National Library of Medicine](https://profiles.nlm.nih.gov/spotlight/nn/catalog/nlm:nlmuid-101584932X814-img)
+
+![Cover of the 1964 Surgeon General report Smoking and Health](https://commons.wikimedia.org/wiki/Special:FilePath/Smoking%20and%20Health%201964%20report%20cover.jpg?width=700)
+*Image: Cover of the 1964 Surgeon General report Smoking and Health. Source: Wikimedia Commons / U.S. Public Health Service.*
+
 ---
 
 ### Term: Reason Why
@@ -236,6 +262,12 @@ An explanatory reason that helps us understand the truth of something.
 
 **Example:**
 “The road is wet because it rained.”
+
+**Documented Real-World Example:**
+Euclid’s proof of the Pythagorean theorem is a reason why example. Many people may already believe that the theorem is true, but a proof explains why the relation follows from earlier geometric principles. [Source: Euclid’s proof overview](https://en.wikipedia.org/wiki/Pythagorean_theorem#Euclid's_proof)
+
+![Illustration to Euclid's proof of the Pythagorean theorem](https://upload.wikimedia.org/wikipedia/commons/f/fd/Illustration_to_Euclid%27s_proof_of_the_Pythagorean_theorem.png)
+*Image: Illustration to Euclid’s proof of the Pythagorean theorem. Source: Wikimedia Commons.*
 
 ---
 
@@ -253,13 +285,19 @@ A claim or statement with truth value.
 **Non-Example:**
 “Ouch!” or “Please close the door.”
 
+**Documented Real-World Example:**
+In public legal documents, propositions are claims that can be true or false, such as “segregated schools are unequal” or “the judgment is reversed.” Commands, requests, and exclamations do not work the same way because they are not true-or-false claims. [Source: National Archives, Brown v. Board judgment](https://www.archives.gov/exhibits/documented-rights/exhibit/section5/detail/brown-judgment-transcript.html)
+
+![Judgment in Brown v. Board of Education](https://commons.wikimedia.org/wiki/Special:FilePath/Judgment%2C%20Brown%20v.%20Board%20of%20Education%20-%20NARA%20-%20301669.jpg?width=700)
+*Image: Judgment document in Brown v. Board of Education. Source: National Archives / Wikimedia Commons.*
+
 ---
 
 ## 3. Argument Structure — 3 examples
 
-### General Structure of an Argument
+### Original Argument Example: General Structure of an Argument
 
-**Original Argument Pattern:**
+**Original Argument:**
 A connected series of statements where some statements support another statement.
 
 **Conclusion:**
@@ -285,9 +323,9 @@ Make the premises and conclusion explicit.
 
 ---
 
-### Original Example: Ice Cream Disagreement
+### Original Argument Example: Ice Cream Disagreement
 
-**Original Exchange:**
+**Original Argument:**
 Person A: “The best flavor is Ben and Jerry’s Coconut Almond Fudge Chip.”
 Person B: “No, it isn’t.”
 
@@ -311,7 +349,7 @@ No argument has been made.
 
 ---
 
-### Original Example: Mathematical Proof
+### Original Argument Example: Mathematical Proof
 
 **Original Argument:**
 A proof of the Pythagorean theorem.
@@ -338,7 +376,7 @@ Some arguments are not mainly trying to establish belief. They may help us under
 
 ## 4. Argument Forms and Patterns — 3 patterns
 
-### Pattern 1: Mere Contradiction
+### Pattern: Mere Contradiction
 
 **Pattern:**
 
@@ -363,7 +401,7 @@ Mistaking opposition for argument.
 
 ---
 
-### Pattern 2: Argument as Reason-Giving
+### Pattern: Argument as Reason-Giving
 
 **Pattern:**
 
@@ -391,7 +429,7 @@ Looking only for conclusion words like “therefore.” Some arguments do not us
 
 ---
 
-### Pattern 3: Explanation-Like Argument
+### Pattern: Explanation-Like Argument
 
 **Pattern:**
 
@@ -417,7 +455,7 @@ Thinking that if everyone already believes the conclusion, there is no argument.
 
 ## 5. Fallacies and Reasoning Errors — 4 errors
 
-### Error: Treating a Fight as an Argument
+### Fallacy / Error: Treating a Fight as an Argument
 
 **Definition:**
 Confusing physical or verbal conflict with reason-giving.
@@ -428,15 +466,24 @@ Force does not establish truth.
 **Example:**
 Winning by yelling, threatening, or intimidating.
 
+**Documented Real-World Example:**
+The 1856 caning of Senator Charles Sumner by Representative Preston Brooks shows physical force replacing argument. Brooks responded to Sumner’s anti-slavery speech by beating him with a cane in the Senate chamber. The attack expressed anger and power, but it did not answer Sumner’s claims with reasons. [Source: Smithsonian National Museum of American History](https://www.americanhistory.si.edu/collections/object/nmah_325684)
+
+![Southern Chivalry - Argument versus Clubs](https://upload.wikimedia.org/wikipedia/commons/3/31/Southern_Chivalry.jpg)
+*Image: Political cartoon of the Brooks-Sumner caning. Source: Wikimedia Commons.*
+
 **Better Reasoning:**
 Give reasons that support your conclusion.
 
 **How I Might Fall for This:**
 I may think someone has a better argument because they are more forceful or confident.
 
+**One-line lesson:**
+Force can silence a person, but it cannot support a conclusion.
+
 ---
 
-### Error: Treating Abuse as an Argument
+### Fallacy / Error: Treating Abuse as an Argument
 
 **Definition:**
 Using insults instead of reasons.
@@ -447,15 +494,26 @@ Name-calling does not show that a conclusion is true or false.
 **Example:**
 “You’re stupid, so your view is wrong.”
 
+**Documented Real-World Example:**
+Monty Python’s “Argument Clinic” includes an abuse room before the argument room. The joke depends on the distinction: insulting a person may be verbal conflict, but it is not the same thing as giving reasons. [Source: Monty Python transcript](https://mcli.cogdogblog.com/smc/ml/montypythonargument.html)
+
+Video: [Monty Python Argument Clinic](https://www.youtube.com/watch?v=xpAvcGcEc0k)
+
+![Monty Python Argument Clinic video thumbnail](https://img.youtube.com/vi/xpAvcGcEc0k/hqdefault.jpg)
+*Image: Thumbnail for the Monty Python “Argument Clinic” sketch. Source: YouTube.*
+
 **Better Reasoning:**
 Address the claim itself.
 
 **How I Might Fall for This:**
 I may dismiss someone’s argument because I dislike them.
 
+**One-line lesson:**
+Attack the reasoning, not the person.
+
 ---
 
-### Error: Treating Complaints as Arguments
+### Fallacy / Error: Treating Complaints as Arguments
 
 **Definition:**
 Mistaking emotional dissatisfaction for reasoning.
@@ -466,15 +524,24 @@ A complaint may express a feeling without supporting a conclusion.
 **Example:**
 “This is terrible. I hate this.”
 
+**Documented Real-World Example:**
+Consumer complaint systems, such as the Consumer Financial Protection Bureau’s complaint database, collect expressions of dissatisfaction. A complaint can become useful evidence when it explains what happened, names the issue, and gives reasons; the bare expression “I hate this” is not yet an argument. [Source: CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+
+![Consumer Financial Protection Bureau logo](https://commons.wikimedia.org/wiki/Special:FilePath/CFPB_logo.svg?width=700)
+*Image: Consumer Financial Protection Bureau logo, representing the complaint database example. Source: CFPB / Wikimedia Commons.*
+
 **Better Reasoning:**
 Explain what is wrong and why it matters.
 
 **How I Might Fall for This:**
 I may assume strong emotion equals strong evidence.
 
+**One-line lesson:**
+A complaint reports dissatisfaction; an argument gives reasons.
+
 ---
 
-### Error: Treating Contradiction as Argument
+### Fallacy / Error: Treating Contradiction as Argument
 
 **Definition:**
 Thinking that denial alone counts as an argument.
@@ -487,11 +554,22 @@ Saying “no” gives no support.
 “No, it isn’t.”
 “You’re wrong.”
 
+**Documented Real-World Example:**
+Monty Python’s “Argument Clinic” repeatedly uses “No it isn’t” to show mere contradiction. The sketch makes the logical point memorable: contradiction can oppose a claim without supporting a different claim. [Source: Monty Python transcript](https://mcli.cogdogblog.com/smc/ml/montypythonargument.html)
+
+Video: [Monty Python Argument Clinic](https://www.youtube.com/watch?v=xpAvcGcEc0k)
+
+![Monty Python Argument Clinic video thumbnail](https://img.youtube.com/vi/xpAvcGcEc0k/hqdefault.jpg)
+*Image: Thumbnail for the Monty Python “Argument Clinic” sketch. Source: YouTube.*
+
 **Better Reasoning:**
 Give reasons for the denial.
 
 **How I Might Fall for This:**
 I may mistake debate-style back-and-forth for actual reasoning.
+
+**One-line lesson:**
+Contradiction starts disagreement; reasons start argument.
 
 ---
 
@@ -611,22 +689,73 @@ Arguments can support understanding, not just belief.
 
 ---
 
-## 7. Truth Tables, Symbols, and Formal Tools — 7 tools/concepts
+## 7. Truth Tables, Symbols, and Formal Tools — 3 tools/concepts
 
-This lecture does not introduce truth tables or formal symbolic tools yet.
+This lecture does not introduce truth tables yet. Instead, it prepares for formal logic by introducing the basic parts that later formal tools will organize.
 
-However, it prepares for formal logic by introducing the basic components of arguments:
+### Tool / Concept: Statement
 
-* Sentences
-* Statements
-* Propositions
-* Premises
-* Conclusions
-* Reasons
-* Logical structure
+**Symbol / Tool:**
+Statement.
+
+**Meaning:**
+A sentence used to say something that can be true or false.
+
+**Plain-English Translation:**
+This is the kind of sentence logic can evaluate.
+
+**Formal Rule:**
+Only truth-evaluable claims can function as premises or conclusions.
+
+**Example:**
+“The road is wet.”
 
 **Mistake to Avoid:**
-Do not treat formal logic as the starting point. First understand what an argument is.
+Do not treat every sentence as a statement. Questions, commands, and exclamations usually do not have truth value.
+
+---
+
+### Tool / Concept: Premise-Conclusion Structure
+
+**Symbol / Tool:**
+Premises → conclusion.
+
+**Meaning:**
+Some statements provide reasons; one statement is what those reasons support.
+
+**Plain-English Translation:**
+The premises do the supporting work, and the conclusion is the supported claim.
+
+**Formal Rule:**
+An argument must include at least one premise and a conclusion, even if one of them is unstated.
+
+**Example:**
+“The road is wet, so it probably rained.”
+
+**Mistake to Avoid:**
+Do not look only for signal words like “therefore.” Some arguments rely on context rather than obvious markers.
+
+---
+
+### Tool / Concept: Reason Type
+
+**Symbol / Tool:**
+Reason to believe / reason why.
+
+**Meaning:**
+A reason can support believing that a proposition is true, or it can explain why an already accepted proposition is true.
+
+**Plain-English Translation:**
+Arguments can convince, explain, or do both.
+
+**Formal Rule:**
+The premises must provide some kind of support for the conclusion, but that support does not always have to be persuasive evidence for a doubtful audience.
+
+**Example:**
+A proof of the Pythagorean theorem can show why the theorem is true even for someone who already accepts it.
+
+**Mistake to Avoid:**
+Do not assume an argument stops being an argument just because the conclusion is already accepted.
 
 ---
 
