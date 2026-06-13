@@ -506,6 +506,17 @@ At a 2017 press conference, President Donald Trump said, “The news is fake bec
 ![Donald Trump at a 2017 press conference](https://upload.wikimedia.org/wikipedia/commons/7/70/President_of_the_United_States_Donald_Trump_%26_President_of_Finland_Sauli_Niinist%C3%B6_Joint_Press_Conference%2C_August_28%2C_2017.jpg)
 *Image: Donald Trump at a 2017 press conference. Source: Wikimedia Commons.*
 
+**Documented Real-World Example:**
+During the 1925 Scopes “Monkey Trial,” William Jennings Bryan defended laws against teaching evolution by appealing to the Bible’s authority. In the trial transcript, Bryan said, “I believe everything in the Bible should be accepted as it is given there.” When Clarence Darrow pressed him on whether the Bible should be interpreted literally, Bryan’s defense rested on accepting the Bible as authoritative in order to defend a law grounded in that same biblical authority. This risks begging the question because the argument assumes the very point under dispute: that the Bible’s account should be treated as the controlling authority over the scientific question being debated. The problem is that someone who does not already accept that authority has not been given an independent reason to accept the conclusion.
+[Source: University of Missouri-Kansas City, Scopes Trial Transcript](https://famous-trials.com/scopesmonkey/2129-scopes-trial-transcript-excerpts)
+[Source: Britannica — Scopes Trial](https://www.britannica.com/event/Scopes-Trial)
+
+Video: [The Scopes Monkey Trial Explained](https://www.youtube.com/watch?v=vtNdYsoool8)
+
+![Clarence Darrow interrogating William Jennings Bryan during the Scopes Trial](https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clarence_S._Darrow_interrogating_William_Jennings_Bryan%2C_Scopes_trial%2C_Dayton%2C_Tennessee%2C_July_20%2C_1925._%284324506037%29.jpg/960px-Clarence_S._Darrow_interrogating_William_Jennings_Bryan%2C_Scopes_trial%2C_Dayton%2C_Tennessee%2C_July_20%2C_1925._%284324506037%29.jpg)
+*Image: Clarence Darrow interrogating William Jennings Bryan during the Scopes Trial, 1925. Source: Smithsonian Institution / Wikimedia Commons.*
+
+
 ---
 
 ## 6. Worked Examples — 2 examples
