@@ -1,0 +1,145 @@
+{
+  "name": "CS109 Lecture 5: Independence",
+  "children": [
+    {
+      "name": "Probability Rule Review",
+      "children": [
+        {
+          "name": "Conditional Probability"
+        },
+        {
+          "name": "Chain Rule"
+        },
+        {
+          "name": "Law of Total Probability"
+        },
+        {
+          "name": "Bayes' Theorem"
+        }
+      ]
+    },
+    {
+      "name": "Probability of OR",
+      "children": [
+        {
+          "name": "Mutual Exclusivity",
+          "children": [
+            {
+              "name": "No shared outcomes"
+            },
+            {
+              "name": "Simplified Addition Rule"
+            }
+          ]
+        },
+        {
+          "name": "Non-Mutual Exclusivity",
+          "children": [
+            {
+              "name": "Double counting subtraction"
+            },
+            {
+              "name": "Inclusion-Exclusion Principle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independence",
+      "children": [
+        {
+          "name": "Definition",
+          "children": [
+            {
+              "name": "P(A|B) equals P(A)"
+            },
+            {
+              "name": "B provides no information about A"
+            }
+          ]
+        },
+        {
+          "name": "Multiplication Rule",
+          "children": [
+            {
+              "name": "P(A and B) equals P(A) times P(B)"
+            }
+          ]
+        },
+        {
+          "name": "Independence of Compliments"
+        },
+        {
+          "name": "Generalized Chain Rule"
+        }
+      ]
+    },
+    {
+      "name": "Key Examples",
+      "children": [
+        {
+          "name": "Poker Tells",
+          "children": [
+            {
+              "name": "Reasoning under uncertainty"
+            },
+            {
+              "name": "Applying Bayes' Theorem"
+            }
+          ]
+        },
+        {
+          "name": "Dice Rolls",
+          "children": [
+            {
+              "name": "Independence vs Dependence"
+            },
+            {
+              "name": "Sum of seven property"
+            }
+          ]
+        },
+        {
+          "name": "Network Routers",
+          "children": [
+            {
+              "name": "At-least-one scenario"
+            },
+            {
+              "name": "Complement trick (1 minus none)"
+            }
+          ]
+        },
+        {
+          "name": "Coin Flips (Exactly K heads)",
+          "children": [
+            {
+              "name": "Independence of flips"
+            },
+            {
+              "name": "Mutual exclusivity of outcomes"
+            },
+            {
+              "name": "N choose K combinations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Class Announcements",
+      "children": [
+        {
+          "name": "Discussion Sections"
+        },
+        {
+          "name": "Learn With Others Button"
+        },
+        {
+          "name": "Word of the Day: kindcat"
+        }
+      ]
+    }
+  ]
+}

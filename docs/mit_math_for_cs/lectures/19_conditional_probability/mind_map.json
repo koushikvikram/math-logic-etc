@@ -1,0 +1,118 @@
+{
+  "name": "Conditional Probability",
+  "children": [
+    {
+      "name": "Basic Probability Rules",
+      "children": [
+        {
+          "name": "Sum Rule"
+        },
+        {
+          "name": "Complement Rule"
+        },
+        {
+          "name": "Difference Rule"
+        },
+        {
+          "name": "Inclusion-Exclusion Principle"
+        },
+        {
+          "name": "Union Bound"
+        },
+        {
+          "name": "Monotonicity"
+        }
+      ]
+    },
+    {
+      "name": "Definition and Foundation",
+      "children": [
+        {
+          "name": "Notation P(A|B)"
+        },
+        {
+          "name": "Ratio of Intersection to P(B)"
+        },
+        {
+          "name": "Scaling the Sample Space"
+        },
+        {
+          "name": "Temporal vs Numerical Relations"
+        }
+      ]
+    },
+    {
+      "name": "The Product Rule",
+      "children": [
+        {
+          "name": "Binary Events"
+        },
+        {
+          "name": "Multiple Events Expansion"
+        },
+        {
+          "name": "Tree Diagram Edges"
+        },
+        {
+          "name": "Conditioned Product Rule"
+        }
+      ]
+    },
+    {
+      "name": "Bayes' Rule",
+      "children": [
+        {
+          "name": "Reversing Inference"
+        },
+        {
+          "name": "Likelihood"
+        },
+        {
+          "name": "Prior Probability"
+        },
+        {
+          "name": "Posterior Probability"
+        },
+        {
+          "name": "Quotient of Probabilities"
+        }
+      ]
+    },
+    {
+      "name": "Applications and Examples",
+      "children": [
+        {
+          "name": "Games and Tests",
+          "children": [
+            {
+              "name": "Pokemon Battle Tournament"
+            },
+            {
+              "name": "Fair vs Trick Coins"
+            },
+            {
+              "name": "COVID Testing Accuracy"
+            }
+          ]
+        },
+        {
+          "name": "Paradoxes and Legal Reasoning",
+          "children": [
+            {
+              "name": "Simpson's Paradox"
+            },
+            {
+              "name": "Berkeley Admissions Case"
+            },
+            {
+              "name": "Probative Value of Evidence"
+            },
+            {
+              "name": "Fallacy of Low Priors"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "name": "Maximum Likelihood Estimation (MLE)",
+  "children": [
+    {
+      "name": "Machine Learning Foundations",
+      "children": [
+        {
+          "name": "Bridge from Probability to AI"
+        },
+        {
+          "name": "Parameters from Data"
+        },
+        {
+          "name": "Stages",
+          "children": [
+            {
+              "name": "Modeling"
+            },
+            {
+              "name": "Training (Parameter Estimation)"
+            },
+            {
+              "name": "Prediction"
+            }
+          ]
+        },
+        {
+          "name": "Key Algorithms",
+          "children": [
+            {
+              "name": "Naive Bayes"
+            },
+            {
+              "name": "Logistic Regression"
+            },
+            {
+              "name": "Deep Learning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Parameter Estimation Theory",
+      "children": [
+        {
+          "name": "Parameters (Theta)",
+          "children": [
+            {
+              "name": "Poisson: Lambda"
+            },
+            {
+              "name": "Normal: Mean and Variance"
+            }
+          ]
+        },
+        {
+          "name": "Parametric Models"
+        },
+        {
+          "name": "Unbiased Estimators",
+          "children": [
+            {
+              "name": "Sample Mean"
+            },
+            {
+              "name": "Sample Variance"
+            }
+          ]
+        },
+        {
+          "name": "Bayesian Estimation"
+        }
+      ]
+    },
+    {
+      "name": "The MLE Process",
+      "children": [
+        {
+          "name": "Likelihood Function",
+          "children": [
+            {
+              "name": "Probability of data given parameters"
+            },
+            {
+              "name": "Product of IID samples"
+            }
+          ]
+        },
+        {
+          "name": "Log Likelihood",
+          "children": [
+            {
+              "name": "Monotonic transformation"
+            },
+            {
+              "name": "Numerical stability"
+            },
+            {
+              "name": "Mathematical simplicity (Sums vs Products)"
+            }
+          ]
+        },
+        {
+          "name": "ARG Max",
+          "children": [
+            {
+              "name": "Identify inputs for maximum output"
+            },
+            {
+              "name": "Optimization algorithms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mathematical Techniques",
+      "children": [
+        {
+          "name": "Calculus for ARG Max",
+          "children": [
+            {
+              "name": "Differentiate log likelihood"
+            },
+            {
+              "name": "Set derivative to zero"
+            }
+          ]
+        },
+        {
+          "name": "Simultaneous Optimization",
+          "children": [
+            {
+              "name": "Handling multiple parameters"
+            },
+            {
+              "name": "Partial derivatives"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Distribution Applications",
+      "children": [
+        {
+          "name": "Poisson",
+          "children": [
+            {
+              "name": "Lambda = Sample Mean"
+            }
+          ]
+        },
+        {
+          "name": "Bernoulli",
+          "children": [
+            {
+              "name": "Continuous PMF trick"
+            },
+            {
+              "name": "P = Sample Mean"
+            }
+          ]
+        },
+        {
+          "name": "Normal (Gaussian)",
+          "children": [
+            {
+              "name": "Mean = Sample Mean"
+            },
+            {
+              "name": "Variance = Biased MLE estimate"
+            }
+          ]
+        },
+        {
+          "name": "Uniform",
+          "children": [
+            {
+              "name": "Smallest/Largest observed values"
+            },
+            {
+              "name": "Overfitting risk"
+            }
+          ]
+        },
+        {
+          "name": "Pareto",
+          "children": [
+            {
+              "name": "Fitting sand size data"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Properties of MLE",
+      "children": [
+        {
+          "name": "Potential Bias (Small samples)"
+        },
+        {
+          "name": "Convergence (Large data sets)"
+        },
+        {
+          "name": "Generality across models"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Adding Random Variables",
+  "children": [
+    {
+      "name": "Independent and Identically Distributed (IID)",
+      "children": [
+        {
+          "name": "Independent: Knowing one gives no info on others"
+        },
+        {
+          "name": "Identically Distributed: Same PMF or PDF"
+        },
+        {
+          "name": "Same expectation and variance"
+        },
+        {
+          "name": "Common in Data Science and ML"
+        }
+      ]
+    },
+    {
+      "name": "The Theory of Addition",
+      "children": [
+        {
+          "name": "Discrete Case (Convolution)",
+          "children": [
+            {
+              "name": "Sum of mutually exclusive cases"
+            },
+            {
+              "name": "Independent rule: Product of probabilities"
+            },
+            {
+              "name": "Dependent rule: Joint probability"
+            }
+          ]
+        },
+        {
+          "name": "Continuous Case",
+          "children": [
+            {
+              "name": "Integral of densities"
+            },
+            {
+              "name": "Sum of two uniforms creates triangular distribution"
+            }
+          ]
+        },
+        {
+          "name": "Sum result is always another random variable"
+        }
+      ]
+    },
+    {
+      "name": "Special Addition Rules",
+      "children": [
+        {
+          "name": "Binomials",
+          "children": [
+            {
+              "name": "Requires same parameter p"
+            },
+            {
+              "name": "Result: Binomial(n1 + n2, p)"
+            }
+          ]
+        },
+        {
+          "name": "Normals (Gaussians)",
+          "children": [
+            {
+              "name": "Sum of normals is always normal"
+            },
+            {
+              "name": "New mean is sum of means"
+            },
+            {
+              "name": "New variance is sum of variances"
+            },
+            {
+              "name": "Requires independence"
+            }
+          ]
+        },
+        {
+          "name": "Poissons",
+          "children": [
+            {
+              "name": "Sum of independent Poissons is Poisson"
+            },
+            {
+              "name": "New rate is sum of lambdas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Central Limit Theorem (CLT)",
+      "children": [
+        {
+          "name": "Most beautiful result in probability"
+        },
+        {
+          "name": "Sum of n IID variables converges to Normal"
+        },
+        {
+          "name": "Works regardless of underlying distribution"
+        },
+        {
+          "name": "Normal mean: n * mu"
+        },
+        {
+          "name": "Normal variance: n * sigma^2"
+        },
+        {
+          "name": "Explains Normal approximation of Binomial"
+        }
+      ]
+    },
+    {
+      "name": "Applications and Examples",
+      "children": [
+        {
+          "name": "Zero-Sum Games",
+          "children": [
+            {
+              "name": "ELO ratings"
+            },
+            {
+              "name": "Probability of one variable greater than another"
+            },
+            {
+              "name": "Difference of two normals"
+            }
+          ]
+        },
+        {
+          "name": "Sum of Dice Rolls: Triangle to Normal shape"
+        },
+        {
+          "name": "Virus Exposure: Normal approximation for binomials"
+        }
+      ]
+    },
+    {
+      "name": "History of CLT",
+      "children": [
+        {
+          "name": "Abraham de Moivre: Doctrine of Chances"
+        },
+        {
+          "name": "Pierre-Simon Laplace: First proofs"
+        },
+        {
+          "name": "Alexander Lyapunov: Precise definition (1901)"
+        }
+      ]
+    },
+    {
+      "name": "Class Logistics",
+      "children": [
+        {
+          "name": "Personal Challenge",
+          "children": [
+            {
+              "name": "Optional creative project"
+            },
+            {
+              "name": "Extra credit opportunity"
+            },
+            {
+              "name": "Show deep understanding"
+            }
+          ]
+        },
+        {
+          "name": "Midterms: Graded over the weekend"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "name": "Connectivity and Trees",
+  "children": [
+    {
+      "name": "Walks and Paths",
+      "children": [
+        {
+          "name": "Walk",
+          "children": [
+            {
+              "name": "Vertex sequence"
+            },
+            {
+              "name": "Edge length k"
+            }
+          ]
+        },
+        {
+          "name": "Path",
+          "children": [
+            {
+              "name": "No repeated vertices"
+            },
+            {
+              "name": "No repeated edges"
+            }
+          ]
+        },
+        {
+          "name": "Shortest walk is a path"
+        }
+      ]
+    },
+    {
+      "name": "Connectivity",
+      "children": [
+        {
+          "name": "Properties",
+          "children": [
+            {
+              "name": "Symmetry"
+            },
+            {
+              "name": "Reflexivity"
+            },
+            {
+              "name": "Transitivity"
+            }
+          ]
+        },
+        {
+          "name": "Connected Graph",
+          "children": [
+            {
+              "name": "Pairwise connected vertices"
+            }
+          ]
+        },
+        {
+          "name": "Connected Components",
+          "children": [
+            {
+              "name": "Mutually reachable regions"
+            },
+            {
+              "name": "Induced subgraphs"
+            },
+            {
+              "name": "Graph partition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cycles and Closed Walks",
+      "children": [
+        {
+          "name": "Closed Walk",
+          "children": [
+            {
+              "name": "Start and end at same vertex"
+            }
+          ]
+        },
+        {
+          "name": "Cycle",
+          "children": [
+            {
+              "name": "Closed path"
+            },
+            {
+              "name": "Positive length"
+            },
+            {
+              "name": "No other repeated vertices"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eulerian Graphs",
+      "children": [
+        {
+          "name": "Euler Tour",
+          "children": [
+            {
+              "name": "Closed walk"
+            },
+            {
+              "name": "Visits all edges once"
+            },
+            {
+              "name": "All even degrees"
+            }
+          ]
+        },
+        {
+          "name": "Open Euler Walk",
+          "children": [
+            {
+              "name": "Starts and ends at different vertices"
+            },
+            {
+              "name": "Exactly two odd degrees"
+            }
+          ]
+        },
+        {
+          "name": "Konigsberg Bridges Problem"
+        }
+      ]
+    },
+    {
+      "name": "Trees",
+      "children": [
+        {
+          "name": "Definition",
+          "children": [
+            {
+              "name": "Connected"
+            },
+            {
+              "name": "Acyclic"
+            }
+          ]
+        },
+        {
+          "name": "Forest",
+          "children": [
+            {
+              "name": "Collection of trees"
+            }
+          ]
+        },
+        {
+          "name": "Leaves",
+          "children": [
+            {
+              "name": "Degree 1 vertex"
+            },
+            {
+              "name": "Leaf Lemma"
+            },
+            {
+              "name": "Tree pruning"
+            }
+          ]
+        },
+        {
+          "name": "Properties",
+          "children": [
+            {
+              "name": "n vertices and n-1 edges"
+            },
+            {
+              "name": "Unique paths between vertices"
+            },
+            {
+              "name": "Tree induction"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

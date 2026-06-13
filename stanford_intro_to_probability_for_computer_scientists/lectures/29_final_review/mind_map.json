@@ -1,0 +1,221 @@
+{
+  "name": "CS109 Final Review",
+  "children": [
+    {
+      "name": "General Advice",
+      "children": [
+        {
+          "name": "Contextual Reading"
+        },
+        {
+          "name": "Modeling focus"
+        },
+        {
+          "name": "Approximations (CLT)"
+        },
+        {
+          "name": "Significance (P-values)"
+        }
+      ]
+    },
+    {
+      "name": "Key Distributions",
+      "children": [
+        {
+          "name": "Beta Distribution",
+          "children": [
+            {
+              "name": "Parameters A and B"
+            },
+            {
+              "name": "Belief over Bernoulli"
+            },
+            {
+              "name": "Expectation and Variance"
+            }
+          ]
+        },
+        {
+          "name": "Adding Random Variables",
+          "children": [
+            {
+              "name": "Poisson Summation"
+            },
+            {
+              "name": "Normal (Add Variances)"
+            },
+            {
+              "name": "Binomial Trials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Central Limit Theorem",
+      "children": [
+        {
+          "name": "Sum of IID"
+        },
+        {
+          "name": "Average of IID"
+        },
+        {
+          "name": "Continuity Correction"
+        }
+      ]
+    },
+    {
+      "name": "Sampling and Bootstrapping",
+      "children": [
+        {
+          "name": "Estimators",
+          "children": [
+            {
+              "name": "Sample Mean"
+            },
+            {
+              "name": "Sample Variance"
+            },
+            {
+              "name": "Unbiasedness"
+            }
+          ]
+        },
+        {
+          "name": "Bootstrapping Methods",
+          "children": [
+            {
+              "name": "Means vs Variances"
+            },
+            {
+              "name": "Total Population Resampling"
+            },
+            {
+              "name": "Two-tailed tests"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algorithmic Analysis",
+      "children": [
+        {
+          "name": "Total Expectation"
+        },
+        {
+          "name": "Recursive Functions"
+        },
+        {
+          "name": "Independence Assumption"
+        }
+      ]
+    },
+    {
+      "name": "Parameter Estimation",
+      "children": [
+        {
+          "name": "MLE",
+          "children": [
+            {
+              "name": "Likelihood Products"
+            },
+            {
+              "name": "Log-Likelihood Sums"
+            },
+            {
+              "name": "Derivative Optimization"
+            }
+          ]
+        },
+        {
+          "name": "MAP",
+          "children": [
+            {
+              "name": "Prior G(Theta)"
+            },
+            {
+              "name": "Conjugate Priors"
+            },
+            {
+              "name": "Post-midterm Focus"
+            }
+          ]
+        },
+        {
+          "name": "Optimization",
+          "children": [
+            {
+              "name": "Derivative = 0"
+            },
+            {
+              "name": "Gradient Ascent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "children": [
+        {
+          "name": "General Paradigm",
+          "children": [
+            {
+              "name": "Training Data"
+            },
+            {
+              "name": "Learning Algorithm"
+            },
+            {
+              "name": "Testing Data/Score"
+            }
+          ]
+        },
+        {
+          "name": "Naive Bayes",
+          "children": [
+            {
+              "name": "Independence Assumption"
+            },
+            {
+              "name": "Laplace Smoothing"
+            },
+            {
+              "name": "Counting Prediction"
+            }
+          ]
+        },
+        {
+          "name": "Logistic Regression",
+          "children": [
+            {
+              "name": "Bernoulli MLE"
+            },
+            {
+              "name": "Sigmoid/PDF"
+            },
+            {
+              "name": "Gradient Ascent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computational Strategies",
+      "children": [
+        {
+          "name": "Grid Search"
+        },
+        {
+          "name": "Precision (2 decimals)"
+        },
+        {
+          "name": "Pseudo-code Logic"
+        }
+      ]
+    }
+  ]
+}

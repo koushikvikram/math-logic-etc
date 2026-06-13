@@ -1,0 +1,186 @@
+{
+  "name": "Logistic Regression (CS109)",
+  "children": [
+    {
+      "name": "Overview",
+      "children": [
+        {
+          "name": "Classification Algorithm"
+        },
+        {
+          "name": "Foundation of Deep Learning"
+        },
+        {
+          "name": "Probabilistic Model"
+        },
+        {
+          "name": "Predicts Discrete Labels (0 or 1)"
+        }
+      ]
+    },
+    {
+      "name": "Model Components",
+      "children": [
+        {
+          "name": "Inputs",
+          "children": [
+            {
+              "name": "Features (X)"
+            },
+            {
+              "name": "m input size"
+            },
+            {
+              "name": "Intercept Term (x0 = 1)"
+            }
+          ]
+        },
+        {
+          "name": "Parameters",
+          "children": [
+            {
+              "name": "Weights (Thetas)"
+            },
+            {
+              "name": "Intelligence of the model"
+            },
+            {
+              "name": "Offset (Theta0)"
+            }
+          ]
+        },
+        {
+          "name": "Mathematical Operations",
+          "children": [
+            {
+              "name": "Weighted Sum (Z)"
+            },
+            {
+              "name": "Theta Transpose X"
+            },
+            {
+              "name": "Sigmoid Function (Squashing)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mathematical Prerequisites",
+      "children": [
+        {
+          "name": "Sigmoid Function",
+          "children": [
+            {
+              "name": "1 / (1 + e^-z)"
+            },
+            {
+              "name": "Range: 0 to 1"
+            },
+            {
+              "name": "Derivative: S(z) * (1 - S(z))"
+            }
+          ]
+        },
+        {
+          "name": "Vector Transpose"
+        },
+        {
+          "name": "Chain Rule"
+        }
+      ]
+    },
+    {
+      "name": "Training (Parameter Estimation)",
+      "children": [
+        {
+          "name": "Maximum Likelihood Estimation (MLE)",
+          "children": [
+            {
+              "name": "Bernoulli PMF basis"
+            },
+            {
+              "name": "Likelihood Function"
+            },
+            {
+              "name": "Log Likelihood (Scoring Function)"
+            },
+            {
+              "name": "Convexity (Global Maxima)"
+            }
+          ]
+        },
+        {
+          "name": "Optimization",
+          "children": [
+            {
+              "name": "Gradient Ascent"
+            },
+            {
+              "name": "Hill Climbing"
+            },
+            {
+              "name": "Update Rule (Theta + Step * Gradient)"
+            },
+            {
+              "name": "Step Size (Learning Rate)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prediction (Inference)",
+      "children": [
+        {
+          "name": "Y-Hat (Guess)"
+        },
+        {
+          "name": "Decision Rule",
+          "children": [
+            {
+              "name": "P(y=1|X) > 0.5 -> Predict 1"
+            },
+            {
+              "name": "Weighted Sum Z > 0 -> Predict 1"
+            },
+            {
+              "name": "Weighted Sum Z < 0 -> Predict 0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Comparison to Naive Bayes",
+      "children": [
+        {
+          "name": "Naive Bayes: Independence assumption"
+        },
+        {
+          "name": "Logistic: Direct probability machine"
+        },
+        {
+          "name": "Naive Bayes Training: Counting"
+        },
+        {
+          "name": "Logistic Training: Optimization"
+        }
+      ]
+    },
+    {
+      "name": "Implementation Details",
+      "children": [
+        {
+          "name": "Iteration loop"
+        },
+        {
+          "name": "Numerical stability (Log probabilities)"
+        },
+        {
+          "name": "Debugging (Track likelihood increase)"
+        }
+      ]
+    }
+  ]
+}

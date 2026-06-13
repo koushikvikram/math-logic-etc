@@ -1,0 +1,172 @@
+{
+  "name": "Probability (Lecture 18)",
+  "children": [
+    {
+      "name": "Significance and Applications",
+      "children": [
+        {
+          "name": "Miller-Rabin Algorithm"
+        },
+        {
+          "name": "Randomized Algorithms"
+        },
+        {
+          "name": "Game Theory"
+        },
+        {
+          "name": "Information Theory"
+        },
+        {
+          "name": "Machine Learning"
+        },
+        {
+          "name": "Cryptography"
+        }
+      ]
+    },
+    {
+      "name": "The Tree Method",
+      "children": [
+        {
+          "name": "Step 0: Define Axioms and Question"
+        },
+        {
+          "name": "Step 1: Determine Sample Space (S)"
+        },
+        {
+          "name": "Step 2: Define Probability Function (Pr)"
+        },
+        {
+          "name": "Step 3: Identify Target Events (E)"
+        },
+        {
+          "name": "Step 4: Compute the Answer"
+        }
+      ]
+    },
+    {
+      "name": "Monty Hall Problem",
+      "children": [
+        {
+          "name": "Problem Setup",
+          "children": [
+            {
+              "name": "Three Doors"
+            },
+            {
+              "name": "One Car"
+            },
+            {
+              "name": "Two Goats"
+            }
+          ]
+        },
+        {
+          "name": "Assumed Axioms",
+          "children": [
+            {
+              "name": "Prize location is uniform"
+            },
+            {
+              "name": "Initial pick is uniform"
+            },
+            {
+              "name": "Host reveals non-prize door"
+            },
+            {
+              "name": "Host picks randomly if choice exists"
+            }
+          ]
+        },
+        {
+          "name": "Analysis Results",
+          "children": [
+            {
+              "name": "Intuition: 1/2 probability"
+            },
+            {
+              "name": "Rigor: 2/3 probability for switching"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability Concepts",
+      "children": [
+        {
+          "name": "Sample Space",
+          "children": [
+            {
+              "name": "Discrete and Countable"
+            },
+            {
+              "name": "Set of outcomes"
+            }
+          ]
+        },
+        {
+          "name": "Probability Function",
+          "children": [
+            {
+              "name": "Total sum equals 1"
+            },
+            {
+              "name": "Range 0 to 1"
+            }
+          ]
+        },
+        {
+          "name": "Tree Diagram Visualization"
+        },
+        {
+          "name": "Uniform Probability Space"
+        }
+      ]
+    },
+    {
+      "name": "Non-transitive Dice Paradox",
+      "children": [
+        {
+          "name": "Dice Sets",
+          "children": [
+            {
+              "name": "Red Die (2, 6, 7)"
+            },
+            {
+              "name": "Green Die (1, 5, 9)"
+            },
+            {
+              "name": "Blue Die (3, 4, 8)"
+            }
+          ]
+        },
+        {
+          "name": "Single Roll Results",
+          "children": [
+            {
+              "name": "Red beats Green (5/9)"
+            },
+            {
+              "name": "Green beats Blue (5/9)"
+            },
+            {
+              "name": "Blue beats Red (5/9)"
+            }
+          ]
+        },
+        {
+          "name": "Double Roll Variance",
+          "children": [
+            {
+              "name": "Advantages can reverse with sums"
+            },
+            {
+              "name": "Green beats Red over two rolls"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

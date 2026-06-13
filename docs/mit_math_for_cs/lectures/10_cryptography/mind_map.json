@@ -1,0 +1,148 @@
+{
+  "name": "Cryptography",
+  "children": [
+    {
+      "name": "Core Concepts",
+      "children": [
+        {
+          "name": "Definition: Secure info on insecure channel"
+        },
+        {
+          "name": "Parties: Alice and Bob"
+        },
+        {
+          "name": "Adversaries: Eevee the Eavesdropper"
+        },
+        {
+          "name": "Encryption: Garbling messages"
+        },
+        {
+          "name": "Decryption: Recovering messages"
+        },
+        {
+          "name": "Secret Key: Shared data"
+        }
+      ]
+    },
+    {
+      "name": "Historical Schemes",
+      "children": [
+        {
+          "name": "Caesar Cipher",
+          "children": [
+            {
+              "name": "Fixed shift by 3"
+            },
+            {
+              "name": "Cryptography by obscurity"
+            }
+          ]
+        },
+        {
+          "name": "Caesar Shift",
+          "children": [
+            {
+              "name": "Secret key k"
+            },
+            {
+              "name": "Small key space problem"
+            }
+          ]
+        },
+        {
+          "name": "Substitution Ciphers",
+          "children": [
+            {
+              "name": "Random permutations"
+            },
+            {
+              "name": "Frequency analysis attack"
+            }
+          ]
+        },
+        {
+          "name": "Enigma",
+          "children": [
+            {
+              "name": "Changing permutations"
+            },
+            {
+              "name": "Known plaintext attack"
+            },
+            {
+              "name": "Cryptography by hubris"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RSA Cryptosystem",
+      "children": [
+        {
+          "name": "Public Key Cryptosystem"
+        },
+        {
+          "name": "Inventors: Rivest, Shamir, Adleman"
+        },
+        {
+          "name": "Mathematical Foundations",
+          "children": [
+            {
+              "name": "Fermat's Little Theorem"
+            },
+            {
+              "name": "Modular inverses"
+            },
+            {
+              "name": "Pulverizer algorithm"
+            },
+            {
+              "name": "Euler's totient function"
+            }
+          ]
+        },
+        {
+          "name": "Implementation",
+          "children": [
+            {
+              "name": "Large random primes p and q"
+            },
+            {
+              "name": "Modulus n = p times q"
+            },
+            {
+              "name": "Public Key: n and e"
+            },
+            {
+              "name": "Secret Key: n and d"
+            }
+          ]
+        },
+        {
+          "name": "Security: Hardness of factoring"
+        }
+      ]
+    },
+    {
+      "name": "Chinese Remainder Theorem",
+      "children": [
+        {
+          "name": "Coprime numbers p and q"
+        },
+        {
+          "name": "Systems of congruences"
+        },
+        {
+          "name": "Unique solution modulo pq"
+        },
+        {
+          "name": "Existence and Uniqueness proofs"
+        },
+        {
+          "name": "Efficiency in modular arithmetic"
+        }
+      ]
+    }
+  ]
+}

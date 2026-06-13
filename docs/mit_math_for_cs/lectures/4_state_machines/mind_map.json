@@ -1,0 +1,112 @@
+{
+  "name": "State Machines",
+  "children": [
+    {
+      "name": "Basic Components",
+      "children": [
+        {
+          "name": "Set of States (Q)"
+        },
+        {
+          "name": "Start State (q0)"
+        },
+        {
+          "name": "Transitions (T)"
+        }
+      ]
+    },
+    {
+      "name": "Executions",
+      "children": [
+        {
+          "name": "Sequence of Transitions"
+        },
+        {
+          "name": "Finite Executions"
+        },
+        {
+          "name": "Infinite Executions"
+        },
+        {
+          "name": "Reachable States"
+        }
+      ]
+    },
+    {
+      "name": "State Predicates",
+      "children": [
+        {
+          "name": "Preserved Predicate"
+        },
+        {
+          "name": "Invariant Predicate"
+        },
+        {
+          "name": "Invariant Principle (Induction)"
+        }
+      ]
+    },
+    {
+      "name": "8 Puzzle Application",
+      "children": [
+        {
+          "name": "States: Grid Arrangements"
+        },
+        {
+          "name": "Transitions: Tile Slides"
+        },
+        {
+          "name": "Inverted Pairs Definition"
+        },
+        {
+          "name": "Parity Invariant"
+        },
+        {
+          "name": "Proving Unreachability"
+        }
+      ]
+    },
+    {
+      "name": "Termination Analysis",
+      "children": [
+        {
+          "name": "Final States (No Transitions)"
+        },
+        {
+          "name": "Partial Correctness"
+        },
+        {
+          "name": "Derived Variables",
+          "children": [
+            {
+              "name": "Natural Number Mapping"
+            },
+            {
+              "name": "Strictly Decreasing Property"
+            }
+          ]
+        },
+        {
+          "name": "Termination Theorem"
+        }
+      ]
+    },
+    {
+      "name": "Sorting Machine Example",
+      "children": [
+        {
+          "name": "States: Reorderings"
+        },
+        {
+          "name": "Transitions: Out-of-order Swaps"
+        },
+        {
+          "name": "Derived Variable: Inversion Count"
+        },
+        {
+          "name": "Proof of Termination"
+        }
+      ]
+    }
+  ]
+}

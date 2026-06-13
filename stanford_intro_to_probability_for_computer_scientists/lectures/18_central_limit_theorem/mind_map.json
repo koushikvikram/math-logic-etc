@@ -1,0 +1,185 @@
+{
+  "name": "Central Limit Theorem and Statistics",
+  "children": [
+    {
+      "name": "Central Limit Theorem (CLT)",
+      "children": [
+        {
+          "name": "Core Concept",
+          "children": [
+            {
+              "name": "Sum of IID random variables"
+            },
+            {
+              "name": "Identically distributed requirements"
+            },
+            {
+              "name": "Approaches normal distribution"
+            },
+            {
+              "name": "Limit as n goes to infinity"
+            }
+          ]
+        },
+        {
+          "name": "Mathematical Parameters",
+          "children": [
+            {
+              "name": "Mean (mu)"
+            },
+            {
+              "name": "Variance (sigma squared)"
+            },
+            {
+              "name": "Distribution scaling by n"
+            }
+          ]
+        },
+        {
+          "name": "CLT for Average",
+          "children": [
+            {
+              "name": "Sample mean distribution"
+            },
+            {
+              "name": "Mean of sample mean: mu"
+            },
+            {
+              "name": "Variance of sample mean: sigma^2 / n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Practical Examples",
+      "children": [
+        {
+          "name": "Sum of Dice Rolls",
+          "children": [
+            {
+              "name": "1 die: Uniform"
+            },
+            {
+              "name": "2 dice: Triangle"
+            },
+            {
+              "name": "3+ dice: Normal approximation"
+            }
+          ]
+        },
+        {
+          "name": "Traffic Lights",
+          "children": [
+            {
+              "name": "Total wait time sum"
+            },
+            {
+              "name": "Probability of being on time"
+            }
+          ]
+        },
+        {
+          "name": "Algorithm Clock Time",
+          "children": [
+            {
+              "name": "Estimating trials needed"
+            },
+            {
+              "name": "Certainty intervals"
+            }
+          ]
+        },
+        {
+          "name": "Galton Board"
+        }
+      ]
+    },
+    {
+      "name": "Statistics Fundamentals",
+      "children": [
+        {
+          "name": "Population vs. Sample",
+          "children": [
+            {
+              "name": "True parameters (mu, sigma)"
+            },
+            {
+              "name": "Sample: Subset of population"
+            },
+            {
+              "name": "Realization: Specific data values"
+            }
+          ]
+        },
+        {
+          "name": "Estimators",
+          "children": [
+            {
+              "name": "Unbiased estimator definition"
+            },
+            {
+              "name": "Sample Mean (x-bar)"
+            },
+            {
+              "name": "Sample Variance (s squared)"
+            },
+            {
+              "name": "Degrees of freedom (n-1)"
+            }
+          ]
+        },
+        {
+          "name": "Standard Error",
+          "children": [
+            {
+              "name": "Standard deviation of estimate"
+            },
+            {
+              "name": "Formula: s / sqrt(n)"
+            },
+            {
+              "name": "Measure of confidence spread"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Implementation and Bias",
+      "children": [
+        {
+          "name": "Assumptions",
+          "children": [
+            {
+              "name": "IID data requirement"
+            },
+            {
+              "name": "Representative sampling"
+            },
+            {
+              "name": "Responder bias concerns"
+            }
+          ]
+        },
+        {
+          "name": "Python/NumPy Tools",
+          "children": [
+            {
+              "name": "np.mean for sample mean"
+            },
+            {
+              "name": "np.var with ddof=1"
+            },
+            {
+              "name": "Standard error calculation"
+            }
+          ]
+        },
+        {
+          "name": "Bootstrapping Preview"
+        }
+      ]
+    }
+  ]
+}

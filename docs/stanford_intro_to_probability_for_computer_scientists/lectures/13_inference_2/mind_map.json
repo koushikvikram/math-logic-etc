@@ -1,0 +1,122 @@
+{
+  "name": "Probabilistic Inference (CS109)",
+  "children": [
+    {
+      "name": "Core Principles",
+      "children": [
+        {
+          "name": "Bayes Theorem"
+        },
+        {
+          "name": "Random Variables"
+        },
+        {
+          "name": "Variable Types",
+          "children": [
+            {
+              "name": "Discrete (PMF)"
+            },
+            {
+              "name": "Continuous (PDF)"
+            }
+          ]
+        },
+        {
+          "name": "Normalization Constant"
+        }
+      ]
+    },
+    {
+      "name": "Inference Workflow",
+      "children": [
+        {
+          "name": "Prior Belief"
+        },
+        {
+          "name": "Likelihood (Observation)"
+        },
+        {
+          "name": "Posterior Distribution"
+        },
+        {
+          "name": "Multiple Observations"
+        }
+      ]
+    },
+    {
+      "name": "Case Studies",
+      "children": [
+        {
+          "name": "Baby Birth Timing",
+          "children": [
+            {
+              "name": "Due date prior"
+            },
+            {
+              "name": "No child observed update"
+            }
+          ]
+        },
+        {
+          "name": "Baby Hearing Test",
+          "children": [
+            {
+              "name": "Bernoulli hearing status"
+            },
+            {
+              "name": "Continuous gaze change"
+            },
+            {
+              "name": "Normal distribution update"
+            }
+          ]
+        },
+        {
+          "name": "Stanford Eye Test",
+          "children": [
+            {
+              "name": "Acuity random variable"
+            },
+            {
+              "name": "Discretizing continuous range"
+            },
+            {
+              "name": "Adaptive testing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Item Response Theory (IRT)",
+      "children": [
+        {
+          "name": "Ability (a)"
+        },
+        {
+          "name": "Difficulty (d)"
+        },
+        {
+          "name": "Sigmoid function"
+        },
+        {
+          "name": "Guessing and Slipping"
+        }
+      ]
+    },
+    {
+      "name": "Computational Implementation",
+      "children": [
+        {
+          "name": "Dictionary representation"
+        },
+        {
+          "name": "For-loop belief updates"
+        },
+        {
+          "name": "Optimistic Sampling"
+        }
+      ]
+    }
+  ]
+}

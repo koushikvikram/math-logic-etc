@@ -1,0 +1,138 @@
+{
+  "name": "Inference for Computer Scientists",
+  "children": [
+    {
+      "name": "Lecture Introduction",
+      "children": [
+        {
+          "name": "Announcements"
+        },
+        {
+          "name": "Personal Story: Hitchhiking to Romania"
+        },
+        {
+          "name": "Concept: Changing Beliefs"
+        }
+      ]
+    },
+    {
+      "name": "Inference Fundamentals",
+      "children": [
+        {
+          "name": "Definition: Updating PMF or PDF"
+        },
+        {
+          "name": "Observing evidence"
+        },
+        {
+          "name": "Probabilistic modeling journey"
+        }
+      ]
+    },
+    {
+      "name": "Joint Distributions",
+      "children": [
+        {
+          "name": "Multiple random variables together"
+        },
+        {
+          "name": "Joint Probability Tables"
+        },
+        {
+          "name": "Marginalization: Summing rows or columns"
+        },
+        {
+          "name": "Shorthand notation"
+        }
+      ]
+    },
+    {
+      "name": "Multinomial Distribution",
+      "children": [
+        {
+          "name": "N trials with M outcomes"
+        },
+        {
+          "name": "Probabilistic text analysis"
+        },
+        {
+          "name": "Case Study: Federalist Papers"
+        },
+        {
+          "name": "Comparing Hamilton vs. Madison"
+        }
+      ]
+    },
+    {
+      "name": "Log Probabilities",
+      "children": [
+        {
+          "name": "Problem: Numerical underflow"
+        },
+        {
+          "name": "Computer precision limits"
+        },
+        {
+          "name": "Transformation: Products to sums"
+        },
+        {
+          "name": "Interpreting negative log ratios"
+        }
+      ]
+    },
+    {
+      "name": "Bayes Theorem with Variables",
+      "children": [
+        {
+          "name": "Prior Belief"
+        },
+        {
+          "name": "Likelihood of Evidence"
+        },
+        {
+          "name": "Posterior (Updated) Belief"
+        },
+        {
+          "name": "Normalization Constant tricks"
+        },
+        {
+          "name": "Baby hearing test example"
+        }
+      ]
+    },
+    {
+      "name": "Continuous Random Variables",
+      "children": [
+        {
+          "name": "Probability Density Function (PDF)"
+        },
+        {
+          "name": "Epsilon Trick: P(X=x) is density times range"
+        },
+        {
+          "name": "Ratio of densities"
+        },
+        {
+          "name": "Gaussian (Normal) distribution"
+        }
+      ]
+    },
+    {
+      "name": "Mixed Inference",
+      "children": [
+        {
+          "name": "Discrete and Continuous variables together"
+        },
+        {
+          "name": "Epsilon cancellation in Bayes"
+        },
+        {
+          "name": "Elephant gender/weight example"
+        },
+        {
+          "name": "Applying Law of Total Probability"
+        }
+      ]
+    }
+  ]
+}

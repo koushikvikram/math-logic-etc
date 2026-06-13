@@ -1,0 +1,115 @@
+{
+  "name": "CS109 Lecture 7: Probability Foundations",
+  "children": [
+    {
+      "name": "Course Announcements",
+      "children": [
+        {
+          "name": "High-resolution feedback"
+        },
+        {
+          "name": "Virtual office hours"
+        },
+        {
+          "name": "Secret code: binomial bunny"
+        }
+      ]
+    },
+    {
+      "name": "Random Variable Review",
+      "children": [
+        {
+          "name": "Probability Mass Function (PMF)"
+        },
+        {
+          "name": "Expectation (Weighted Average)"
+        },
+        {
+          "name": "Linearity of expectation"
+        },
+        {
+          "name": "Law of Unconscious Statistician"
+        }
+      ]
+    },
+    {
+      "name": "Binomial Random Variables",
+      "children": [
+        {
+          "name": "Story: n trials, p success"
+        },
+        {
+          "name": "Parameters: n and p"
+        },
+        {
+          "name": "PMF Equation: n choose k"
+        },
+        {
+          "name": "Applications",
+          "children": [
+            {
+              "name": "Galton Board (chaos to order)"
+            },
+            {
+              "name": "Basketball series (best of 7)"
+            },
+            {
+              "name": "Server crashes"
+            },
+            {
+              "name": "Bit strings"
+            }
+          ]
+        },
+        {
+          "name": "Code implementation: scipy.stats"
+        }
+      ]
+    },
+    {
+      "name": "Bernoulli Random Variables",
+      "children": [
+        {
+          "name": "Special case: n=1 trial"
+        },
+        {
+          "name": "Values: 0 or 1"
+        },
+        {
+          "name": "Expectation: p"
+        },
+        {
+          "name": "Sum of Bernoullis equals Binomial"
+        }
+      ]
+    },
+    {
+      "name": "Variance",
+      "children": [
+        {
+          "name": "Definition: Measure of spread"
+        },
+        {
+          "name": "Peer grading accuracy metaphor"
+        },
+        {
+          "name": "Standard Deviation (sqrt of variance)"
+        },
+        {
+          "name": "Formulas",
+          "children": [
+            {
+              "name": "Formal: E[(X - mu)^2]"
+            },
+            {
+              "name": "Shortcut: E[X^2] - (E[X])^2"
+            }
+          ]
+        },
+        {
+          "name": "Second Central Moment"
+        }
+      ]
+    }
+  ]
+}

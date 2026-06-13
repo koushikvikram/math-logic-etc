@@ -1,0 +1,147 @@
+{
+  "name": "Continuous Random Variables",
+  "children": [
+    {
+      "name": "Discrete Random Variables Review",
+      "children": [
+        {
+          "name": "Binomial",
+          "children": [
+            {
+              "name": "n Independent Trials"
+            },
+            {
+              "name": "Number of Successes"
+            }
+          ]
+        },
+        {
+          "name": "Poisson",
+          "children": [
+            {
+              "name": "Number of Events"
+            },
+            {
+              "name": "Fixed Time Frame"
+            },
+            {
+              "name": "Rate Lambda"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New Discrete Distributions",
+      "children": [
+        {
+          "name": "Geometric",
+          "children": [
+            {
+              "name": "Trials Until First Success"
+            },
+            {
+              "name": "Expectation 1/p"
+            }
+          ]
+        },
+        {
+          "name": "Negative Binomial",
+          "children": [
+            {
+              "name": "Trials Until r Successes"
+            },
+            {
+              "name": "Sum of Geometrics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Continuous Random Variable Fundamentals",
+      "children": [
+        {
+          "name": "Continuous Space vs Discrete"
+        },
+        {
+          "name": "Infinite Precision"
+        },
+        {
+          "name": "Area Under Curve"
+        },
+        {
+          "name": "Calculus and Integrals"
+        }
+      ]
+    },
+    {
+      "name": "Probability Density Function (PDF)",
+      "children": [
+        {
+          "name": "Derivative of Probability"
+        },
+        {
+          "name": "Relative Likelihood"
+        },
+        {
+          "name": "Total Area Equals One"
+        },
+        {
+          "name": "Values Can Exceed One"
+        }
+      ]
+    },
+    {
+      "name": "Cumulative Distribution Function (CDF)",
+      "children": [
+        {
+          "name": "Probability X <= x"
+        },
+        {
+          "name": "Integral of PDF"
+        },
+        {
+          "name": "Calculating Range Probabilities"
+        },
+        {
+          "name": "Avoids Manual Integration"
+        }
+      ]
+    },
+    {
+      "name": "Uniform Random Variable",
+      "children": [
+        {
+          "name": "Equally Likely Values"
+        },
+        {
+          "name": "Parameters Alpha and Beta"
+        },
+        {
+          "name": "Constant PDF"
+        }
+      ]
+    },
+    {
+      "name": "Exponential Random Variable",
+      "children": [
+        {
+          "name": "Time Until Next Success"
+        },
+        {
+          "name": "Poisson Process Link"
+        },
+        {
+          "name": "Parameter Lambda"
+        },
+        {
+          "name": "Expectation 1/Lambda"
+        },
+        {
+          "name": "Variance 1/Lambda Squared"
+        }
+      ]
+    }
+  ]
+}

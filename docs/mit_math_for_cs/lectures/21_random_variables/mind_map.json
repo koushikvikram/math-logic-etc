@@ -1,0 +1,110 @@
+{
+  "name": "Random Variables",
+  "children": [
+    {
+      "name": "Definition and Basics",
+      "children": [
+        {
+          "name": "Function from sample space to real numbers"
+        },
+        {
+          "name": "Misnomer: Neither random nor a variable"
+        },
+        {
+          "name": "Codomains: R, N, or Complex"
+        }
+      ]
+    },
+    {
+      "name": "Indicator Random Variables",
+      "children": [
+        {
+          "name": "Binary RV (0 and 1)"
+        },
+        {
+          "name": "Bernoulli distribution"
+        },
+        {
+          "name": "Correspondence to events"
+        }
+      ]
+    },
+    {
+      "name": "RVs and Events",
+      "children": [
+        {
+          "name": "Defining events (f = x, f >= x)"
+        },
+        {
+          "name": "Conditioning on RV events"
+        },
+        {
+          "name": "Independence: P(f=x, g=y) = P(f=x)P(g=y)"
+        }
+      ]
+    },
+    {
+      "name": "Distributions",
+      "children": [
+        {
+          "name": "Probability Mass Function (PMF)",
+          "children": [
+            {
+              "name": "Probability that RV takes value x"
+            },
+            {
+              "name": "Equivalent to PDF for discrete RVs"
+            }
+          ]
+        },
+        {
+          "name": "Cumulative Distribution Function (CDF)",
+          "children": [
+            {
+              "name": "Probability RV is less than or equal to x"
+            },
+            {
+              "name": "Summation of PMF values"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Common Distributions",
+      "children": [
+        {
+          "name": "Uniform RV: Equal probability for all values"
+        },
+        {
+          "name": "Binomial Distribution",
+          "children": [
+            {
+              "name": "Models n independent trials with probability p"
+            },
+            {
+              "name": "PMF formula using n choose x"
+            },
+            {
+              "name": "Stirling's approximation for large n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probabilistic Algorithms",
+      "children": [
+        {
+          "name": "Introduction of randomness to solve problems"
+        },
+        {
+          "name": "Candy box example: Threshold strategy"
+        },
+        {
+          "name": "Beating random chance (better than 1/2)"
+        }
+      ]
+    }
+  ]
+}

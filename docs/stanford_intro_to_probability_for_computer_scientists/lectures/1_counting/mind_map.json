@@ -1,0 +1,197 @@
+{
+  "name": "CS109: Probability for Computer Scientists",
+  "children": [
+    {
+      "name": "Course Mechanics",
+      "children": [
+        {
+          "name": "Prerequisites",
+          "children": [
+            {
+              "name": "CS106B (Recursion, Trees, Coding Maturity)"
+            },
+            {
+              "name": "Math 51 or CME 100 (Partial Derivatives)"
+            },
+            {
+              "name": "Python (Language for Making Things)"
+            }
+          ]
+        },
+        {
+          "name": "Course Components",
+          "children": [
+            {
+              "name": "Assignments (Deriving and Making Things)"
+            },
+            {
+              "name": "Exams (Midterm and Final)"
+            },
+            {
+              "name": "Lectures and Small Group Sections"
+            },
+            {
+              "name": "Course Webpage (cs109.stanford.edu)"
+            }
+          ]
+        },
+        {
+          "name": "Workload",
+          "children": [
+            {
+              "name": "5 Units"
+            },
+            {
+              "name": "15 Hours per Week Total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evolution of Artificial Intelligence",
+      "children": [
+        {
+          "name": "Historical Eras",
+          "children": [
+            {
+              "name": "1950s Rule-Based AI (Logic and Theorem Proving)"
+            },
+            {
+              "name": "Herbert Simon's Failed Predictions"
+            },
+            {
+              "name": "The AI Winter (Lack of Funding)"
+            },
+            {
+              "name": "Modern Era (Probability Machines)"
+            }
+          ]
+        },
+        {
+          "name": "Modern AI Successes",
+          "children": [
+            {
+              "name": "Self-driving Cars (Stanley)"
+            },
+            {
+              "name": "Game Playing (Chess, Jeopardy, Go)"
+            },
+            {
+              "name": "Scientific Breakthroughs (Protein Folding)"
+            },
+            {
+              "name": "Generative Models (DALL-E, LLMs)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning Fundamentals",
+      "children": [
+        {
+          "name": "Artificial Neurons",
+          "children": [
+            {
+              "name": "Inputs and Weighted Sums"
+            },
+            {
+              "name": "Nucleus (Activation Logic)"
+            },
+            {
+              "name": "Squashing Function"
+            },
+            {
+              "name": "Probabilistic Output (Firing)"
+            }
+          ]
+        },
+        {
+          "name": "Learning by Example",
+          "children": [
+            {
+              "name": "Training Examples"
+            },
+            {
+              "name": "Comparing Predictions to Reality (Loss)"
+            },
+            {
+              "name": "Automatic Weight Adjustment"
+            },
+            {
+              "name": "Intelligence through Well-Set Weights"
+            }
+          ]
+        },
+        {
+          "name": "Classification Tasks (Chihuahua vs. Muffin)"
+        }
+      ]
+    },
+    {
+      "name": "Foundational Counting Theory",
+      "children": [
+        {
+          "name": "Step Rule of Counting",
+          "children": [
+            {
+              "name": "Breaking Experiments into Steps"
+            },
+            {
+              "name": "Multiplication (m * n)"
+            },
+            {
+              "name": "Constraint: Steps Must Not Affect Choice Counts"
+            },
+            {
+              "name": "Example: Pixel Color Combinations"
+            }
+          ]
+        },
+        {
+          "name": "Sum Rule of Counting",
+          "children": [
+            {
+              "name": "Counting by 'OR'"
+            },
+            {
+              "name": "Addition of Set Sizes"
+            },
+            {
+              "name": "Constraint: Mutually Exclusive Sets"
+            }
+          ]
+        },
+        {
+          "name": "Inclusion-Exclusion Principle",
+          "children": [
+            {
+              "name": "General Counting with OR"
+            },
+            {
+              "name": "Subtracting the Overlap (Double Counting)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Probability in the Real World",
+      "children": [
+        {
+          "name": "Medical Testing (Zika Case Study)"
+        },
+        {
+          "name": "Updating Beliefs with New Evidence"
+        },
+        {
+          "name": "Improving Eye Exams (Stanford Acuity Test)"
+        },
+        {
+          "name": "Algorithmic Fairness and Ethics"
+        }
+      ]
+    }
+  ]
+}

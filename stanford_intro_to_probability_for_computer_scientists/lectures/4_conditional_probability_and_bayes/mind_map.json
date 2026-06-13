@@ -1,0 +1,129 @@
+{
+  "name": "Stanford CS109 Lecture 4: Conditional Probability and Bayes",
+  "children": [
+    {
+      "name": "Administrative Announcements",
+      "children": [
+        {
+          "name": "Problem Set 1 due Friday"
+        },
+        {
+          "name": "Section assignments distribution"
+        },
+        {
+          "name": "PSet Party experiment"
+        }
+      ]
+    },
+    {
+      "name": "Review of Probability Fundamentals",
+      "children": [
+        {
+          "name": "Counting: Combinations and Permutations"
+        },
+        {
+          "name": "Axiom 3: Mutually Exclusive Events"
+        },
+        {
+          "name": "Complement Law: 1 - P(E)"
+        },
+        {
+          "name": "Sample Space vs Event Space"
+        }
+      ]
+    },
+    {
+      "name": "Serendipity Friend Problem",
+      "children": [
+        {
+          "name": "Scenario: 268 people from 17,000"
+        },
+        {
+          "name": "Complement strategy: Probability of zero friends"
+        },
+        {
+          "name": "Calculation: Equally likely outcomes"
+        }
+      ]
+    },
+    {
+      "name": "Conditional Probability",
+      "children": [
+        {
+          "name": "Notation: P(E|F)"
+        },
+        {
+          "name": "Concept: Updating beliefs with information"
+        },
+        {
+          "name": "Outcome space shrinking"
+        },
+        {
+          "name": "Examples: Two dice sum and Netflix user data"
+        }
+      ]
+    },
+    {
+      "name": "The Chain Rule",
+      "children": [
+        {
+          "name": "Formula: P(E and F) = P(E|F)P(F)"
+        },
+        {
+          "name": "Relationship between 'And' and 'Conditioning'"
+        },
+        {
+          "name": "Generalized version for multiple events"
+        }
+      ]
+    },
+    {
+      "name": "Law of Total Probability",
+      "children": [
+        {
+          "name": "Decomposing events into cases"
+        },
+        {
+          "name": "Mutually exclusive background processes"
+        },
+        {
+          "name": "Baby cry/poop example"
+        },
+        {
+          "name": "Bacteria mutation/survival example"
+        }
+      ]
+    },
+    {
+      "name": "Bayes' Theorem",
+      "children": [
+        {
+          "name": "Origins: Thomas Bayes"
+        },
+        {
+          "name": "Identity: P(F|E) from P(E|F)"
+        },
+        {
+          "name": "Components: Prior, Likelihood, Posterior"
+        },
+        {
+          "name": "Medical Test (SARS) Example",
+          "children": [
+            {
+              "name": "False positive rates"
+            },
+            {
+              "name": "Base rate fallacy"
+            },
+            {
+              "name": "Intuition: Small target population"
+            }
+          ]
+        },
+        {
+          "name": "Educational Concept Knowledge Example"
+        }
+      ]
+    }
+  ]
+}

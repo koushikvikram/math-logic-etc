@@ -1,0 +1,124 @@
+{
+  "name": "Naive Bayes",
+  "children": [
+    {
+      "name": "Machine Learning Fundamentals",
+      "children": [
+        {
+          "name": "Classification Task"
+        },
+        {
+          "name": "Labeled Training Data (x, y)"
+        },
+        {
+          "name": "Feature Vectors (Bold x)"
+        },
+        {
+          "name": "Binary Prediction (0 or 1)"
+        }
+      ]
+    },
+    {
+      "name": "Parameter Estimation",
+      "children": [
+        {
+          "name": "Maximum Likelihood Estimation (MLE)"
+        },
+        {
+          "name": "Maximum a Posteriori (MAP)"
+        },
+        {
+          "name": "Laplace Prior (Beta 2,2)"
+        },
+        {
+          "name": "Add-one Smoothing"
+        }
+      ]
+    },
+    {
+      "name": "Brute Force Bayes",
+      "children": [
+        {
+          "name": "Bayes Theorem Application"
+        },
+        {
+          "name": "ARG MAX Prediction"
+        },
+        {
+          "name": "Normalization Constant Removal"
+        },
+        {
+          "name": "Exponential Parameters (2 to the M)"
+        }
+      ]
+    },
+    {
+      "name": "Naive Bayes Algorithm",
+      "children": [
+        {
+          "name": "Conditional Independence Assumption"
+        },
+        {
+          "name": "Joint Probability as Product"
+        },
+        {
+          "name": "Linear Parameter Scaling"
+        },
+        {
+          "name": "Bayesian Network Implication"
+        }
+      ]
+    },
+    {
+      "name": "Implementation Details",
+      "children": [
+        {
+          "name": "Training via Counting"
+        },
+        {
+          "name": "Log Probability Sums"
+        },
+        {
+          "name": "Numerical Underflow Prevention"
+        },
+        {
+          "name": "Conditional Probability Tables"
+        }
+      ]
+    },
+    {
+      "name": "Evaluation Metrics",
+      "children": [
+        {
+          "name": "Accuracy (Raw Score)"
+        },
+        {
+          "name": "Precision (Prediction Trust)"
+        },
+        {
+          "name": "Recall (Capture Rate)"
+        },
+        {
+          "name": "Test Set Hold-out"
+        }
+      ]
+    },
+    {
+      "name": "Real-World Applications",
+      "children": [
+        {
+          "name": "Spam Classification"
+        },
+        {
+          "name": "Netflix Recommendations"
+        },
+        {
+          "name": "Medical Diagnostics (ROI)"
+        },
+        {
+          "name": "DNA Ancestry Analysis"
+        }
+      ]
+    }
+  ]
+}

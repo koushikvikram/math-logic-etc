@@ -1,0 +1,208 @@
+{
+  "name": "Graph Theory and Coloring",
+  "children": [
+    {
+      "name": "Graph Basics",
+      "children": [
+        {
+          "name": "Components",
+          "children": [
+            {
+              "name": "Nodes/Vertices"
+            },
+            {
+              "name": "Edges"
+            }
+          ]
+        },
+        {
+          "name": "Simple Undirected Graph",
+          "children": [
+            {
+              "name": "Nonempty vertex set"
+            },
+            {
+              "name": "No parallel edges"
+            },
+            {
+              "name": "No self-loops"
+            }
+          ]
+        },
+        {
+          "name": "Terminology",
+          "children": [
+            {
+              "name": "Adjacent: Two vertices connected by an edge"
+            },
+            {
+              "name": "Incident: Vertex is an endpoint of an edge"
+            },
+            {
+              "name": "Degree: Number of edges incident to a vertex"
+            },
+            {
+              "name": "Degree Sequence: List of vertex degrees"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Key Theorems",
+      "children": [
+        {
+          "name": "Handshake Lemma",
+          "children": [
+            {
+              "name": "Sum of degrees equals 2x edges"
+            },
+            {
+              "name": "Sum of degrees must be even"
+            }
+          ]
+        },
+        {
+          "name": "Maximum Edges",
+          "children": [
+            {
+              "name": "Formula: n(n-1)/2"
+            },
+            {
+              "name": "Achieved by Complete Graph (Kn)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Special Graph Types",
+      "children": [
+        {
+          "name": "Complete Graph (Kn): Every node connected to all others"
+        },
+        {
+          "name": "Bipartite Graph",
+          "children": [
+            {
+              "name": "Disjoint sets L and R"
+            },
+            {
+              "name": "Edges only connect L to R"
+            },
+            {
+              "name": "Bipartite Handshake Lemma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graph Coloring",
+      "children": [
+        {
+          "name": "Proper K-Coloring",
+          "children": [
+            {
+              "name": "Function from vertices to K colors"
+            },
+            {
+              "name": "Adjacent vertices must have different colors"
+            }
+          ]
+        },
+        {
+          "name": "Chromatic Number (chi)",
+          "children": [
+            {
+              "name": "Smallest K for proper coloring"
+            },
+            {
+              "name": "Upper bound: Give a coloring"
+            },
+            {
+              "name": "Lower bound: Proof by contradiction"
+            }
+          ]
+        },
+        {
+          "name": "Computational Complexity",
+          "children": [
+            {
+              "name": "NP-Complete problem"
+            },
+            {
+              "name": "No known efficient algorithm"
+            },
+            {
+              "name": "3-coloring is hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Greedy Coloring Algorithm",
+      "children": [
+        {
+          "name": "Process",
+          "children": [
+            {
+              "name": "Order vertices V1 to Vn"
+            },
+            {
+              "name": "Assign smallest valid color"
+            }
+          ]
+        },
+        {
+          "name": "Performance",
+          "children": [
+            {
+              "name": "Ordering affects number of colors"
+            },
+            {
+              "name": "Theorem: Uses at most max-degree + 1 colors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Applications",
+      "children": [
+        {
+          "name": "Modeling Affinities",
+          "children": [
+            {
+              "name": "Friendship/Social Networks"
+            },
+            {
+              "name": "Neural connections in Brain"
+            },
+            {
+              "name": "Internet server connections"
+            }
+          ]
+        },
+        {
+          "name": "Conflict Resolution",
+          "children": [
+            {
+              "name": "Exam Scheduling"
+            },
+            {
+              "name": "Register Allocation in Compilers"
+            },
+            {
+              "name": "Radio Tower Frequencies"
+            },
+            {
+              "name": "Map Coloring (Four-Color Theorem)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

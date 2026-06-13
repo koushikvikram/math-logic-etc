@@ -1,0 +1,219 @@
+{
+  "name": "CS109: Future of Probability",
+  "children": [
+    {
+      "name": "Course Journey Reflection",
+      "children": [
+        {
+          "name": "Fundamentals",
+          "children": [
+            {
+              "name": "Counting and Combinations"
+            },
+            {
+              "name": "Conditional Probability"
+            },
+            {
+              "name": "Bayes Theorem"
+            }
+          ]
+        },
+        {
+          "name": "Random Variables",
+          "children": [
+            {
+              "name": "Expectation and Variance"
+            },
+            {
+              "name": "Binomial and Geometric"
+            },
+            {
+              "name": "Continuous and Gaussian"
+            },
+            {
+              "name": "Joint Distributions"
+            }
+          ]
+        },
+        {
+          "name": "Advanced Theory",
+          "children": [
+            {
+              "name": "Central Limit Theorem"
+            },
+            {
+              "name": "Bootstrap Resampling"
+            },
+            {
+              "name": "Beta Distribution"
+            },
+            {
+              "name": "Bayesian Networks"
+            }
+          ]
+        },
+        {
+          "name": "Machine Learning",
+          "children": [
+            {
+              "name": "MLE and MAP"
+            },
+            {
+              "name": "Logistic Regression"
+            },
+            {
+              "name": "Deep Learning Foundations"
+            },
+            {
+              "name": "Algorithmic Fairness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research Vignettes",
+      "children": [
+        {
+          "name": "Algorithm Optimization",
+          "children": [
+            {
+              "name": "Assignment Clustering"
+            },
+            {
+              "name": "Thompson Sampling"
+            },
+            {
+              "name": "N-squared to N-log-N"
+            }
+          ]
+        },
+        {
+          "name": "Education Technology",
+          "children": [
+            {
+              "name": "Deep Knowledge Tracing"
+            },
+            {
+              "name": "Bayesian Generative Models"
+            },
+            {
+              "name": "Zipfian Solution Patterns"
+            },
+            {
+              "name": "One-Shot Learning"
+            }
+          ]
+        },
+        {
+          "name": "AI Grading Systems",
+          "children": [
+            {
+              "name": "Neural Network Architectures"
+            },
+            {
+              "name": "Rubric Prediction"
+            },
+            {
+              "name": "Process-based Feedback"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Future Applications",
+      "children": [
+        {
+          "name": "Global Education",
+          "children": [
+            {
+              "name": "Quality Education Gap"
+            },
+            {
+              "name": "Access via Technology"
+            },
+            {
+              "name": "Teacher Feedback Systems"
+            }
+          ]
+        },
+        {
+          "name": "Healthcare and Science",
+          "children": [
+            {
+              "name": "FDA Drug Approval"
+            },
+            {
+              "name": "Demographic Bias in Testing"
+            },
+            {
+              "name": "Probabilistic Drug Sampling"
+            }
+          ]
+        },
+        {
+          "name": "Creative Domains",
+          "children": [
+            {
+              "name": "Feedback for Games"
+            },
+            {
+              "name": "Creative Programming Knowledge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paths Forward",
+      "children": [
+        {
+          "name": "Recommended Courses",
+          "children": [
+            {
+              "name": "CS 221: Artificial Intelligence"
+            },
+            {
+              "name": "CS 229: Machine Learning"
+            },
+            {
+              "name": "CS 228: Graphical Models"
+            },
+            {
+              "name": "Stats 200: Pure Math"
+            }
+          ]
+        },
+        {
+          "name": "Finding Intersections",
+          "children": [
+            {
+              "name": "Lived Experience"
+            },
+            {
+              "name": "Personal Passions"
+            },
+            {
+              "name": "Unique Data Access"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Closing Logistics",
+      "children": [
+        {
+          "name": "Final Review Session"
+        },
+        {
+          "name": "Final Exam"
+        },
+        {
+          "name": "GPT limitations in Probability"
+        }
+      ]
+    }
+  ]
+}

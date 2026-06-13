@@ -1,0 +1,192 @@
+{
+  "name": "Digraphs and DAGs",
+  "children": [
+    {
+      "name": "Directed Graphs (Digraphs)",
+      "children": [
+        {
+          "name": "Definition",
+          "children": [
+            {
+              "name": "Ordered pairs of vertices"
+            },
+            {
+              "name": "Loops allowed"
+            },
+            {
+              "name": "Opposite edges between vertices"
+            }
+          ]
+        },
+        {
+          "name": "Degrees",
+          "children": [
+            {
+              "name": "In-degree (Incoming edges)"
+            },
+            {
+              "name": "Out-degree (Outgoing edges)"
+            },
+            {
+              "name": "Handshaking Lemma (Sum in = Sum out = |E|)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Connectivity and Paths",
+      "children": [
+        {
+          "name": "Reachability",
+          "children": [
+            {
+              "name": "Walk (Respects arrow direction)"
+            },
+            {
+              "name": "Path (No repeated vertices)"
+            },
+            {
+              "name": "Reachability is reflexive and transitive"
+            }
+          ]
+        },
+        {
+          "name": "Cycles",
+          "children": [
+            {
+              "name": "1-cycles (Loops)"
+            },
+            {
+              "name": "2-cycles (Mutual edges)"
+            },
+            {
+              "name": "Eulerian graphs (In-degree = Out-degree)"
+            }
+          ]
+        },
+        {
+          "name": "Strong Connectivity",
+          "children": [
+            {
+              "name": "Mutually reachable vertices"
+            },
+            {
+              "name": "Strongly Connected Component (SCC)"
+            },
+            {
+              "name": "Condensation Graph (Acyclic graph of SCCs)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Directed Acyclic Graphs (DAGs)",
+      "children": [
+        {
+          "name": "Properties",
+          "children": [
+            {
+              "name": "No cycles"
+            },
+            {
+              "name": "Always contains a source (In-degree 0)"
+            },
+            {
+              "name": "Always contains a sink (Out-degree 0)"
+            }
+          ]
+        },
+        {
+          "name": "Examples",
+          "children": [
+            {
+              "name": "State machines (Terminating)"
+            },
+            {
+              "name": "Precedence constraints (Getting dressed)"
+            },
+            {
+              "name": "Condensation graphs"
+            }
+          ]
+        },
+        {
+          "name": "Topological Ordering",
+          "children": [
+            {
+              "name": "Sequence respecting reachability"
+            },
+            {
+              "name": "Existence proof via induction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scheduling and Parallelism",
+      "children": [
+        {
+          "name": "Task Execution",
+          "children": [
+            {
+              "name": "Span (Minimum time rounds)"
+            },
+            {
+              "name": "Longest Path Theorem"
+            },
+            {
+              "name": "Span = Vertices in longest path"
+            }
+          ]
+        },
+        {
+          "name": "Depth Algorithm",
+          "children": [
+            {
+              "name": "Depth = Longest path length to v"
+            },
+            {
+              "name": "Used as optimal parallel schedule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chains and Anti-chains",
+      "children": [
+        {
+          "name": "Definitions",
+          "children": [
+            {
+              "name": "Comparable (Path exists)"
+            },
+            {
+              "name": "Chain (Mutually comparable set)"
+            },
+            {
+              "name": "Anti-chain (Mutually incomparable set)"
+            }
+          ]
+        },
+        {
+          "name": "Dualities",
+          "children": [
+            {
+              "name": "Fewest anti-chains = Longest chain"
+            },
+            {
+              "name": "Fewest chains = Longest anti-chain"
+            },
+            {
+              "name": "Application: Calendar display columns"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "name": "Stanford CS109 Lecture 27: Advanced Probability",
+  "children": [
+    {
+      "name": "Machine Learning Models Overview",
+      "children": [
+        {
+          "name": "PSet 6 Model: Features to Binary Prediction"
+        },
+        {
+          "name": "DALL-E: Noise to Image Generation"
+        },
+        {
+          "name": "GPT: Text to Next Text Completion"
+        }
+      ]
+    },
+    {
+      "name": "DALL-E & Diffusion Models",
+      "children": [
+        {
+          "name": "Denoising Process",
+          "children": [
+            {
+              "name": "Adding Gaussian Noise"
+            },
+            {
+              "name": "Denoising Neural Network"
+            },
+            {
+              "name": "Iterative Noise Removal Steps"
+            }
+          ]
+        },
+        {
+          "name": "Mathematical Concepts",
+          "children": [
+            {
+              "name": "Noise Prediction Business"
+            },
+            {
+              "name": "Gaussian Probability Density Function"
+            },
+            {
+              "name": "Log Likelihood & Constants"
+            },
+            {
+              "name": "Sum of Squared Errors"
+            },
+            {
+              "name": "MLE Scoring Function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT & Large Language Models",
+      "children": [
+        {
+          "name": "Language Modeling Challenges",
+          "children": [
+            {
+              "name": "Variable Length Inputs"
+            },
+            {
+              "name": "Meaning and Intelligence"
+            }
+          ]
+        },
+        {
+          "name": "Attention Mechanism",
+          "children": [
+            {
+              "name": "Attention is All You Need"
+            },
+            {
+              "name": "Context Vector"
+            },
+            {
+              "name": "Focusing on Relevant Words"
+            },
+            {
+              "name": "State Vectors & Memory"
+            }
+          ]
+        },
+        {
+          "name": "Prediction & Sampling",
+          "children": [
+            {
+              "name": "Word Probability Mapping"
+            },
+            {
+              "name": "Multinomial Sampling"
+            },
+            {
+              "name": "Next-Word Prediction"
+            }
+          ]
+        },
+        {
+          "name": "Data Sources",
+          "children": [
+            {
+              "name": "Massive Internet Scrapes"
+            },
+            {
+              "name": "Passages and Training Examples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drivers of AI Progress",
+      "children": [
+        {
+          "name": "Technological Breakthroughs",
+          "children": [
+            {
+              "name": "Autograd: Automatic Differentiation"
+            },
+            {
+              "name": "Chain Rule Automation"
+            },
+            {
+              "name": "Specialized Chips"
+            }
+          ]
+        },
+        {
+          "name": "Scale Factors",
+          "children": [
+            {
+              "name": "Number of Parameters"
+            },
+            {
+              "name": "Data Volume"
+            },
+            {
+              "name": "Training Time Plateaus"
+            }
+          ]
+        },
+        {
+          "name": "Architecture Components",
+          "children": [
+            {
+              "name": "Non-linear Activation Functions"
+            },
+            {
+              "name": "Sigmoid (Final Layer)"
+            },
+            {
+              "name": "Tanh (Inner Layers)"
+            },
+            {
+              "name": "Gradient Descent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
