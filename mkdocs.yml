@@ -35,12 +35,16 @@ extra_css:
 extra_javascript:
   - https://unpkg.com/svg-pan-zoom@3.6.2/dist/svg-pan-zoom.min.js
   - assets/javascripts/mermaid-render-panzoom.js
+  - assets/javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
   - admonition
   - attr_list
   - def_list
   - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
   - toc:
       permalink: true
   - pymdownx.details
