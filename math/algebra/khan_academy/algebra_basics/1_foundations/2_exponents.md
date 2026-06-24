@@ -9,7 +9,7 @@
 - Intro to exponents
 - The 0 & 1st power
 - Powers of zero
-- Meaning of exponents
+- Meaning of exponents - Review
 - 1 and -1 to different powers
 - Comparing exponent expressions
 - Exponents of decimals

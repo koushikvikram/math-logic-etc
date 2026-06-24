@@ -4,7 +4,7 @@
 
 - The meaning of percent
 - Meaning of 109%
-- Intro to percents
+- Intro to percents - review
 - Percents from fraction models
 - Percents from fraction models
 - Fraction, decimal, and percent from visual model

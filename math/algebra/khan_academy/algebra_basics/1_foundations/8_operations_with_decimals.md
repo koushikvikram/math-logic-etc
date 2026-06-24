@@ -10,7 +10,7 @@
 - Subtracting decimals: thousandths
 - Multiplying decimals example
 - Multiplying challenging decimals
-- Decimal multiplication place value
+- Decimal multiplication place value - review
 - Dividing decimals with hundredths
 - Dividing by a multi-digit decimal
 - Dividing decimals: hundredths

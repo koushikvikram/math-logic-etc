@@ -5,6 +5,6 @@
 - Radius, diameter, circumference & pi
 - Labeling parts of a circle
 - Radius, diameter, & circumference
-- Radius and diameter
-- Area of a circle
+- Radius and diameter - review
+- Area of a circle - review
 - Area of a circle
