@@ -1574,6 +1574,6 @@ and see why the order of operations is essential for writing mathematics that ev
 
 # Navigation
 
-⬅️ Previous: [4_the_language_of_numbers.md](4_the_language_of_numbers.md)
+⬅️ Previous: [4_number_system.md](4_number_system.md)
 
 ➡️ Next: [6_order_of_operations.md](6_order_of_operations.md)
