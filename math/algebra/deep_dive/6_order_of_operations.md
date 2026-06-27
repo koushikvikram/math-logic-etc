@@ -117,15 +117,15 @@ An **expression** describes a calculation.
 
 Examples
 
-```text id="l8s3qm"
+```text
 3x+5
 ```
 
-```text id="o9q8dy"
+```text
 2(a+b)
 ```
 
-```text id="v6e7kn"
+```text
 5x²−7
 ```
 
@@ -145,13 +145,13 @@ That is the job of an **equation**.
 
 Expression
 
-```text id="w2m4qs"
+```text
 3x+5
 ```
 
 Equation
 
-```text id="vv4rkt"
+```text
 3x+5=20
 ```
 
@@ -170,7 +170,7 @@ Instead of computing one month's bill,
 
 you write
 
-```text id="iwx1gc"
+```text
 Cost
 
 =
@@ -200,7 +200,7 @@ An expression is built from four ingredients.
 
 ## Numbers
 
-```text id="n8g0az"
+```text
 5
 
 −2
@@ -212,7 +212,7 @@ An expression is built from four ingredients.
 
 ## Variables
 
-```text id="f7k5uq"
+```text
 x
 
 y
@@ -224,7 +224,7 @@ t
 
 ## Operations
 
-```text id="u0m7rh"
+```text
 +
 
 −
@@ -240,7 +240,7 @@ t
 
 ## Grouping Symbols
 
-```text id="l1y4cw"
+```text
 ()
 
 []
@@ -252,7 +252,7 @@ Combine these together.
 
 Example
 
-```text id="d9p2mw"
+```text
 5x²+3
 ```
 
@@ -272,7 +272,7 @@ A mathematical phrase without an equals sign.
 
 A mathematical statement containing
 
-```text id="q5u1fr"
+```text
 =
 ```
 
@@ -284,13 +284,13 @@ Replace variables with numbers.
 
 Example
 
-```text id="t7x6od"
+```text
 2x+3
 
 x=4
 ```
 
-```text id="m3w8qj"
+```text
 2(4)+3
 
 =11
@@ -307,13 +307,13 @@ x=4
 
 Example
 
-```text id="k0r2sv"
+```text
 2+3×4
 ```
 
 Multiply first.
 
-```text id="z6n5bc"
+```text
 2+12
 
 =14
@@ -327,7 +327,7 @@ Think of an expression as a recipe.
 
 Example
 
-```text id="y4u1mn"
+```text
 2x+5
 ```
 
@@ -339,25 +339,25 @@ The recipe says:
 
 If
 
-```text id="cx0r4qt"
+```text
 x=3
 ```
 
 the recipe produces
 
-```text id="c9q7vw"
+```text
 11
 ```
 
 If
 
-```text id="q8h5nz"
+```text
 x=20
 ```
 
 the same recipe produces
 
-```text id="e6t3gb"
+```text
 45
 ```
 
@@ -383,13 +383,13 @@ Machine learning models are also expressions.
 
 Example
 
-```text id="t2v8fp"
+```text
 ŷ=wx+b
 ```
 
 Changing
 
-```text id="n4j6ds"
+```text
 w
 
 or
@@ -413,7 +413,7 @@ Substitute values.
 
 Example
 
-```text id="m8c1rx"
+```text
 3x+7
 
 x=5
@@ -421,7 +421,7 @@ x=5
 
 ↓
 
-```text id="u5w9dk"
+```text
 3(5)+7
 ```
 
@@ -453,7 +453,7 @@ Add and subtract.
 
 Answer
 
-```text id="j7v2pa"
+```text
 22
 ```
 
@@ -465,7 +465,7 @@ Answer
 
 Evaluate
 
-```text id="g6p8ne"
+```text
 x+7
 
 x=4
@@ -473,7 +473,7 @@ x=4
 
 Answer
 
-```text id="r1t9kw"
+```text
 11
 ```
 
@@ -481,11 +481,11 @@ Answer
 
 ## 🟢 Beginner
 
-```text id="z3x5mh"
+```text
 2+5×6
 ```
 
-```text id="s8y2qc"
+```text
 32
 ```
 
@@ -493,13 +493,13 @@ Answer
 
 ## 🟡 Intermediate
 
-```text id="p4n7vt"
+```text
 3(x+2)
 
 x=5
 ```
 
-```text id="q9m1db"
+```text
 3(7)
 
 =21
@@ -509,11 +509,11 @@ x=5
 
 ## 🟡 Intermediate
 
-```text id="n2v6sj"
+```text
 4²+3×2
 ```
 
-```text id="c7x5lu"
+```text
 16+6
 
 =22
@@ -525,13 +525,13 @@ x=5
 
 Evaluate
 
-```text id="d8q4rm"
+```text
 2(x²−3)+4
 
 x=5
 ```
 
-```text id="w6k9tp"
+```text
 2(25−3)+4
 
 2(22)+4
@@ -576,7 +576,7 @@ Ignoring parentheses.
 
 Incorrect
 
-```text id="q3y8nv"
+```text
 2(3+4)
 
 =6+4
@@ -584,7 +584,7 @@ Incorrect
 
 Correct
 
-```text id="v9m5rk"
+```text
 14
 ```
 
@@ -596,7 +596,7 @@ Multiplying before evaluating exponents.
 
 Incorrect
 
-```text id="h6k1ts"
+```text
 3×2²
 
 =6²
@@ -604,7 +604,7 @@ Incorrect
 
 Correct
 
-```text id="z2r8wp"
+```text
 3×4
 
 =12
@@ -618,7 +618,7 @@ Adding before multiplying.
 
 Incorrect
 
-```text id="u4c9dx"
+```text
 2+3×4
 
 =20
@@ -626,7 +626,7 @@ Incorrect
 
 Correct
 
-```text id="p7v6lm"
+```text
 14
 ```
 
@@ -638,13 +638,13 @@ Confusing an expression with an equation.
 
 Expression
 
-```text id="m5n8qy"
+```text
 3x+2
 ```
 
 Equation
 
-```text id="w8t4cz"
+```text
 3x+2=11
 ```
 
@@ -656,7 +656,7 @@ Substituting incorrectly.
 
 Example
 
-```text id="a7k9rb"
+```text
 2x
 
 x=5
@@ -664,13 +664,13 @@ x=5
 
 Incorrect
 
-```text id="e4q2vn"
+```text
 25
 ```
 
 Correct
 
-```text id="c1m7dt"
+```text
 2×5
 
 =10
@@ -686,7 +686,7 @@ No equals sign.
 
 Example
 
-```text id="ub2yzk"
+```text
 3x+5
 ```
 
@@ -706,7 +706,7 @@ Contains an equals sign.
 
 Example
 
-```text id="ggn8oe"
+```text
 3x+5=17
 ```
 
@@ -722,7 +722,7 @@ Describes a relationship.
 
 Example
 
-```text id="3zqgyt"
+```text
 d=st
 ```
 
@@ -738,7 +738,7 @@ Contains only numbers.
 
 Example
 
-```text id="wxpl6q"
+```text
 3+5×8−2
 ```
 
@@ -752,7 +752,7 @@ Contains variables.
 
 Example
 
-```text id="phkk2w"
+```text
 4x²+3x−7
 ```
 
@@ -766,7 +766,7 @@ Otherwise simplify only.
 
 Always work in this order:
 
-```text id="s4n17z"
+```text
 Parentheses
 
 ↓
@@ -792,13 +792,13 @@ Always evaluate **left to right**.
 
 Example
 
-```text id="jlwm601"
+```text
 24÷6×2
 ```
 
 Correct
 
-```text id="jlwm602"
+```text
 4×2
 
 =8
@@ -806,7 +806,7 @@ Correct
 
 Not
 
-```text id="jlwm603"
+```text
 24÷12
 
 =2
@@ -844,7 +844,7 @@ PEMDAS is a priority list—not a sequence of independent steps.
 
 Think:
 
-```text id="jlwm604"
+```text
 Parentheses
 
 ↓
@@ -862,7 +862,7 @@ Add OR Subtract
 
 Not
 
-```text id="jlwm605"
+```text
 Multiply
 
 THEN
@@ -876,7 +876,7 @@ Divide
 
 Left to right matters.
 
-```text id="jlwm606"
+```text
 20÷5×2
 
 =8
@@ -884,7 +884,7 @@ Left to right matters.
 
 not
 
-```text id="jlwm607"
+```text
 2
 ```
 
@@ -904,7 +904,7 @@ An expression has **one value** once every variable is known.
 
 Evaluate
 
-```text id="jlwm608"
+```text
 5+4×3
 ```
 
@@ -914,7 +914,7 @@ Evaluate
 
 Evaluate
 
-```text id="jlwm609"
+```text
 2x+7
 
 x=4
@@ -926,7 +926,7 @@ x=4
 
 Evaluate
 
-```text id="jlwm610"
+```text
 5²−9
 ```
 
@@ -938,7 +938,7 @@ Evaluate
 
 Evaluate
 
-```text id="jlwm611"
+```text
 3(x+4)
 
 x=6
@@ -950,7 +950,7 @@ x=6
 
 Evaluate
 
-```text id="jlwm612"
+```text
 4²+18÷3
 ```
 
@@ -960,7 +960,7 @@ Evaluate
 
 Evaluate
 
-```text id="jlwm613"
+```text
 2x²−3
 
 x=5
@@ -974,7 +974,7 @@ x=5
 
 Evaluate
 
-```text id="jlwm614"
+```text
 5(3+2²)
 ```
 
@@ -984,7 +984,7 @@ Evaluate
 
 Evaluate
 
-```text id="jlwm615"
+```text
 3(x²−2)+4
 
 x=7
@@ -996,7 +996,7 @@ x=7
 
 Evaluate
 
-```text id="jlwm616"
+```text
 18÷3×2+5²
 ```
 
@@ -1006,7 +1006,7 @@ Evaluate
 
 A cloud platform models monthly cost as
 
-```text id="jlwm617"
+```text
 Cost
 
 =
@@ -1024,7 +1024,7 @@ N
 
 where
 
-```text id="jlwm618"
+```text
 S
 
 = Storage Units
@@ -1040,7 +1040,7 @@ N
 
 If
 
-```text id="jlwm619"
+```text
 S=8
 
 C=12
@@ -1056,7 +1056,7 @@ calculate the monthly cost.
 
 ### Problem 1
 
-```text id="’wini620"
+```text
 5+12
 
 =17
@@ -1066,7 +1066,7 @@ calculate the monthly cost.
 
 ### Problem 2
 
-```text id="’wini621"
+```text
 2(4)+7
 
 =15
@@ -1076,7 +1076,7 @@ calculate the monthly cost.
 
 ### Problem 3
 
-```text id="’wini622"
+```text
 25−9
 
 =16
@@ -1086,7 +1086,7 @@ calculate the monthly cost.
 
 ### Problem 4
 
-```text id="’wini623"
+```text
 3(10)
 
 =30
@@ -1096,7 +1096,7 @@ calculate the monthly cost.
 
 ### Problem 5
 
-```text id="’wini624"
+```text
 16+6
 
 =22
@@ -1106,7 +1106,7 @@ calculate the monthly cost.
 
 ### Problem 6
 
-```text id="’wini625"
+```text
 2(25)−3
 
 =47
@@ -1116,7 +1116,7 @@ calculate the monthly cost.
 
 ### Problem 7
 
-```text id="’wini626"
+```text
 5(3+4)
 
 =35
@@ -1126,7 +1126,7 @@ calculate the monthly cost.
 
 ### Problem 8
 
-```text id="’wini627"
+```text
 3(49−2)+4
 
 =145
@@ -1136,7 +1136,7 @@ calculate the monthly cost.
 
 ### Problem 9
 
-```text id="’wini628"
+```text
 18÷3×2+25
 
 6×2+25
@@ -1150,7 +1150,7 @@ calculate the monthly cost.
 
 ### Challenge Solution
 
-```text id="’wini629"
+```text
 2(8)
 
 +
@@ -1186,7 +1186,7 @@ calculate the monthly cost.
 
 A linear model predicts
 
-```text id="’wini630"
+```text
 ŷ
 
 =
@@ -1200,13 +1200,13 @@ A linear model predicts
 
 For
 
-```text id="’wini631"
+```text
 x=12
 ```
 
 Prediction
 
-```text id="’wini632"
+```text
 43
 ```
 
@@ -1218,7 +1218,7 @@ This is exactly how inference works in many simple ML models.
 
 Total inference latency
 
-```text id="’wini633"
+```text
 Latency
 
 =
@@ -1236,7 +1236,7 @@ Network
 
 Suppose
 
-```text id="’wini634"
+```text
 45
 
 +
@@ -1250,7 +1250,7 @@ Suppose
 
 Total
 
-```text id="’wini635"
+```text
 75 ms
 ```
 
@@ -1260,7 +1260,7 @@ Total
 
 Monthly cloud cost
 
-```text id="’wini636"
+```text
 Compute
 
 +
@@ -1274,7 +1274,7 @@ Bandwidth
 
 Example
 
-```text id="’wini637"
+```text
 1800
 
 +
@@ -1296,25 +1296,25 @@ Example
 
 Profit
 
-```text id="’wini638"
+```text
 Revenue−Expenses
 ```
 
 Revenue
 
-```text id="’wini639"
+```text
 $82,000
 ```
 
 Expenses
 
-```text id="’wini640"
+```text
 $61,500
 ```
 
 Profit
 
-```text id="’wini641"
+```text
 $20,500
 ```
 
@@ -1324,7 +1324,7 @@ $20,500
 
 Portfolio value
 
-```text id="’wini642"
+```text
 Stocks
 
 +
@@ -1344,7 +1344,7 @@ Expressions like these become the foundation of portfolio optimization.
 
 Mission duration
 
-```text id="’wini643"
+```text
 Time
 
 =
@@ -1366,7 +1366,7 @@ Long before symbolic algebra, mathematical expressions were written entirely in 
 
 For example, instead of writing
 
-```text id="’wini644"
+```text
 3x+5
 ```
 
@@ -1382,7 +1382,7 @@ Today, nearly every programming language, spreadsheet, engineering simulator, an
 
 # 16. Connections
 
-```text id="’wini645"
+```text
 Variables
       ↓
 Expressions
@@ -1416,7 +1416,7 @@ Core workflow:
 
 Remember:
 
-```text id="’wini646"
+```text
 Parentheses
 
 ↓

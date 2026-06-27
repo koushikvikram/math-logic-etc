@@ -764,7 +764,7 @@ Contains only numbers.
 
 Example
 
-```text id="eq701"
+```text
 8 + 5 = 13
 ```
 
@@ -782,7 +782,7 @@ Contains one or more variables.
 
 Example
 
-```text id="eq702"
+```text
 x + 7 = 12
 ```
 
@@ -798,7 +798,7 @@ Describes a general relationship.
 
 Example
 
-```text id="eq703"
+```text
 d = st
 ```
 
@@ -816,7 +816,7 @@ Always true.
 
 Example
 
-```text id="eq704"
+```text
 2(x+3)=2x+6
 ```
 
@@ -830,7 +830,7 @@ Never true.
 
 Example
 
-```text id="eq705"
+```text
 3+5=12
 ```
 
@@ -902,7 +902,7 @@ Equations are solved.
 
 Determine whether the equation is true.
 
-```text id="eq706"
+```text
 9+6=15
 ```
 
@@ -912,13 +912,13 @@ Determine whether the equation is true.
 
 Does
 
-```text id="eq707"
+```text
 x=4
 ```
 
 satisfy
 
-```text id="eq708"
+```text
 x+5=9
 ```
 
@@ -928,13 +928,13 @@ x+5=9
 
 Does
 
-```text id="eq709"
+```text
 x=3
 ```
 
 satisfy
 
-```text id="eq710"
+```text
 2x=8
 ```
 
@@ -946,13 +946,13 @@ satisfy
 
 Does
 
-```text id="eq711"
+```text
 x=7
 ```
 
 satisfy
 
-```text id="eq712"
+```text
 3x−2=19
 ```
 
@@ -962,13 +962,13 @@ satisfy
 
 Evaluate whether
 
-```text id="eq713"
+```text
 2(a+4)=18
 ```
 
 is true when
 
-```text id="eq714"
+```text
 a=5
 ```
 
@@ -978,7 +978,7 @@ a=5
 
 Which of the following are equations?
 
-```text id="eq715"
+```text
 3x+5
 
 3x+5=14
@@ -996,11 +996,11 @@ Which of the following are equations?
 
 Which value satisfies
 
-```text id="eq716"
+```text
 5x=35
 ```
 
-```text id="eq717"
+```text
 A) 5
 
 B) 6
@@ -1016,13 +1016,13 @@ D) 8
 
 Determine whether
 
-```text id="eq718"
+```text
 4(x−2)=12
 ```
 
 is true for
 
-```text id="eq719"
+```text
 x=5
 ```
 
@@ -1036,7 +1036,7 @@ Classify each statement as:
 * Equation
 * Formula
 
-```text id="eq720"
+```text
 3x+8
 
 A=Pπr²
@@ -1052,7 +1052,7 @@ A=Pπr²
 
 A cloud platform reports
 
-```text id="eq721"
+```text
 Total Cost
 
 =
@@ -1070,7 +1070,7 @@ Networking
 
 If
 
-```text id="eq722"
+```text
 Total Cost
 
 =$5400
@@ -1094,7 +1094,7 @@ Without solving it, explain what the equation represents.
 
 ### Problem 1
 
-```text id="eq723"
+```text
 True
 ```
 
@@ -1102,7 +1102,7 @@ True
 
 ### Problem 2
 
-```text id="eq724"
+```text
 4+5=9
 
 True
@@ -1112,7 +1112,7 @@ True
 
 ### Problem 3
 
-```text id="eq725"
+```text
 2(3)=6
 
 False
@@ -1122,7 +1122,7 @@ False
 
 ### Problem 4
 
-```text id="eq726"
+```text
 3(7)-2
 
 =21-2
@@ -1136,7 +1136,7 @@ True
 
 ### Problem 5
 
-```text id="eq727"
+```text
 2(5+4)
 
 =18
@@ -1150,7 +1150,7 @@ True
 
 Expressions
 
-```text id="eq728"
+```text
 3x+5
 
 8−2
@@ -1158,7 +1158,7 @@ Expressions
 
 Equations
 
-```text id="eq729"
+```text
 3x+5=14
 
 2y=6
@@ -1168,7 +1168,7 @@ Equations
 
 ### Problem 7
 
-```text id="eq730"
+```text
 C
 
 x=7
@@ -1178,7 +1178,7 @@ x=7
 
 ### Problem 8
 
-```text id="eq731"
+```text
 4(5−2)
 
 =12
@@ -1203,7 +1203,7 @@ True
 
 Equation
 
-```text id="eq732"
+```text
 Compute+900+700=5400
 ```
 
@@ -1217,13 +1217,13 @@ The equation states that the unknown compute cost, together with storage and net
 
 A simple linear model is
 
-```text id="eq733"
+```text
 ŷ=wx+b
 ```
 
 Given
 
-```text id="eq734"
+```text
 ŷ=23
 
 w=4
@@ -1233,7 +1233,7 @@ b=3
 
 Write the equation for the unknown input.
 
-```text id="eq735"
+```text
 4x+3=23
 ```
 
@@ -1243,7 +1243,7 @@ Write the equation for the unknown input.
 
 End-to-end latency
 
-```text id="eq736"
+```text
 Total
 
 =
@@ -1261,13 +1261,13 @@ Network
 
 Measured latency
 
-```text id="eq737"
+```text
 95 ms
 ```
 
 Known
 
-```text id="eq738"
+```text
 Queue
 
 =15 ms
@@ -1279,7 +1279,7 @@ Network
 
 Equation
 
-```text id="eq739"
+```text
 Model+15+20=95
 ```
 
@@ -1289,7 +1289,7 @@ Model+15+20=95
 
 Server utilization
 
-```text id="eq740"
+```text
 CPU
 
 =
@@ -1313,7 +1313,7 @@ Unknown application usage becomes an equation to solve.
 
 Monthly profit
 
-```text id="eq741"
+```text
 Profit
 
 =
@@ -1329,7 +1329,7 @@ If profit and revenue are known, the equation can be used to determine expenses.
 
 Mission duration
 
-```text id="eq742"
+```text
 Distance
 
 =
@@ -1359,7 +1359,7 @@ That simple symbol became one of the most important ideas in mathematics, allowi
 
 # 16. Connections
 
-```text id="eq743"
+```text
 Variables
       ↓
 Expressions
@@ -1420,13 +1420,13 @@ You'll learn how to isolate an unknown using a single inverse operation while pr
 
 For example,
 
-```text id="eq744"
+```text
 x+7=15
 ```
 
 becomes
 
-```text id="eq745"
+```text
 x=8
 ```
 

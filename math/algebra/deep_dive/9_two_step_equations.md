@@ -665,13 +665,13 @@ Think of solving as **rewinding a movie**.
 
 Example
 
-```text id="tse201"
+```text
 3x + 8 = 20
 ```
 
 Construction
 
-```text id="tse202"
+```text
 x
 
 ↓
@@ -685,7 +685,7 @@ x
 
 Undo
 
-```text id="tse203"
+```text
 −8
 
 ↓
@@ -699,13 +699,13 @@ Undo
 
 Example
 
-```text id="tse204"
+```text
 5x − 12 = 18
 ```
 
 Undo
 
-```text id="tse205"
+```text
 +12
 
 ↓
@@ -719,13 +719,13 @@ Undo
 
 Example
 
-```text id="tse206"
+```text
 x/4 + 7 = 13
 ```
 
 Undo
 
-```text id="tse207"
+```text
 −7
 
 ↓
@@ -739,13 +739,13 @@ Undo
 
 Example
 
-```text id="tse208"
+```text
 x/6 − 3 = 5
 ```
 
 Undo
 
-```text id="tse209"
+```text
 +3
 
 ↓
@@ -759,13 +759,13 @@ Undo
 
 Example
 
-```text id="tse210"
+```text
 −8x + 6 = −10
 ```
 
 Undo
 
-```text id="tse211"
+```text
 −6
 
 ↓
@@ -777,7 +777,7 @@ Undo
 
 ## Decision Tree
 
-```text id="tse212"
+```text
 Variable
 
 ↓
@@ -819,7 +819,7 @@ Inside second.
 
 Exactly like removing nested boxes.
 
-```text id="tse213"
+```text
 📦
 
 📦
@@ -835,7 +835,7 @@ Remove the outer box first.
 
 Reverse the recipe.
 
-```text id="tse214"
+```text
 Cook
 
 ↓
@@ -879,7 +879,7 @@ Never trust mental arithmetic alone.
 
 Solve
 
-```text id="tse215"
+```text
 2x + 9 = 25
 ```
 
@@ -889,7 +889,7 @@ Solve
 
 Solve
 
-```text id="tse216"
+```text
 x/5 + 4 = 11
 ```
 
@@ -899,7 +899,7 @@ x/5 + 4 = 11
 
 Solve
 
-```text id="tse217"
+```text
 7x − 8 = 41
 ```
 
@@ -911,7 +911,7 @@ Solve
 
 Solve
 
-```text id="tse218"
+```text
 −3x + 6 = 24
 ```
 
@@ -921,7 +921,7 @@ Solve
 
 Solve
 
-```text id="tse219"
+```text
 x/8 − 6 = 9
 ```
 
@@ -931,7 +931,7 @@ x/8 − 6 = 9
 
 Solve
 
-```text id="tse220"
+```text
 12x + 18 = 90
 ```
 
@@ -943,7 +943,7 @@ Solve
 
 Solve
 
-```text id="tse221"
+```text
 −7x − 5 = 30
 ```
 
@@ -953,7 +953,7 @@ Solve
 
 Solve
 
-```text id="tse222"
+```text
 x/0.25 + 6 = 22
 ```
 
@@ -963,7 +963,7 @@ x/0.25 + 6 = 22
 
 Solve
 
-```text id="tse223"
+```text
 3/5 x + 9 = 21
 ```
 
@@ -975,13 +975,13 @@ A cloud platform charges
 
 * a fixed monthly platform fee of
 
-```text id="tse224"
+```text
 $350
 ```
 
 * plus
 
-```text id="tse225"
+```text
 $120
 ```
 
@@ -989,13 +989,13 @@ per virtual machine.
 
 The total monthly bill is
 
-```text id="tse226"
+```text
 $1,670
 ```
 
 Let
 
-```text id="tse227"
+```text
 x
 ```
 
@@ -1011,7 +1011,7 @@ be the number of virtual machines.
 
 ### Problem 1
 
-```text id="tse228"
+```text
 2x = 16
 
 x = 8
@@ -1021,7 +1021,7 @@ x = 8
 
 ### Problem 2
 
-```text id="tse229"
+```text
 x/5 = 7
 
 x = 35
@@ -1031,7 +1031,7 @@ x = 35
 
 ### Problem 3
 
-```text id="tse230"
+```text
 7x = 49
 
 x = 7
@@ -1041,7 +1041,7 @@ x = 7
 
 ### Problem 4
 
-```text id="tse231"
+```text
 −3x = 18
 
 x = −6
@@ -1051,7 +1051,7 @@ x = −6
 
 ### Problem 5
 
-```text id="tse232"
+```text
 x/8 = 15
 
 x = 120
@@ -1061,7 +1061,7 @@ x = 120
 
 ### Problem 6
 
-```text id="tse233"
+```text
 12x = 72
 
 x = 6
@@ -1071,7 +1071,7 @@ x = 6
 
 ### Problem 7
 
-```text id="tse234"
+```text
 −7x = 35
 
 x = −5
@@ -1081,7 +1081,7 @@ x = −5
 
 ### Problem 8
 
-```text id="tse235"
+```text
 x/0.25 = 16
 
 x = 4
@@ -1093,21 +1093,21 @@ x = 4
 
 Subtract
 
-```text id="tse236"
+```text
 9
 ```
 
-```text id="tse237"
+```text
 3/5 x = 12
 ```
 
 Multiply both sides by
 
-```text id="tse238"
+```text
 5/3
 ```
 
-```text id="tse239"
+```text
 x = 20
 ```
 
@@ -1117,33 +1117,33 @@ x = 20
 
 Equation
 
-```text id="tse240"
+```text
 120x + 350 = 1670
 ```
 
 Subtract
 
-```text id="tse241"
+```text
 350
 ```
 
-```text id="tse242"
+```text
 120x = 1320
 ```
 
 Divide
 
-```text id="tse243"
+```text
 120
 ```
 
-```text id="tse244"
+```text
 x = 11
 ```
 
 Verification
 
-```text id="tse245"
+```text
 120(11)+350
 
 =1320+350
@@ -1161,13 +1161,13 @@ Correct.
 
 A model's prediction time is
 
-```text id="tse246"
+```text
 4x + 8 = 52
 ```
 
 where
 
-```text id="tse247"
+```text
 x
 ```
 
@@ -1175,7 +1175,7 @@ is the inference time per processing stage.
 
 Solution
 
-```text id="tse248"
+```text
 4x = 44
 
 x = 11 ms
@@ -1187,13 +1187,13 @@ x = 11 ms
 
 A request passes through five identical processing stages plus a fixed overhead.
 
-```text id="tse249"
+```text
 5x + 15 = 90
 ```
 
 Solve
 
-```text id="tse250"
+```text
 x = 15 ms
 ```
 
@@ -1203,13 +1203,13 @@ x = 15 ms
 
 A Kubernetes cluster uses
 
-```text id="tse251"
+```text
 6x + 18 = 114
 ```
 
 where
 
-```text id="tse252"
+```text
 x
 ```
 
@@ -1217,7 +1217,7 @@ is CPU usage per service.
 
 Solution
 
-```text id="tse253"
+```text
 x = 16 cores
 ```
 
@@ -1227,13 +1227,13 @@ x = 16 cores
 
 A brokerage account contains a fixed cash reserve plus identical investments.
 
-```text id="tse254"
+```text
 250x + 500 = 3000
 ```
 
 Solution
 
-```text id="tse255"
+```text
 x = 10 investments
 ```
 
@@ -1243,31 +1243,31 @@ x = 10 investments
 
 Each rocket stage consumes
 
-```text id="tse256"
+```text
 180 kg
 ```
 
 of fuel plus a fixed ignition burn of
 
-```text id="tse257"
+```text
 240 kg
 ```
 
 Total fuel consumed
 
-```text id="tse258"
+```text
 1500 kg
 ```
 
 Equation
 
-```text id="tse259"
+```text
 180x + 240 = 1500
 ```
 
 Solution
 
-```text id="tse260"
+```text
 x = 7 stages
 ```
 
@@ -1287,7 +1287,7 @@ The modern approach of applying inverse operations one step at a time is essenti
 
 # 16. Connections
 
-```text id="tse261"
+```text
 Inverse Operations
         ↓
 One-Step Equations
@@ -1322,13 +1322,13 @@ General strategy:
 
 For equations of the form
 
-```text id="tse262"
+```text
 ax+b=c
 ```
 
 the solution process is
 
-```text id="tse263"
+```text
 ax+b=c
 
 ↓

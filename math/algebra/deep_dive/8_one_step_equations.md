@@ -606,25 +606,25 @@ Once you identify that operation, apply its inverse.
 
 Example
 
-```text id="ose101"
+```text
 x + 9 = 17
 ```
 
 Attached operation
 
-```text id="ose102"
+```text
 +9
 ```
 
 Inverse
 
-```text id="ose103"
+```text
 −9
 ```
 
 Solution
 
-```text id="ose104"
+```text
 x = 8
 ```
 
@@ -634,25 +634,25 @@ x = 8
 
 Example
 
-```text id="ose105"
+```text
 x − 4 = 15
 ```
 
 Attached operation
 
-```text id="ose106"
+```text
 −4
 ```
 
 Inverse
 
-```text id="ose107"
+```text
 +4
 ```
 
 Solution
 
-```text id="ose108"
+```text
 x = 19
 ```
 
@@ -662,25 +662,25 @@ x = 19
 
 Example
 
-```text id="ose109"
+```text
 7x = 56
 ```
 
 Attached operation
 
-```text id="ose110"
+```text
 ×7
 ```
 
 Inverse
 
-```text id="ose111"
+```text
 ÷7
 ```
 
 Solution
 
-```text id="ose112"
+```text
 x = 8
 ```
 
@@ -690,25 +690,25 @@ x = 8
 
 Example
 
-```text id="ose113"
+```text
 x/6 = 9
 ```
 
 Attached operation
 
-```text id="ose114"
+```text
 ÷6
 ```
 
 Inverse
 
-```text id="ose115"
+```text
 ×6
 ```
 
 Solution
 
-```text id="ose116"
+```text
 x = 54
 ```
 
@@ -718,19 +718,19 @@ x = 54
 
 Example
 
-```text id="ose117"
+```text
 −8x = 40
 ```
 
 Inverse
 
-```text id="ose118"
+```text
 ÷(−8)
 ```
 
 Solution
 
-```text id="ose119"
+```text
 x = −5
 ```
 
@@ -738,7 +738,7 @@ x = −5
 
 ## Decision Tree
 
-```text id="ose120"
+```text
 Variable
 
 ↓
@@ -813,7 +813,7 @@ Always finish with
 
 Solve
 
-```text id="ose121"
+```text
 x + 8 = 21
 ```
 
@@ -823,7 +823,7 @@ x + 8 = 21
 
 Solve
 
-```text id="ose122"
+```text
 x − 15 = 9
 ```
 
@@ -833,7 +833,7 @@ x − 15 = 9
 
 Solve
 
-```text id="ose123"
+```text
 6x = 42
 ```
 
@@ -845,7 +845,7 @@ Solve
 
 Solve
 
-```text id="ose124"
+```text
 x/9 = 8
 ```
 
@@ -855,7 +855,7 @@ x/9 = 8
 
 Solve
 
-```text id="ose125"
+```text
 −4x = 36
 ```
 
@@ -865,7 +865,7 @@ Solve
 
 Solve
 
-```text id="ose126"
+```text
 x + 2.5 = 7.8
 ```
 
@@ -877,7 +877,7 @@ x + 2.5 = 7.8
 
 Solve
 
-```text id="ose127"
+```text
 −x = 12
 ```
 
@@ -887,7 +887,7 @@ Solve
 
 Solve
 
-```text id="ose128"
+```text
 x/0.5 = 18
 ```
 
@@ -897,7 +897,7 @@ x/0.5 = 18
 
 Solve
 
-```text id="ose129"
+```text
 3/4 x = 24
 ```
 
@@ -907,7 +907,7 @@ Solve
 
 An AI inference request spends
 
-```text id="ose130"
+```text
 96 ms
 ```
 
@@ -915,13 +915,13 @@ in total.
 
 Known overhead:
 
-```text id="ose131"
+```text
 31 ms
 ```
 
 Model execution time:
 
-```text id="ose132"
+```text
 x
 ```
 
@@ -937,7 +937,7 @@ Verify your answer.
 
 ### Problem 1
 
-```text id="ose133"
+```text
 x = 13
 ```
 
@@ -945,7 +945,7 @@ x = 13
 
 ### Problem 2
 
-```text id="ose134"
+```text
 x = 24
 ```
 
@@ -953,7 +953,7 @@ x = 24
 
 ### Problem 3
 
-```text id="ose135"
+```text
 x = 7
 ```
 
@@ -961,7 +961,7 @@ x = 7
 
 ### Problem 4
 
-```text id="ose136"
+```text
 x = 72
 ```
 
@@ -969,7 +969,7 @@ x = 72
 
 ### Problem 5
 
-```text id="ose137"
+```text
 x = −9
 ```
 
@@ -977,7 +977,7 @@ x = −9
 
 ### Problem 6
 
-```text id="ose138"
+```text
 x = 5.3
 ```
 
@@ -985,7 +985,7 @@ x = 5.3
 
 ### Problem 7
 
-```text id="ose139"
+```text
 x = −12
 ```
 
@@ -993,7 +993,7 @@ x = −12
 
 ### Problem 8
 
-```text id="ose140"
+```text
 x = 9
 ```
 
@@ -1003,11 +1003,11 @@ x = 9
 
 Multiply both sides by
 
-```text id="ose141"
+```text
 4/3
 ```
 
-```text id="ose142"
+```text
 x = 32
 ```
 
@@ -1017,23 +1017,23 @@ x = 32
 
 Equation
 
-```text id="ose143"
+```text
 x + 31 = 96
 ```
 
 Subtract
 
-```text id="ose144"
+```text
 31
 ```
 
-```text id="ose145"
+```text
 x = 65
 ```
 
 Verification
 
-```text id="ose146"
+```text
 65 + 31 = 96
 ```
 
@@ -1047,31 +1047,31 @@ Correct.
 
 A classifier's total accuracy is
 
-```text id="ose147"
+```text
 94%
 ```
 
 A preprocessing improvement contributes
 
-```text id="ose148"
+```text
 3%
 ```
 
 The base model contributes
 
-```text id="ose149"
+```text
 x
 ```
 
 Equation
 
-```text id="ose150"
+```text
 x + 3 = 94
 ```
 
 Solution
 
-```text id="ose151"
+```text
 x = 91%
 ```
 
@@ -1081,31 +1081,31 @@ x = 91%
 
 Total inference latency
 
-```text id="ose152"
+```text
 82 ms
 ```
 
 Queue latency
 
-```text id="ose153"
+```text
 11 ms
 ```
 
 Model latency
 
-```text id="ose154"
+```text
 x
 ```
 
 Equation
 
-```text id="ose155"
+```text
 x + 11 = 82
 ```
 
 Solution
 
-```text id="ose156"
+```text
 x = 71 ms
 ```
 
@@ -1115,31 +1115,31 @@ x = 71 ms
 
 A server uses
 
-```text id="ose157"
+```text
 24 CPU cores
 ```
 
 Database processes consume
 
-```text id="ose158"
+```text
 8 cores
 ```
 
 Application usage
 
-```text id="ose159"
+```text
 x
 ```
 
 Equation
 
-```text id="ose160"
+```text
 x + 8 = 24
 ```
 
 Solution
 
-```text id="ose161"
+```text
 x = 16 cores
 ```
 
@@ -1149,19 +1149,19 @@ x = 16 cores
 
 Four identical shares cost
 
-```text id="ose162"
+```text
 $480
 ```
 
 Equation
 
-```text id="ose163"
+```text
 4x = 480
 ```
 
 Solution
 
-```text id="ose164"
+```text
 x = $120
 ```
 
@@ -1171,7 +1171,7 @@ x = $120
 
 A spacecraft carried
 
-```text id="ose165"
+```text
 1,400 kg
 ```
 
@@ -1179,25 +1179,25 @@ of fuel.
 
 After burning
 
-```text id="ose166"
+```text
 450 kg
 ```
 
 the remaining fuel is
 
-```text id="ose167"
+```text
 x
 ```
 
 Equation
 
-```text id="ose168"
+```text
 x + 450 = 1400
 ```
 
 Solution
 
-```text id="ose169"
+```text
 x = 950 kg
 ```
 
@@ -1222,7 +1222,7 @@ The systematic method of solving equations by applying inverse operations was re
 
 # 16. Connections
 
-```text id="ose170"
+```text
 Equality
       ↓
 Inverse Operations
@@ -1285,7 +1285,7 @@ we'll learn how to undo **multiple operations in the correct order**.
 
 For example,
 
-```text id="ose171"
+```text
 3x + 5 = 26
 ```
 

@@ -603,13 +603,13 @@ Almost every equation follows one of a handful of patterns.
 
 Example
 
-```text id="mse201"
+```text
 4(x+3)=28
 ```
 
 Pattern
 
-```text id="mse202"
+```text
 Parentheses
 
 ↓
@@ -627,13 +627,13 @@ Solve
 
 Example
 
-```text id="mse203"
+```text
 3x+7+2x=27
 ```
 
 Pattern
 
-```text id="mse204"
+```text
 Combine
 
 ↓
@@ -651,13 +651,13 @@ Solve
 
 Example
 
-```text id="mse205"
+```text
 7x+8=3x+24
 ```
 
 Pattern
 
-```text id="mse206"
+```text
 Move variables
 
 ↓
@@ -675,13 +675,13 @@ Solve
 
 Example
 
-```text id="mse207"
+```text
 3(x+2)=2(x+8)
 ```
 
 Pattern
 
-```text id="mse208"
+```text
 Distribute both sides
 
 ↓
@@ -703,13 +703,13 @@ Solve
 
 Example
 
-```text id="mse209"
+```text
 x/4+6=18
 ```
 
 Pattern
 
-```text id="mse210"
+```text
 Solve exactly like a two-step equation.
 ```
 
@@ -719,7 +719,7 @@ Solve exactly like a two-step equation.
 
 Whenever you're unsure, follow this checklist.
 
-```text id="mse211"
+```text
 Parentheses?
 
 ↓
@@ -769,7 +769,7 @@ Check
 
 Think:
 
-```text id="mse212"
+```text
 Clean
 
 ↓
@@ -815,7 +815,7 @@ One substitution catches almost every arithmetic mistake.
 
 Solve
 
-```text id="mse213"
+```text
 3(x+5)=24
 ```
 
@@ -825,7 +825,7 @@ Solve
 
 Solve
 
-```text id="mse214"
+```text
 4x+9=3x+15
 ```
 
@@ -835,7 +835,7 @@ Solve
 
 Solve
 
-```text id="mse215"
+```text
 2x+8+5x=43
 ```
 
@@ -847,7 +847,7 @@ Solve
 
 Solve
 
-```text id="mse216"
+```text
 5(x−4)=35
 ```
 
@@ -857,7 +857,7 @@ Solve
 
 Solve
 
-```text id="mse217"
+```text
 8x−15=5x+18
 ```
 
@@ -867,7 +867,7 @@ Solve
 
 Solve
 
-```text id="mse218"
+```text
 6(x+3)=4(x+9)
 ```
 
@@ -879,7 +879,7 @@ Solve
 
 Solve
 
-```text id="mse219"
+```text
 7(x−2)+5=3(x+6)
 ```
 
@@ -889,7 +889,7 @@ Solve
 
 Solve
 
-```text id="mse220"
+```text
 5(2x+3)=4(x+9)
 ```
 
@@ -899,7 +899,7 @@ Solve
 
 Solve
 
-```text id="mse221"
+```text
 3(x−4)+2x=5(x−1)
 ```
 
@@ -911,13 +911,13 @@ An AI inference service consists of:
 
 * a fixed startup cost of
 
-```text id="mse222"
+```text
 8 ms
 ```
 
 * plus
 
-```text id="mse223"
+```text
 4
 ```
 
@@ -925,7 +925,7 @@ identical inference stages.
 
 Each stage takes
 
-```text id="mse224"
+```text
 x+3
 ```
 
@@ -933,7 +933,7 @@ milliseconds.
 
 The total latency is
 
-```text id="mse225"
+```text
 76 ms
 ```
 
@@ -949,7 +949,7 @@ Verify your answer.
 
 ### Problem 1
 
-```text id="mse226"
+```text
 3x+15=24
 
 3x=9
@@ -961,7 +961,7 @@ x=3
 
 ### Problem 2
 
-```text id="mse227"
+```text
 x=6
 ```
 
@@ -969,7 +969,7 @@ x=6
 
 ### Problem 3
 
-```text id="mse228"
+```text
 7x+8=43
 
 7x=35
@@ -981,7 +981,7 @@ x=5
 
 ### Problem 4
 
-```text id="mse229"
+```text
 5x−20=35
 
 5x=55
@@ -993,7 +993,7 @@ x=11
 
 ### Problem 5
 
-```text id="mse230"
+```text
 3x=33
 
 x=11
@@ -1003,7 +1003,7 @@ x=11
 
 ### Problem 6
 
-```text id="mse231"
+```text
 6x+18=4x+36
 
 2x=18
@@ -1015,7 +1015,7 @@ x=9
 
 ### Problem 7
 
-```text id="mse232"
+```text
 7x−14+5=3x+18
 
 7x−9=3x+18
@@ -1029,7 +1029,7 @@ x=27/4
 
 ### Problem 8
 
-```text id="mse233"
+```text
 10x+15=4x+36
 
 6x=21
@@ -1041,7 +1041,7 @@ x=7/2
 
 ### Problem 9
 
-```text id="mse234"
+```text
 3x−12+2x=5x−5
 
 5x−12=5x−5
@@ -1057,13 +1057,13 @@ No solution.
 
 Equation
 
-```text id="mse235"
+```text
 4(x+3)+8=76
 ```
 
 Distribute
 
-```text id="mse236"
+```text
 4x+12+8=76
 
 4x+20=76
@@ -1075,7 +1075,7 @@ x=14
 
 Verification
 
-```text id="mse237"
+```text
 4(14+3)+8
 
 =
@@ -1097,13 +1097,13 @@ Correct.
 
 A neural network has
 
-```text id="mse238"
+```text
 5(x+2)=85
 ```
 
 where
 
-```text id="mse239"
+```text
 x
 ```
 
@@ -1111,7 +1111,7 @@ is the inference time per layer.
 
 Solution
 
-```text id="mse240"
+```text
 5x+10=85
 
 5x=75
@@ -1125,13 +1125,13 @@ x=15 ms
 
 A deployment consists of
 
-```text id="mse241"
+```text
 6x+18=4x+54
 ```
 
 where
 
-```text id="mse242"
+```text
 x
 ```
 
@@ -1139,7 +1139,7 @@ is deployment time per service.
 
 Solution
 
-```text id="mse243"
+```text
 2x=36
 
 x=18 minutes
@@ -1151,13 +1151,13 @@ x=18 minutes
 
 CPU allocation
 
-```text id="mse244"
+```text
 8(x−2)=96
 ```
 
 Solution
 
-```text id="mse245"
+```text
 8x−16=96
 
 8x=112
@@ -1171,13 +1171,13 @@ x=14 cores
 
 An investor purchases
 
-```text id="mse246"
+```text
 25x+150=1400
 ```
 
 where
 
-```text id="mse247"
+```text
 150
 ```
 
@@ -1185,7 +1185,7 @@ is the brokerage fee.
 
 Solution
 
-```text id="mse248"
+```text
 25x=1250
 
 x=50 shares
@@ -1197,13 +1197,13 @@ x=50 shares
 
 A launch vehicle burns fuel according to
 
-```text id="mse249"
+```text
 180(x+1)=1620
 ```
 
 Solution
 
-```text id="mse250"
+```text
 180x+180=1620
 
 180x=1440
@@ -1229,7 +1229,7 @@ That insight transformed algebra from a collection of tricks into a general prob
 
 # 16. Connections
 
-```text id="mse251"
+```text
 Inverse Operations
         ↓
 One-Step Equations
@@ -1253,7 +1253,7 @@ Multi-step equations are the foundation for solving almost every linear problem 
 
 Every multi-step equation follows the same workflow:
 
-```text id="mse252"
+```text
 Distribute
 
 ↓

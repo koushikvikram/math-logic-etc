@@ -783,19 +783,19 @@ Once you've identified the smallest set, you automatically know every larger set
 
 Example:
 
-```text id="u8vjlwm"
+```text
 7
 ```
 
 Smallest set:
 
-```text id="17hyzwk"
+```text
 Natural Numbers
 ```
 
 Therefore:
 
-```text id="a5rbpcj"
+```text
 Natural
 
 ↓
@@ -825,7 +825,7 @@ Complex
 
 Examples
 
-```text id="a7v8tuw"
+```text
 1
 
 8
@@ -837,7 +837,7 @@ Examples
 
 Classification
 
-```text id="qz1xx0x"
+```text
 Natural
 ```
 
@@ -847,13 +847,13 @@ Natural
 
 Example
 
-```text id="nk6w7v4"
+```text
 0
 ```
 
 Classification
 
-```text id="mw7g4qz"
+```text
 Whole
 
 ↓
@@ -879,7 +879,7 @@ Complex
 
 Examples
 
-```text id="mhk2qsi"
+```text
 −3
 
 −12
@@ -889,7 +889,7 @@ Examples
 
 Classification
 
-```text id="uxt5e5r"
+```text
 Integer
 ```
 
@@ -899,7 +899,7 @@ Integer
 
 Examples
 
-```text id="n8wy9o3"
+```text
 3/4
 
 −7/8
@@ -909,7 +909,7 @@ Examples
 
 Classification
 
-```text id="xg3v4yb"
+```text
 Rational
 ```
 
@@ -919,7 +919,7 @@ Rational
 
 Examples
 
-```text id="vbph8dx"
+```text
 0.5
 
 2.75
@@ -931,7 +931,7 @@ These are rational because they can be written as fractions.
 
 Example
 
-```text id="lr31ew4"
+```text
 0.75
 
 =75/100
@@ -945,7 +945,7 @@ Example
 
 Examples
 
-```text id="evt8s5u"
+```text
 0.333...
 
 0.272727...
@@ -957,7 +957,7 @@ These are also rational.
 
 Example
 
-```text id="gf9eikn"
+```text
 0.333...
 
 =1/3
@@ -971,7 +971,7 @@ Look for famous irrational numbers.
 
 Examples
 
-```text id="vjp2prq"
+```text
 √2
 
 √3
@@ -983,7 +983,7 @@ e
 
 Also remember:
 
-```text id="j8j2xqz"
+```text
 √9
 
 =3
@@ -997,7 +997,7 @@ is **not** irrational because 9 is a perfect square.
 
 If you see
 
-```text id="hhvk4j0"
+```text
 i
 ```
 
@@ -1005,7 +1005,7 @@ the number is complex.
 
 Examples
 
-```text id="l5fw2r7"
+```text
 2+5i
 
 −3i
@@ -1021,7 +1021,7 @@ Examples
 
 Think of numbers as expanding toolboxes.
 
-```text id="4f6g3f5"
+```text
 Count
 
 ↓
@@ -1051,7 +1051,7 @@ Complex
 
 Remember the nesting.
 
-```text id="0wzztmb"
+```text
 ℕ
 
 ⊂
@@ -1093,7 +1093,7 @@ Repeating decimals are rational.
 
 Not every square root is irrational.
 
-```text id="ztg3x8f"
+```text
 √25
 
 =5
@@ -1115,7 +1115,7 @@ Classify each number using the **smallest** applicable number system.
 
 ### Problem 1
 
-```text id="3q1u0dv"
+```text
 12
 ```
 
@@ -1123,7 +1123,7 @@ Classify each number using the **smallest** applicable number system.
 
 ### Problem 2
 
-```text id="6qp6d7f"
+```text
 0
 ```
 
@@ -1131,7 +1131,7 @@ Classify each number using the **smallest** applicable number system.
 
 ### Problem 3
 
-```text id="fb0b4j2"
+```text
 −9
 ```
 
@@ -1141,7 +1141,7 @@ Classify each number using the **smallest** applicable number system.
 
 ### Problem 4
 
-```text id="5x1m8ld"
+```text
 7/11
 ```
 
@@ -1149,7 +1149,7 @@ Classify each number using the **smallest** applicable number system.
 
 ### Problem 5
 
-```text id="r0gflv0"
+```text
 0.625
 ```
 
@@ -1157,7 +1157,7 @@ Classify each number using the **smallest** applicable number system.
 
 ### Problem 6
 
-```text id="6hn8wjt"
+```text
 0.818181...
 ```
 
@@ -1167,7 +1167,7 @@ Classify each number using the **smallest** applicable number system.
 
 ### Problem 7
 
-```text id="1l2rv6i"
+```text
 √49
 ```
 
@@ -1175,7 +1175,7 @@ Classify each number using the **smallest** applicable number system.
 
 ### Problem 8
 
-```text id="v0yk2o7"
+```text
 √7
 ```
 
@@ -1183,7 +1183,7 @@ Classify each number using the **smallest** applicable number system.
 
 ### Problem 9
 
-```text id="8xg2i6g"
+```text
 π
 ```
 
@@ -1193,7 +1193,7 @@ Classify each number using the **smallest** applicable number system.
 
 Classify each number into **every** number system it belongs to.
 
-```text id="4w6u6lr"
+```text
 5
 
 0
@@ -1219,7 +1219,7 @@ Classify each number into **every** number system it belongs to.
 
 ### Problem 1
 
-```text id="c6lh3gg"
+```text
 Natural
 ```
 
@@ -1227,7 +1227,7 @@ Natural
 
 ### Problem 2
 
-```text id="k3kz3sn"
+```text
 Whole
 ```
 
@@ -1235,7 +1235,7 @@ Whole
 
 ### Problem 3
 
-```text id="1d4n5a9"
+```text
 Integer
 ```
 
@@ -1243,7 +1243,7 @@ Integer
 
 ### Problem 4
 
-```text id="4l5m4d8"
+```text
 Rational
 ```
 
@@ -1251,7 +1251,7 @@ Rational
 
 ### Problem 5
 
-```text id="k5gpm84"
+```text
 Rational
 
 because
@@ -1265,7 +1265,7 @@ because
 
 ### Problem 6
 
-```text id="a9sy2gc"
+```text
 Rational
 
 because
@@ -1279,7 +1279,7 @@ because
 
 ### Problem 7
 
-```text id="2z7tefx"
+```text
 √49
 
 =7
@@ -1291,7 +1291,7 @@ Natural
 
 ### Problem 8
 
-```text id="i6z7v6w"
+```text
 Irrational
 ```
 
@@ -1299,7 +1299,7 @@ Irrational
 
 ### Problem 9
 
-```text id="d0s3n4t"
+```text
 Irrational
 ```
 
@@ -1327,7 +1327,7 @@ Irrational
 
 A model reports an accuracy of
 
-```text id="6dq6gn2"
+```text
 0.975
 ```
 
@@ -1337,7 +1337,7 @@ What type of number is this?
 
 Answer:
 
-```text id="k7m1rhv"
+```text
 0.975
 
 =975/1000
@@ -1347,7 +1347,7 @@ Answer:
 
 Therefore
 
-```text id="c7igv0q"
+```text
 Rational
 ```
 
@@ -1357,13 +1357,13 @@ Rational
 
 A Kubernetes cluster has
 
-```text id="dh9b9vi"
+```text
 128 CPUs
 ```
 
 A service reserves
 
-```text id="5a6cr7z"
+```text
 3/16
 ```
 
@@ -1373,13 +1373,13 @@ Question:
 
 What type of number is
 
-```text id="zk3d2s8"
+```text
 3/16
 ```
 
 Answer
 
-```text id="4k6e2jd"
+```text
 Rational
 ```
 
@@ -1389,7 +1389,7 @@ Rational
 
 Portfolio allocation
 
-```text id="d7jjm9q"
+```text
 1/5
 
 stocks
@@ -1411,7 +1411,7 @@ Portfolio weights are rational numbers because they represent exact proportions.
 
 Orbital circumference
 
-```text id="r7cb2gj"
+```text
 2πr
 ```
 
@@ -1419,7 +1419,7 @@ Question:
 
 Why is
 
-```text id="2pnckmv"
+```text
 π
 ```
 
@@ -1427,13 +1427,13 @@ irrational?
 
 Because it cannot be written as
 
-```text id="f7f53je"
+```text
 a/b
 ```
 
 for any integers
 
-```text id="jlwm0cp"
+```text
 a
 
 b
@@ -1445,13 +1445,13 @@ b
 
 Complex numbers appear naturally in the
 
-```text id="ax8d3oq"
+```text
 Fourier Transform
 ```
 
 Example
 
-```text id="qv5f1fr"
+```text
 e^(iθ)
 ```
 
@@ -1476,7 +1476,7 @@ Each expansion of the number system solved problems the previous system could no
 
 # 16. Connections
 
-```text id="mvzdc1b"
+```text
 Natural Numbers
         ↓
 Whole Numbers
@@ -1510,7 +1510,7 @@ This chapter provides the vocabulary used throughout the rest of mathematics.
 
 The major number systems are nested.
 
-```text id="5wtm1kb"
+```text
 ℕ ⊂ 𝕎 ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ
 ```
 
@@ -1557,7 +1557,7 @@ For the first time, we'll move from arithmetic to symbolic algebra.
 
 You'll learn how to simplify expressions such as
 
-```text id="s0qgrna"
+```text
 3x + 5x − 2x
 ```
 

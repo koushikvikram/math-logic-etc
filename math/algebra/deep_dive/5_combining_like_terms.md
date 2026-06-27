@@ -844,7 +844,7 @@ If the answer is **no**, leave them separate.
 
 Example
 
-```text id="jqx2n8"
+```text
 4x + 9x
 ```
 
@@ -854,7 +854,7 @@ Ask:
 
 Yes.
 
-```text id="jlwm18"
+```text
 (4+9)x
 
 =13x
@@ -866,7 +866,7 @@ Yes.
 
 Example
 
-```text id="tqp66u"
+```text
 4x +9y
 ```
 
@@ -884,7 +884,7 @@ Cannot combine.
 
 Example
 
-```text id="bmr1r8"
+```text
 7x
 
 +
@@ -900,7 +900,7 @@ Cannot combine.
 
 Think of
 
-```text id="trkxtm"
+```text
 7 apples
 
 +
@@ -916,7 +916,7 @@ Different kinds of quantities.
 
 Example
 
-```text id="5zx8ql"
+```text
 7
 
 −3
@@ -926,7 +926,7 @@ Example
 
 Constants combine.
 
-```text id="gshzzg"
+```text
 16
 ```
 
@@ -936,7 +936,7 @@ Constants combine.
 
 Example
 
-```text id="lmr8l2"
+```text
 5x
 
 +
@@ -952,7 +952,7 @@ Example
 
 Group first.
 
-```text id="rt2vlm"
+```text
 (5x−2x)
 
 +
@@ -962,7 +962,7 @@ Group first.
 
 Then simplify.
 
-```text id="0ozgmk"
+```text
 3x+16
 ```
 
@@ -972,7 +972,7 @@ Then simplify.
 
 Remember
 
-```text id="a8c8ca"
+```text
 x
 
 =1x
@@ -980,7 +980,7 @@ x
 
 Example
 
-```text id="u5fjlwm"
+```text
 x
 
 +
@@ -990,7 +990,7 @@ x
 −2x
 ```
 
-```text id="k3udtv"
+```text
 1+6−2
 
 =5
@@ -998,7 +998,7 @@ x
 
 Answer
 
-```text id="oqxw8b"
+```text
 5x
 ```
 
@@ -1018,7 +1018,7 @@ Variables are the **units**.
 
 Just as
 
-```text id="g1fmlk"
+```text
 3 meters
 
 +
@@ -1030,7 +1030,7 @@ works,
 
 but
 
-```text id="1nztjr"
+```text
 3 meters
 
 +
@@ -1048,7 +1048,7 @@ the same is true for variables.
 
 The exponent is part of the unit.
 
-```text id="hmq4rq"
+```text
 x
 
 ≠
@@ -1062,7 +1062,7 @@ x²
 
 Every variable has a hidden coefficient.
 
-```text id="jkkr31"
+```text
 x
 
 =1x
@@ -1074,7 +1074,7 @@ x
 
 Simplify in two stages.
 
-```text id="n89hn7"
+```text
 Variables
 
 ↓
@@ -1092,7 +1092,7 @@ Constants
 
 Simplify
 
-```text id="7j4yfn"
+```text
 8x+2x
 ```
 
@@ -1102,7 +1102,7 @@ Simplify
 
 Simplify
 
-```text id="bqolru"
+```text
 9y−5y
 ```
 
@@ -1112,7 +1112,7 @@ Simplify
 
 Simplify
 
-```text id="vsg77q"
+```text
 4+9−2
 ```
 
@@ -1122,7 +1122,7 @@ Simplify
 
 ### Problem 4
 
-```text id="v6x8nl"
+```text
 3a+8−5a+6
 ```
 
@@ -1130,7 +1130,7 @@ Simplify
 
 ### Problem 5
 
-```text id="cl8aht"
+```text
 7m+4n−2m+n
 ```
 
@@ -1138,7 +1138,7 @@ Simplify
 
 ### Problem 6
 
-```text id="9o5ctv"
+```text
 x+9x−4
 ```
 
@@ -1148,7 +1148,7 @@ x+9x−4
 
 ### Problem 7
 
-```text id="rkdb6i"
+```text
 6x²+4x−3x²−2x+9
 ```
 
@@ -1156,7 +1156,7 @@ x+9x−4
 
 ### Problem 8
 
-```text id="3r4fdh"
+```text
 2p+5−3q+7+p−9
 ```
 
@@ -1164,7 +1164,7 @@ x+9x−4
 
 ### Problem 9
 
-```text id="l9xv3j"
+```text
 8a−2b+4a+7−9+b
 ```
 
@@ -1174,7 +1174,7 @@ x+9x−4
 
 A monitoring system records CPU demand as
 
-```text id="kz1khs"
+```text
 5c
 
 +
@@ -1194,7 +1194,7 @@ A monitoring system records CPU demand as
 
 where
 
-```text id="9uk0nt"
+```text
 c
 
 = CPU units
@@ -1214,7 +1214,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 ### Problem 1
 
-```text id="xqtsdf"
+```text
 10x
 ```
 
@@ -1222,7 +1222,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 ### Problem 2
 
-```text id="pcp7cr"
+```text
 4y
 ```
 
@@ -1230,7 +1230,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 ### Problem 3
 
-```text id="rgl0vi"
+```text
 11
 ```
 
@@ -1238,7 +1238,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 ### Problem 4
 
-```text id="fbvbt8"
+```text
 −2a+14
 ```
 
@@ -1246,7 +1246,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 ### Problem 5
 
-```text id="pq94fq"
+```text
 5m+5n
 ```
 
@@ -1254,7 +1254,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 ### Problem 6
 
-```text id="rfvayf"
+```text
 10x−4
 ```
 
@@ -1262,7 +1262,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 ### Problem 7
 
-```text id="79jlwm"
+```text
 3x²+2x+9
 ```
 
@@ -1270,7 +1270,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 ### Problem 8
 
-```text id="jvav0r"
+```text
 3p−3q+3
 ```
 
@@ -1278,7 +1278,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 ### Problem 9
 
-```text id="6pjlwm"
+```text
 12a−b−2
 ```
 
@@ -1288,7 +1288,7 @@ Explain **why** CPU terms and memory terms cannot be combined.
 
 Group like terms.
 
-```text id="2j6l5n"
+```text
 (5c+3c)
 
 +
@@ -1300,7 +1300,7 @@ Group like terms.
 7
 ```
 
-```text id="1bjlwm"
+```text
 8c+m+7
 ```
 
@@ -1318,7 +1318,7 @@ Since they represent different physical quantities, they cannot be added togethe
 
 A linear regression model predicts
 
-```text id="e2yjlwm"
+```text
 ŷ
 
 =
@@ -1338,7 +1338,7 @@ A linear regression model predicts
 
 Simplify.
 
-```text id="j8u1vm"
+```text
 x₁ terms
 
 ↓
@@ -1350,7 +1350,7 @@ x₁ terms
 
 Answer
 
-```text id="u9bjlwm"
+```text
 ŷ=x₁+5x₂+8
 ```
 
@@ -1360,7 +1360,7 @@ Answer
 
 A capacity planning model estimates CPU demand as
 
-```text id="rjlwm8"
+```text
 4c
 
 +
@@ -1376,7 +1376,7 @@ A capacity planning model estimates CPU demand as
 
 Simplify.
 
-```text id="jlwm44"
+```text
 9c+4
 ```
 
@@ -1386,7 +1386,7 @@ Simplify.
 
 Pipeline runtime
 
-```text id="jlwm77"
+```text
 2t
 
 +
@@ -1402,7 +1402,7 @@ Pipeline runtime
 
 Simplify.
 
-```text id="jlwm55"
+```text
 8t+3
 ```
 
@@ -1412,7 +1412,7 @@ Simplify.
 
 Monthly revenue projection
 
-```text id="jlwm11"
+```text
 4R
 
 +
@@ -1426,7 +1426,7 @@ Monthly revenue projection
 
 Simplify.
 
-```text id="jlwm22"
+```text
 6R+15000
 ```
 
@@ -1436,7 +1436,7 @@ Simplify.
 
 Fuel estimation
 
-```text id="jlwm33"
+```text
 8f
 
 −3f
@@ -1448,7 +1448,7 @@ Fuel estimation
 
 Simplify.
 
-```text id="jlwm66"
+```text
 5f+120
 ```
 
@@ -1471,7 +1471,7 @@ Variables transformed algebra from a collection of arithmetic tricks into a gene
 
 # 16. Connections
 
-```text id="4yjlwm"
+```text
 Arithmetic
       ↓
 Variables
@@ -1506,7 +1506,7 @@ Only like terms can be combined.
 
 Core rule:
 
-```text id="jlwm99"
+```text
 ax+bx
 
 =(a+b)x
@@ -1516,7 +1516,7 @@ Think of variables as **units**.
 
 You can combine
 
-```text id="jlwm88"
+```text
 3 CPUs
 
 +
@@ -1526,7 +1526,7 @@ You can combine
 
 but not
 
-```text id="jlwm77b"
+```text
 3 CPUs
 
 +

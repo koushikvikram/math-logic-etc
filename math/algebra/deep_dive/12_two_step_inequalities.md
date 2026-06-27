@@ -112,15 +112,15 @@ A **two-step inequality** combines two important ideas:
 
 Examples
 
-```text id="tsi101"
+```text
 3x + 5 > 20
 ```
 
-```text id="tsi102"
+```text
 x/4 − 7 ≤ 5
 ```
 
-```text id="tsi103"
+```text
 −2x + 6 ≥ 10
 ```
 
@@ -138,51 +138,51 @@ But remember:
 
 Suppose a cloud platform guarantees
 
-```text id="tsi104"
+```text
 Total Latency < 100 ms
 ```
 
 The network contributes
 
-```text id="tsi105"
+```text
 20 ms
 ```
 
 The model processes
 
-```text id="tsi106"
+```text
 x
 ```
 
 requests, each taking
 
-```text id="tsi107"
+```text
 4 ms
 ```
 
 Requirement
 
-```text id="tsi108"
+```text
 4x + 20 < 100
 ```
 
 Subtract
 
-```text id="tsi109"
+```text
 20
 ```
 
-```text id="tsi110"
+```text
 4x < 80
 ```
 
 Divide
 
-```text id="tsi111"
+```text
 4
 ```
 
-```text id="tsi112"
+```text
 x < 20
 ```
 
@@ -194,7 +194,7 @@ The platform can process **fewer than 20 requests** within the latency budget.
 
 Two-step inequalities follow the same workflow as two-step equations.
 
-```text id="tsi113"
+```text
 Undo addition/subtraction
 
 ↓
@@ -216,7 +216,7 @@ Only one new rule exists.
 
 General form
 
-```text id="tsi114"
+```text
 ax+b<c
 ```
 
@@ -224,11 +224,11 @@ Step 1
 
 Subtract
 
-```text id="tsi115"
+```text
 b
 ```
 
-```text id="tsi116"
+```text
 ax<c−b
 ```
 
@@ -236,13 +236,13 @@ Step 2
 
 Divide by
 
-```text id="tsi117"
+```text
 a
 ```
 
 If
 
-```text id="tsi118"
+```text
 a>0
 ```
 
@@ -250,7 +250,7 @@ keep the inequality.
 
 If
 
-```text id="tsi119"
+```text
 a<0
 ```
 
@@ -260,29 +260,29 @@ reverse it.
 
 Example
 
-```text id="tsi120"
+```text
 −4x+8≤20
 ```
 
 Subtract
 
-```text id="tsi121"
+```text
 8
 ```
 
-```text id="tsi122"
+```text
 −4x≤12
 ```
 
 Divide by
 
-```text id="tsi123"
+```text
 −4
 ```
 
 Reverse
 
-```text id="tsi124"
+```text
 x≥−3
 ```
 
@@ -300,17 +300,17 @@ Example
 
 Start with
 
-```text id="tsi125"
+```text
 2<5
 ```
 
 Multiply both sides by
 
-```text id="tsi126"
+```text
 −3
 ```
 
-```text id="tsi127"
+```text
 −6
 
 ?
@@ -320,7 +320,7 @@ Multiply both sides by
 
 The correct relationship is
 
-```text id="tsi128"
+```text
 −6>−15
 ```
 
@@ -336,25 +336,25 @@ Examples
 
 Cloud
 
-```text id="tsi129"
+```text
 Cost≤Budget
 ```
 
 AI
 
-```text id="tsi130"
+```text
 Accuracy≥95%
 ```
 
 Space
 
-```text id="tsi131"
+```text
 Payload≤Capacity
 ```
 
 Security
 
-```text id="tsi132"
+```text
 Response Time<5 s
 ```
 
@@ -366,7 +366,7 @@ Most real-world engineering is about staying **inside acceptable limits**.
 
 Example
 
-```text id="tsi133"
+```text
 5x+10<45
 ```
 
@@ -374,11 +374,11 @@ Example
 
 Subtract
 
-```text id="tsi134"
+```text
 10
 ```
 
-```text id="tsi135"
+```text
 5x<35
 ```
 
@@ -388,11 +388,11 @@ Subtract
 
 Divide by
 
-```text id="tsi136"
+```text
 5
 ```
 
-```text id="tsi137"
+```text
 x<7
 ```
 
@@ -400,29 +400,29 @@ x<7
 
 Example
 
-```text id="tsi138"
+```text
 −3x+9≥0
 ```
 
 Subtract
 
-```text id="tsi139"
+```text
 9
 ```
 
-```text id="tsi140"
+```text
 −3x≥−9
 ```
 
 Divide by
 
-```text id="tsi141"
+```text
 −3
 ```
 
 Reverse
 
-```text id="tsi142"
+```text
 x≤3
 ```
 
@@ -436,11 +436,11 @@ Example
 
 Choose
 
-```text id="tsi143"
+```text
 x=2
 ```
 
-```text id="tsi144"
+```text
 −3(2)+9
 
 =3
@@ -458,11 +458,11 @@ Correct.
 
 Solve
 
-```text id="tsi145"
+```text
 2x+6>18
 ```
 
-```text id="tsi146"
+```text
 2x>12
 
 x>6
@@ -472,11 +472,11 @@ x>6
 
 ## 🟢 Beginner
 
-```text id="tsi147"
+```text
 x/3−4≤5
 ```
 
-```text id="tsi148"
+```text
 x/3≤9
 
 x≤27
@@ -486,11 +486,11 @@ x≤27
 
 ## 🟡 Intermediate
 
-```text id="tsi149"
+```text
 7x−8≥34
 ```
 
-```text id="tsi150"
+```text
 7x≥42
 
 x≥6
@@ -500,11 +500,11 @@ x≥6
 
 ## 🟡 Intermediate
 
-```text id="tsi151"
+```text
 −5x+15<0
 ```
 
-```text id="tsi152"
+```text
 −5x<−15
 
 x>3
@@ -514,11 +514,11 @@ x>3
 
 ## 🔴 Advanced
 
-```text id="tsi153"
+```text
 −2x−8≥12
 ```
 
-```text id="tsi154"
+```text
 −2x≥20
 
 x≤−10
@@ -559,7 +559,7 @@ Forgetting to reverse the inequality after dividing by a negative.
 
 Incorrect
 
-```text id="tsi155"
+```text
 −4x<20
 
 ↓
@@ -569,7 +569,7 @@ x<−5
 
 Correct
 
-```text id="tsi156"
+```text
 x>−5
 ```
 
@@ -595,25 +595,25 @@ Always preserve the comparison.
 
 Using the wrong endpoint on the number line.
 
-```text id="tsi157"
+```text
 <
 ```
 
 and
 
-```text id="tsi158"
+```text
 >
 ```
 
 → open circle.
 
-```text id="tsi159"
+```text
 ≤
 ```
 
 and
 
-```text id="tsi160"
+```text
 ≥
 ```
 
@@ -642,13 +642,13 @@ These two questions determine the entire solution.
 
 Example
 
-```text id="tsi201"
+```text
 4x + 8 > 36
 ```
 
 Workflow
 
-```text id="tsi202"
+```text
 −8
 
 ↓
@@ -672,13 +672,13 @@ No reversal.
 
 Example
 
-```text id="tsi203"
+```text
 x/5 − 3 ≤ 8
 ```
 
 Workflow
 
-```text id="tsi204"
+```text
 +3
 
 ↓
@@ -702,13 +702,13 @@ No reversal.
 
 Example
 
-```text id="tsi205"
+```text
 −6x + 12 ≥ 0
 ```
 
 Workflow
 
-```text id="tsi206"
+```text
 −12
 
 ↓
@@ -734,13 +734,13 @@ x ≤ 2
 
 Example
 
-```text id="tsi207"
+```text
 0.5x + 4 < 9
 ```
 
 Workflow
 
-```text id="tsi208"
+```text
 −4
 
 ↓
@@ -762,13 +762,13 @@ x < 10
 
 Example
 
-```text id="tsi209"
+```text
 x/8 + 7 ≥ 10
 ```
 
 Workflow
 
-```text id="tsi210"
+```text
 −7
 
 ↓
@@ -788,7 +788,7 @@ x ≥ 24
 
 ## Universal Workflow
 
-```text id="tsi211"
+```text
 Identify operation
 
 ↓
@@ -878,7 +878,7 @@ your solution is probably correct.
 
 Solve
 
-```text id="tsi212"
+```text
 3x + 6 < 24
 ```
 
@@ -888,7 +888,7 @@ Solve
 
 Solve
 
-```text id="tsi213"
+```text
 x/4 + 5 ≥ 9
 ```
 
@@ -898,7 +898,7 @@ x/4 + 5 ≥ 9
 
 Solve
 
-```text id="tsi214"
+```text
 8x − 16 ≤ 40
 ```
 
@@ -910,7 +910,7 @@ Solve
 
 Solve
 
-```text id="tsi215"
+```text
 −4x + 12 > −8
 ```
 
@@ -920,7 +920,7 @@ Solve
 
 Solve
 
-```text id="tsi216"
+```text
 x/6 − 8 < 4
 ```
 
@@ -930,7 +930,7 @@ x/6 − 8 < 4
 
 Solve
 
-```text id="tsi217"
+```text
 1.5x + 9 ≥ 24
 ```
 
@@ -942,7 +942,7 @@ Solve
 
 Solve
 
-```text id="tsi218"
+```text
 −0.25x + 10 ≤ 6
 ```
 
@@ -952,7 +952,7 @@ Solve
 
 Solve
 
-```text id="tsi219"
+```text
 −7x − 14 > 28
 ```
 
@@ -962,7 +962,7 @@ Solve
 
 Graph
 
-```text id="tsi220"
+```text
 x < −5
 ```
 
@@ -972,25 +972,25 @@ x < −5
 
 A cloud provider charges
 
-```text id="tsi221"
+```text
 $120
 ```
 
 per GPU instance plus a fixed monitoring cost of
 
-```text id="tsi222"
+```text
 $400
 ```
 
 Your monthly budget is
 
-```text id="tsi223"
+```text
 $2,200
 ```
 
 Let
 
-```text id="tsi224"
+```text
 x
 ```
 
@@ -1006,7 +1006,7 @@ be the number of GPU instances.
 
 ### Problem 1
 
-```text id="tsi225"
+```text
 3x < 18
 
 x < 6
@@ -1016,7 +1016,7 @@ x < 6
 
 ### Problem 2
 
-```text id="tsi226"
+```text
 x/4 ≥ 4
 
 x ≥ 16
@@ -1026,7 +1026,7 @@ x ≥ 16
 
 ### Problem 3
 
-```text id="tsi227"
+```text
 8x ≤ 56
 
 x ≤ 7
@@ -1036,7 +1036,7 @@ x ≤ 7
 
 ### Problem 4
 
-```text id="tsi228"
+```text
 −4x > −20
 
 x < 5
@@ -1046,7 +1046,7 @@ x < 5
 
 ### Problem 5
 
-```text id="tsi229"
+```text
 x/6 < 12
 
 x < 72
@@ -1056,7 +1056,7 @@ x < 72
 
 ### Problem 6
 
-```text id="tsi230"
+```text
 1.5x ≥ 15
 
 x ≥ 10
@@ -1066,7 +1066,7 @@ x ≥ 10
 
 ### Problem 7
 
-```text id="tsi231"
+```text
 −0.25x ≤ −4
 
 x ≥ 16
@@ -1076,7 +1076,7 @@ x ≥ 16
 
 ### Problem 8
 
-```text id="tsi232"
+```text
 −7x > 42
 
 x < −6
@@ -1086,7 +1086,7 @@ x < −6
 
 ### Problem 9
 
-```text id="tsi233"
+```text
 <====================○---------------->
 
                     −5
@@ -1100,27 +1100,27 @@ x < −6
 
 Write the inequality.
 
-```text id="tsi234"
+```text
 120x + 400 ≤ 2200
 ```
 
 Subtract
 
-```text id="tsi235"
+```text
 400
 ```
 
-```text id="tsi236"
+```text
 120x ≤ 1800
 ```
 
 Divide by
 
-```text id="tsi237"
+```text
 120
 ```
 
-```text id="tsi238"
+```text
 x ≤ 15
 ```
 
@@ -1136,13 +1136,13 @@ You can run **at most 15 GPU instances** without exceeding the monthly budget.
 
 A model is approved only if
 
-```text id="tsi239"
+```text
 4x + 6 ≥ 98
 ```
 
 where
 
-```text id="tsi240"
+```text
 x
 ```
 
@@ -1150,7 +1150,7 @@ is the base accuracy before post-processing.
 
 Solution
 
-```text id="tsi241"
+```text
 4x ≥ 92
 
 x ≥ 23
@@ -1162,13 +1162,13 @@ x ≥ 23
 
 An inference service must satisfy
 
-```text id="tsi242"
+```text
 5x + 20 < 95
 ```
 
 where
 
-```text id="tsi243"
+```text
 x
 ```
 
@@ -1176,7 +1176,7 @@ is latency per processing stage.
 
 Solution
 
-```text id="tsi244"
+```text
 5x < 75
 
 x < 15 ms
@@ -1188,13 +1188,13 @@ x < 15 ms
 
 CPU usage satisfies
 
-```text id="tsi245"
+```text
 6x + 12 ≤ 72
 ```
 
 Solution
 
-```text id="tsi246"
+```text
 6x ≤ 60
 
 x ≤ 10 cores
@@ -1206,13 +1206,13 @@ x ≤ 10 cores
 
 A monthly investment plan satisfies
 
-```text id="tsi247"
+```text
 250x + 500 ≤ 3000
 ```
 
 Solution
 
-```text id="tsi248"
+```text
 250x ≤ 2500
 
 x ≤ 10 contributions
@@ -1224,13 +1224,13 @@ x ≤ 10 contributions
 
 Payload must satisfy
 
-```text id="tsi249"
+```text
 180x + 240 ≤ 1500
 ```
 
 Solution
 
-```text id="tsi250"
+```text
 180x ≤ 1260
 
 x ≤ 7
@@ -1256,7 +1256,7 @@ Modern optimization, operations research, and machine learning rely heavily on i
 
 # 16. Connections
 
-```text id="tsi251"
+```text
 Equations
       ↓
 Inequalities

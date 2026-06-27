@@ -114,13 +114,13 @@ An **equation** asks:
 
 > What value makes both sides exactly equal?
 
-```text id="osi101"
+```text
 x+4=9
 ```
 
 Answer
 
-```text id="osi102"
+```text
 x=5
 ```
 
@@ -134,17 +134,17 @@ An **inequality** asks:
 
 Example
 
-```text id="osi103"
+```text
 x+4>9
 ```
 
 Subtract
 
-```text id="osi104"
+```text
 4
 ```
 
-```text id="osi105"
+```text
 x>5
 ```
 
@@ -152,7 +152,7 @@ Now there are **infinitely many** solutions.
 
 Examples
 
-```text id="osi106"
+```text
 6
 
 10
@@ -176,41 +176,41 @@ Example
 
 A server must maintain latency below
 
-```text id="osi107"
+```text
 100 ms
 ```
 
 Model latency
 
-```text id="osi108"
+```text
 x
 ```
 
 Network latency
 
-```text id="osi109"
+```text
 18 ms
 ```
 
 Requirement
 
-```text id="osi110"
+```text
 x+18<100
 ```
 
 Subtract
 
-```text id="osi111"
+```text
 18
 ```
 
-```text id="osi112"
+```text
 x<82
 ```
 
 The model may take
 
-```text id="osi113"
+```text
 81
 
 50
@@ -230,7 +230,7 @@ That's why inequalities exist.
 
 ## Equality
 
-```text id="osi114"
+```text
 =
 ```
 
@@ -253,13 +253,13 @@ means
 
 ## Example
 
-```text id="osi115"
+```text
 x<10
 ```
 
 Every number less than
 
-```text id="osi116"
+```text
 10
 ```
 
@@ -279,7 +279,7 @@ Open circle
 
 →
 
-```text id="osi117"
+```text
 10
 ```
 
@@ -297,7 +297,7 @@ Closed circle
 
 →
 
-```text id="osi118"
+```text
 10
 ```
 
@@ -311,17 +311,17 @@ Closed circle
 
 If
 
-```text id="osi119"
+```text
 x+a>b
 ```
 
 Subtract
 
-```text id="osi120"
+```text
 a
 ```
 
-```text id="osi121"
+```text
 x>b−a
 ```
 
@@ -331,13 +331,13 @@ x>b−a
 
 If
 
-```text id="osi122"
+```text
 x−a<b
 ```
 
 Add
 
-```text id="osi123"
+```text
 a
 ```
 
@@ -359,29 +359,29 @@ the inequality **reverses direction**.
 
 Example
 
-```text id="osi124"
+```text
 −2x<8
 ```
 
 Divide by
 
-```text id="osi125"
+```text
 −2
 ```
 
-```text id="osi126"
+```text
 x>−4
 ```
 
 Notice
 
-```text id="osi127"
+```text
 <
 ```
 
 became
 
-```text id="osi128"
+```text
 >
 ```
 
@@ -393,17 +393,17 @@ Think about a number line.
 
 Suppose
 
-```text id="osi129"
+```text
 3<7
 ```
 
 Multiply both sides by
 
-```text id="osi130"
+```text
 −1
 ```
 
-```text id="osi131"
+```text
 −3
 
 ?
@@ -413,7 +413,7 @@ Multiply both sides by
 
 Which number is larger?
 
-```text id="osi132"
+```text
 −3>−7
 ```
 
@@ -435,25 +435,25 @@ Examples
 
 Cloud SLA
 
-```text id="osi133"
+```text
 Latency<150 ms
 ```
 
 AI
 
-```text id="osi134"
+```text
 Accuracy≥95%
 ```
 
 Memory
 
-```text id="osi135"
+```text
 RAM≤64 GB
 ```
 
 Finance
 
-```text id="osi136"
+```text
 Risk<5%
 ```
 
@@ -465,7 +465,7 @@ Engineering is largely about satisfying constraints rather than finding exact va
 
 Example
 
-```text id="osi137"
+```text
 x+8≤20
 ```
 
@@ -473,13 +473,13 @@ Step 1
 
 Subtract
 
-```text id="osi138"
+```text
 8
 ```
 
 from both sides.
 
-```text id="osi139"
+```text
 x≤12
 ```
 
@@ -487,7 +487,7 @@ x≤12
 
 Example
 
-```text id="osi140"
+```text
 −4x>20
 ```
 
@@ -495,7 +495,7 @@ Step 1
 
 Divide by
 
-```text id="osi141"
+```text
 −4
 ```
 
@@ -503,7 +503,7 @@ Step 2
 
 Reverse the inequality.
 
-```text id="osi142"
+```text
 x<−5
 ```
 
@@ -517,11 +517,11 @@ Pick a value satisfying the inequality.
 
 Example
 
-```text id="osi143"
+```text
 x=−6
 ```
 
-```text id="osi144"
+```text
 −4(−6)=24
 
 24>20
@@ -537,11 +537,11 @@ True.
 
 Solve
 
-```text id="osi145"
+```text
 x+7<15
 ```
 
-```text id="osi146"
+```text
 x<8
 ```
 
@@ -549,11 +549,11 @@ x<8
 
 ## 🟢 Beginner
 
-```text id="osi147"
+```text
 x−4≥9
 ```
 
-```text id="osi148"
+```text
 x≥13
 ```
 
@@ -561,11 +561,11 @@ x≥13
 
 ## 🟡 Intermediate
 
-```text id="osi149"
+```text
 5x≤25
 ```
 
-```text id="osi150"
+```text
 x≤5
 ```
 
@@ -573,11 +573,11 @@ x≤5
 
 ## 🟡 Intermediate
 
-```text id="osi151"
+```text
 x/6>8
 ```
 
-```text id="osi152"
+```text
 x>48
 ```
 
@@ -585,19 +585,19 @@ x>48
 
 ## 🔴 Advanced
 
-```text id="osi153"
+```text
 −3x≤12
 ```
 
 Divide by
 
-```text id="osi154"
+```text
 −3
 ```
 
 Reverse
 
-```text id="osi155"
+```text
 x≥−4
 ```
 
@@ -646,7 +646,7 @@ Forgetting to reverse the sign.
 
 Incorrect
 
-```text id="osi156"
+```text
 −2x<8
 
 ↓
@@ -656,7 +656,7 @@ x<−4
 
 Correct
 
-```text id="osi157"
+```text
 x>−4
 ```
 
@@ -666,13 +666,13 @@ x>−4
 
 Using a closed circle for
 
-```text id="osi158"
+```text
 <
 ```
 
 or
 
-```text id="osi159"
+```text
 >
 ```
 
@@ -684,13 +684,13 @@ Use an **open** circle.
 
 Using an open circle for
 
-```text id="osi160"
+```text
 ≤
 ```
 
 or
 
-```text id="osi161"
+```text
 ≥
 ```
 
@@ -722,19 +722,19 @@ If **yes**, reverse the inequality.
 
 Example
 
-```text id="osi201"
+```text
 x + 6 > 18
 ```
 
 Undo
 
-```text id="osi202"
+```text
 −6
 ```
 
 Answer
 
-```text id="osi203"
+```text
 x > 12
 ```
 
@@ -746,19 +746,19 @@ No reversal.
 
 Example
 
-```text id="osi204"
+```text
 x − 9 ≤ 14
 ```
 
 Undo
 
-```text id="osi205"
+```text
 +9
 ```
 
 Answer
 
-```text id="osi206"
+```text
 x ≤ 23
 ```
 
@@ -770,19 +770,19 @@ No reversal.
 
 Example
 
-```text id="osi207"
+```text
 5x ≥ 40
 ```
 
 Undo
 
-```text id="osi208"
+```text
 ÷5
 ```
 
 Answer
 
-```text id="osi209"
+```text
 x ≥ 8
 ```
 
@@ -794,19 +794,19 @@ No reversal.
 
 Example
 
-```text id="osi210"
+```text
 x/4 < 7
 ```
 
 Undo
 
-```text id="osi211"
+```text
 ×4
 ```
 
 Answer
 
-```text id="osi212"
+```text
 x < 28
 ```
 
@@ -818,19 +818,19 @@ No reversal.
 
 Example
 
-```text id="osi213"
+```text
 −3x > 12
 ```
 
 Undo
 
-```text id="osi214"
+```text
 ÷(−3)
 ```
 
 Reverse
 
-```text id="osi215"
+```text
 x < −4
 ```
 
@@ -840,19 +840,19 @@ x < −4
 
 Example
 
-```text id="osi216"
+```text
 x/(−2) ≤ 6
 ```
 
 Undo
 
-```text id="osi217"
+```text
 ×(−2)
 ```
 
 Reverse
 
-```text id="osi218"
+```text
 x ≥ −12
 ```
 
@@ -860,7 +860,7 @@ x ≥ −12
 
 ## Decision Tree
 
-```text id="osi219"
+```text
 Addition/Subtraction?
 
 ↓
@@ -930,7 +930,7 @@ Multiplying or dividing by a negative reverses the direction on the number line.
 
 Open circle
 
-```text id="osi220"
+```text
 <
 
 >
@@ -944,7 +944,7 @@ The endpoint is **not** included.
 
 Closed circle
 
-```text id="osi221"
+```text
 ≤
 
 ≥
@@ -962,7 +962,7 @@ The endpoint **is** included.
 
 Solve
 
-```text id="osi222"
+```text
 x + 9 > 16
 ```
 
@@ -972,7 +972,7 @@ x + 9 > 16
 
 Solve
 
-```text id="osi223"
+```text
 x − 7 ≤ 10
 ```
 
@@ -982,7 +982,7 @@ x − 7 ≤ 10
 
 Solve
 
-```text id="osi224"
+```text
 4x < 32
 ```
 
@@ -994,7 +994,7 @@ Solve
 
 Solve
 
-```text id="osi225"
+```text
 x/9 ≥ 6
 ```
 
@@ -1004,7 +1004,7 @@ x/9 ≥ 6
 
 Solve
 
-```text id="osi226"
+```text
 −5x > 25
 ```
 
@@ -1014,7 +1014,7 @@ Solve
 
 Solve
 
-```text id="osi227"
+```text
 x/(−8) < 2
 ```
 
@@ -1026,7 +1026,7 @@ x/(−8) < 2
 
 Solve
 
-```text id="osi228"
+```text
 −0.5x ≥ 6
 ```
 
@@ -1036,7 +1036,7 @@ Solve
 
 Solve
 
-```text id="osi229"
+```text
 2.5x < 17.5
 ```
 
@@ -1046,7 +1046,7 @@ Solve
 
 Graph
 
-```text id="osi230"
+```text
 x ≥ −3
 ```
 
@@ -1058,7 +1058,7 @@ on a number line.
 
 An MLOps service must satisfy the following SLA:
 
-```text id="osi231"
+```text
 Model Latency
 
 +
@@ -1072,7 +1072,7 @@ Model Latency
 
 Let model latency be
 
-```text id="osi232"
+```text
 x
 ```
 
@@ -1086,7 +1086,7 @@ x
 
 ### Problem 1
 
-```text id="osi233"
+```text
 x > 7
 ```
 
@@ -1094,7 +1094,7 @@ x > 7
 
 ### Problem 2
 
-```text id="osi234"
+```text
 x ≤ 17
 ```
 
@@ -1102,7 +1102,7 @@ x ≤ 17
 
 ### Problem 3
 
-```text id="osi235"
+```text
 x < 8
 ```
 
@@ -1110,7 +1110,7 @@ x < 8
 
 ### Problem 4
 
-```text id="osi236"
+```text
 x ≥ 54
 ```
 
@@ -1118,7 +1118,7 @@ x ≥ 54
 
 ### Problem 5
 
-```text id="osi237"
+```text
 x < −5
 ```
 
@@ -1128,13 +1128,13 @@ x < −5
 
 Multiply by
 
-```text id="osi238"
+```text
 −8
 ```
 
 Reverse
 
-```text id="osi239"
+```text
 x > −16
 ```
 
@@ -1144,13 +1144,13 @@ x > −16
 
 Divide by
 
-```text id="osi240"
+```text
 −0.5
 ```
 
 Reverse
 
-```text id="osi241"
+```text
 x ≤ −12
 ```
 
@@ -1158,7 +1158,7 @@ x ≤ −12
 
 ### Problem 8
 
-```text id="osi242"
+```text
 x < 7
 ```
 
@@ -1166,7 +1166,7 @@ x < 7
 
 ### Problem 9
 
-```text id="osi243"
+```text
 <====================●==================>
 
                     −3
@@ -1178,17 +1178,17 @@ x < 7
 
 Equation
 
-```text id="osi244"
+```text
 x + 18 < 75
 ```
 
 Subtract
 
-```text id="osi245"
+```text
 18
 ```
 
-```text id="osi246"
+```text
 x < 57
 ```
 
@@ -1204,31 +1204,31 @@ The model must complete inference in **less than 57 ms** to satisfy the service-
 
 A model is only approved if
 
-```text id="osi247"
+```text
 Accuracy ≥ 96%
 ```
 
 A preprocessing step contributes
 
-```text id="osi248"
+```text
 2%
 ```
 
 Let the base model accuracy be
 
-```text id="osi249"
+```text
 x
 ```
 
 Inequality
 
-```text id="osi250"
+```text
 x + 2 ≥ 96
 ```
 
 Solution
 
-```text id="osi251"
+```text
 x ≥ 94%
 ```
 
@@ -1238,13 +1238,13 @@ x ≥ 94%
 
 Inference latency must satisfy
 
-```text id="osi252"
+```text
 x + 12 < 80
 ```
 
 Solution
 
-```text id="osi253"
+```text
 x < 68 ms
 ```
 
@@ -1254,31 +1254,31 @@ x < 68 ms
 
 CPU utilization must remain below
 
-```text id="osi254"
+```text
 75%
 ```
 
 Operating system overhead
 
-```text id="osi255"
+```text
 15%
 ```
 
 Application usage
 
-```text id="osi256"
+```text
 x
 ```
 
 Inequality
 
-```text id="osi257"
+```text
 x + 15 < 75
 ```
 
 Solution
 
-```text id="osi258"
+```text
 x < 60%
 ```
 
@@ -1288,31 +1288,31 @@ x < 60%
 
 An investor limits exposure to a stock to
 
-```text id="osi259"
+```text
 10%
 ```
 
 Current holdings
 
-```text id="osi260"
+```text
 2%
 ```
 
 Additional purchase
 
-```text id="osi261"
+```text
 x
 ```
 
 Inequality
 
-```text id="osi262"
+```text
 x + 2 ≤ 10
 ```
 
 Solution
 
-```text id="osi263"
+```text
 x ≤ 8%
 ```
 
@@ -1322,31 +1322,31 @@ x ≤ 8%
 
 A launch vehicle can carry at most
 
-```text id="osi264"
+```text
 22 tonnes
 ```
 
 The spacecraft weighs
 
-```text id="osi265"
+```text
 18 tonnes
 ```
 
 Remaining payload
 
-```text id="osi266"
+```text
 x
 ```
 
 Inequality
 
-```text id="osi267"
+```text
 18 + x ≤ 22
 ```
 
 Solution
 
-```text id="osi268"
+```text
 x ≤ 4 tonnes
 ```
 
@@ -1370,7 +1370,7 @@ Today, inequalities are fundamental to optimization, engineering design, economi
 
 # 16. Connections
 
-```text id="osi269"
+```text
 Equations
       ↓
 One-Step Equations
