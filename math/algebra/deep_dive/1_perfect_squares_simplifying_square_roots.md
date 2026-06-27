@@ -1,973 +1,913 @@
-# 1: Perfect Squares and Simplifying Square Roots
+# Chapter 1 - Perfect Squares and Square Roots
 
-## 1. Big Picture
+## Table of Contents
 
-A **perfect square** is something made by multiplying a number or expression by itself.
-
-[
-a^2=a\cdot a
-]
-
-Examples:
-
-[
-4=2^2,\quad 9=3^2,\quad 16=4^2,\quad 25=5^2
-]
-
-Square roots undo squares:
-
-[
-\sqrt{a^2}=a
-]
-
-So simplifying square roots means:
-
-[
-\boxed{\text{Find complete squares inside the root and pull them out.}}
-]
+1. Big Picture
+2. First Principles
+3. Core Formulas
+4. Intuition
+5. Step-by-Step Method
+6. Worked Examples
+7. Real-World Examples
+8. Common Mistakes
+9. Pattern Recognition
+10. Memory Hooks
+11. Practice Problems
+12. Real Interview / Industry Problems
+13. Connections
+14. Summary
+15. Why This Topic Matters Later
 
 ---
 
-## 2. First Principles
+# 1. Big Picture
 
-A square root asks:
+A **square** is formed by multiplying a number (or expression) by itself.
 
-[
-\sqrt{N}=\text{what number multiplied by itself gives }N?
-]
+```text
+3² = 3 × 3 = 9
+```
+
+A **square root** asks the opposite question:
+
+> "What number, multiplied by itself, gives this value?"
+
+```text
+√9 = 3
+```
+
+Perfect squares are important because they let us simplify square roots exactly instead of using decimal approximations.
+
+For example,
+
+```text
+√72 ≈ 8.485...
+```
+
+can be rewritten exactly as
+
+```text
+√72
+= √(36 × 2)
+= 6√2
+```
+
+Algebra prefers **exact answers** whenever possible.
+
+---
+
+# 2. First Principles
+
+Suppose someone asks:
+
+```text
+√25 = ?
+```
+
+They're really asking:
+
+> "Which number multiplied by itself equals 25?"
+
+```text
+5 × 5 = 25
+```
+
+Therefore,
+
+```text
+√25 = 5
+```
+
+Now consider
+
+```text
+√72
+```
+
+No whole number squared equals 72.
+
+Instead, we look for a **perfect square factor**.
+
+```text
+72 = 36 × 2
+```
+
+Since 36 is a perfect square,
+
+```text
+√72
+= √(36 × 2)
+= √36 × √2
+= 6√2
+```
+
+This is called **simplifying the radical**.
+
+---
+
+# 3. Core Formulas
+
+## Perfect square
+
+```text
+a² = a × a
+```
+
+---
+
+## Square root
+
+```text
+√(a²) = a
+```
+
+More precisely,
+
+```text
+√(a²) = |a|
+```
+
+because
+
+```text
+(-4)² = 4² = 16
+```
+
+Both 4 and -4 square to 16, but a square root is defined to return the **non-negative** value.
+
+---
+
+## Pulling perfect squares outside the radical
+
+```text
+√(a²b) = a√b
+```
+
+Example
+
+```text
+√75
+= √(25 × 3)
+= 5√3
+```
+
+---
+
+## Variables
+
+If variables are assumed non-negative,
+
+```text
+√(x²) = x
+
+√(x⁴) = x²
+
+√(x⁶) = x³
+```
+
+For odd exponents,
+
+```text
+√(x⁵)
+= √(x⁴ × x)
+= x²√x
+```
+
+---
+
+# 4. Intuition
+
+Think of a square root as looking for **complete pairs**.
 
 Example:
 
-[
-\sqrt{36}=6
-]
+```text
+√(x⁶)
 
-because:
+= √(x × x × x × x × x × x)
 
-[
-6^2=36
-]
+= √((x × x)(x × x)(x × x))
+```
 
-For non-perfect squares, we simplify by factoring out the biggest perfect square.
+Every complete pair leaves the radical.
+
+```text
+= x × x × x
+
+= x³
+```
+
+Now try an odd exponent.
+
+```text
+√(x⁷)
+
+= √(x⁶ × x)
+
+= √((x³)² × x)
+
+= x³√x
+```
+
+**Mental model**
+
+> Complete pairs come out.
+>
+> Leftovers stay inside.
+
+---
+
+# 5. Step-by-Step Method
+
+## Without variables
+
+Given
+
+```text
+√N
+```
+
+Step 1
+
+Find the largest perfect square factor.
 
 Example:
 
-[
-\sqrt{72}
-]
+```text
+72
 
-Since:
+= 36 × 2
+```
 
-[
-72=36\cdot 2
-]
+Step 2
 
-we get:
+Rewrite the radical.
 
-[
-\sqrt{72}=\sqrt{36\cdot 2}
-]
+```text
+√72
 
-[
-=\sqrt{36}\sqrt{2}
-]
+= √(36 × 2)
+```
 
-[
-=6\sqrt{2}
-]
+Step 3
 
----
+Pull out the perfect square.
 
-## 3. Core Formulas
+```text
+= √36 × √2
 
-[
-\boxed{\sqrt{a^2b}=a\sqrt{b}}
-]
-
-More precisely:
-
-[
-\boxed{\sqrt{a^2b}=|a|\sqrt{b}}
-]
-
-For beginner algebra, if variables are assumed nonnegative:
-
-[
-\sqrt{x^2}=x
-]
-
-But fully correct:
-
-[
-\sqrt{x^2}=|x|
-]
-
-For exponents:
-
-[
-\sqrt{x^{2n}}=|x^n|
-]
-
-If (x\ge 0):
-
-[
-\sqrt{x^{2n}}=x^n
-]
-
-Examples:
-
-[
-\sqrt{x^4}=x^2
-]
-
-[
-\sqrt{x^6}=x^3
-]
-
-[
-\sqrt{x^5}=x^2\sqrt{x}
-]
+= 6√2
+```
 
 ---
 
-## 4. Intuition
+## With variables
 
-Think of square roots as looking for **pairs**.
+Example
 
-[
-\sqrt{x^6}
-]
+```text
+√(72x³)
+```
 
-means:
+Step 1
 
-[
-\sqrt{x\cdot x\cdot x\cdot x\cdot x\cdot x}
-]
+Factor the number.
 
-Group into pairs:
+```text
+72
 
-[
-\sqrt{(x^2)(x^2)(x^2)}
-]
+= 36 × 2
+```
 
-Each pair leaves the square root:
+Step 2
 
-[
-x\cdot x\cdot x=x^3
-]
+Separate even and odd powers.
 
-So:
+```text
+x³
 
-[
-\sqrt{x^6}=x^3
-]
+= x² × x
+```
 
-If one is left over:
+Step 3
 
-[
-\sqrt{x^7}
-]
+Rewrite.
 
-[
-x^7=x^6\cdot x
-]
+```text
+√(72x³)
 
-[
-\sqrt{x^7}=x^3\sqrt{x}
-]
+= √(36 × 2 × x² × x)
+```
 
----
+Step 4
 
-## 5. Step-by-Step Method
+Pull out complete squares.
 
-### Without variables
+```text
+= 6x√(2x)
+```
 
-Simplify:
+Assuming
 
-[
-\sqrt{N}
-]
-
-Steps:
-
-1. Find the largest perfect square factor of (N).
-2. Split (N):
-
-[
-N=a^2b
-]
-
-3. Use:
-
-[
-\sqrt{a^2b}=a\sqrt{b}
-]
-
-Example:
-
-[
-\sqrt{180}
-]
-
-[
-180=36\cdot 5
-]
-
-[
-\sqrt{180}=\sqrt{36\cdot 5}
-]
-
-[
-=6\sqrt{5}
-]
+```text
+x ≥ 0
+```
 
 ---
 
-### With variables
+# 6. Worked Examples
 
-Simplify:
+## Example 1
 
-[
-\sqrt{72x^3}
-]
+Simplify
 
-Step 1: Factor the number.
+```text
+√48
+```
 
-[
-72=36\cdot 2
-]
+Solution
 
-Step 2: Split variable powers into even + leftover.
+```text
+48
 
-[
-x^3=x^2\cdot x
-]
+= 16 × 3
+```
 
-Step 3: Pull out perfect squares.
+```text
+√48
 
-[
-\sqrt{72x^3}
-============
+= √16 × √3
 
-\sqrt{36\cdot 2\cdot x^2\cdot x}
-]
+= 4√3
+```
 
-[
-=6x\sqrt{2x}
-]
+Answer
 
-Final:
-
-[
-\boxed{6x\sqrt{2x}}
-]
-
-assuming (x\ge0).
+```text
+4√3
+```
 
 ---
 
-## 6. Worked Examples
+## Example 2
 
-### Example 1: No variables
+Simplify
 
-[
-\sqrt{48}
-]
+```text
+√200
+```
 
-[
-48=16\cdot 3
-]
+Solution
 
-[
-\sqrt{48}=\sqrt{16\cdot 3}
-]
+```text
+200
 
-[
-=4\sqrt{3}
-]
+= 100 × 2
+```
 
-[
-\boxed{4\sqrt{3}}
-]
+```text
+√200
 
----
+= √100 × √2
 
-### Example 2: No variables
+= 10√2
+```
 
-[
-\sqrt{200}
-]
+Answer
 
-[
-200=100\cdot 2
-]
-
-[
-\sqrt{200}=\sqrt{100\cdot 2}
-]
-
-[
-=10\sqrt{2}
-]
-
-[
-\boxed{10\sqrt{2}}
-]
+```text
+10√2
+```
 
 ---
 
-### Example 3: Variables
+## Example 3
 
-[
-\sqrt{x^8}
-]
+Simplify
 
-[
-x^8=(x^4)^2
-]
+```text
+√(75x⁵)
+```
 
-[
-\sqrt{x^8}=x^4
-]
+Solution
 
-[
-\boxed{x^4}
-]
+```text
+75
 
-assuming (x\ge0).
+= 25 × 3
+```
 
----
+```text
+x⁵
 
-### Example 4: Variables with leftover
+= x⁴ × x
+```
 
-[
-\sqrt{x^9}
-]
+```text
+√(75x⁵)
 
-[
-x^9=x^8\cdot x
-]
+= √(25 × 3 × x⁴ × x)
 
-[
-\sqrt{x^9}=\sqrt{x^8\cdot x}
-]
+= 5x²√(3x)
+```
 
-[
-=x^4\sqrt{x}
-]
+Answer
 
-[
-\boxed{x^4\sqrt{x}}
-]
+```text
+5x²√(3x)
+```
 
 ---
 
-### Example 5: Numbers + variables
+# 7. Real-World Examples
 
-[
-\sqrt{75x^5}
-]
+One question you should always ask is:
 
-[
-75=25\cdot 3
-]
+> **Why did a square root appear in the first place?**
 
-[
-x^5=x^4\cdot x
-]
+The answer is almost always:
 
-[
-\sqrt{75x^5}
-============
+* something was squared first,
+* then we need to convert it back into the original unit.
 
-\sqrt{25\cdot 3\cdot x^4\cdot x}
-]
-
-[
-=5x^2\sqrt{3x}
-]
-
-[
-\boxed{5x^2\sqrt{3x}}
-]
-
----
-
-## 7. Real-World Examples
-
-| Field                             | Where the math appears                | Why it was squared/constructed initially                                                    | Why square root it?                          | Benefit                                          | Algebra                                        |
-| --------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- |
-| **AI / ML**                       | RMSE from MSE                         | Errors are squared so positive/negative errors do not cancel and large errors are punished. | MSE is in squared prediction units.          | RMSE is interpretable in the original unit.      | (\sqrt{200}=10\sqrt2)                          |
-| **MLOps / Cloud**                 | Latency standard deviation            | Latency deviations are squared to measure spread around mean latency.                       | Variance is in (\text{ms}^2).                | Standard deviation is in ms, useful for SLOs.    | (\sqrt{72}=6\sqrt2)                            |
-| **DevOps / Platform Engineering** | Request latency variability           | Squared deviations capture instability in service performance.                              | Convert variance back to milliseconds.       | Easier capacity and alerting decisions.          | (\sqrt{128}=8\sqrt2)                           |
-| **Data / Vector DBs**             | Euclidean distance between embeddings | Coordinate differences are squared so directions do not cancel.                             | Squared distance is not actual distance.     | Gives real geometric distance.                   | (\sqrt{98}=7\sqrt2)                            |
-| **Databases**                     | Query-time variance                   | Query deviations are squared to measure instability.                                        | Variance is in (\text{seconds}^2).           | Standard deviation shows query predictability.   | (\sqrt{45}=3\sqrt5)                            |
-| **Flow Metrics**                  | Cycle-time standard deviation         | Early/late deviations from average cycle time are squared.                                  | Variance is in (\text{days}^2).              | Standard deviation is in days.                   | (\sqrt{108}=6\sqrt3)                           |
-| **Entrepreneurship**              | Forecast error for revenue or CAC     | Errors are squared to penalize large misses.                                                | Squared dollars/users are hard to interpret. | Root error gives typical forecast miss.          | (\sqrt{200}=10\sqrt2)                          |
-| **Product / Business**            | DAU variance                          | Above/below-average usage deviations are squared.                                           | Variance is in (\text{users}^2).             | Standard deviation shows usage volatility.       | (\sqrt{48}=4\sqrt3)                            |
-| **Investing**                     | Portfolio volatility                  | Return deviations are squared to measure risk.                                              | Variance is in squared returns.              | Volatility is a percentage investors understand. | (\sqrt{0.0200}=\frac{\sqrt2}{10}\approx14.14%) |
-| **Quant Finance**                 | Risk model volatility                 | Variance is mathematically convenient for covariance and optimization.                      | Volatility is easier to interpret and trade. | Turns model risk into usable risk number.        | (\sqrt{98v^6}=7v^3\sqrt2)                      |
-| **Accounting / Ops**              | Economic Order Quantity               | Cost tradeoff creates a square-root formula.                                                | Need optimal order quantity.                 | Minimizes ordering + holding cost.               | (Q^*=\sqrt{\frac{2DS}{H}})                     |
-| **Economics**                     | Demand shock volatility               | Demand deviations are squared around expected demand.                                       | Return to original demand units.             | Shows typical demand fluctuation.                | (\sqrt{180}=6\sqrt5)                           |
-| **Game Theory**                   | Distance between strategy vectors     | Strategy differences are squared so directions do not cancel.                               | Need actual strategic distance.              | Compare how different two strategies are.        | (\sqrt{98}=7\sqrt2)                            |
-| **Space**                         | Side length from satellite image area | Area is length times width.                                                                 | Area is in (\text{km}^2).                    | Side length is in km.                            | (\sqrt{320}=8\sqrt5)                           |
-| **Defense / Aerospace**           | Radar range from components           | Horizontal/vertical displacements are squared.                                              | Squared distance is not actual range.        | Gives true target distance.                      | (\sqrt{242}=11\sqrt2)                          |
-| **Systems Thinking**              | Root error from deviation             | Deviation is squared to measure size regardless of direction.                               | Squared error is less interpretable.         | Gives deviation in original unit.                | (\sqrt{108f^4}=6f^2\sqrt3)                     |
-| **Health / Fitness**              | Training-load variability             | High/low deviations from plan are squared.                                                  | Variance is in squared load units.           | Shows consistency or overtraining risk.          | (\sqrt{75}=5\sqrt3)                            |
-| **Learning / Memory**             | Recall performance variability        | Deviations from expected recall are squared.                                                | Variance is hard to interpret.               | Standard deviation shows consistency.            | (\sqrt{147}=7\sqrt3)                           |
+| Field                         | Where the math appears            | Why it was squared initially                                                                                     | Why apply √?                           | Benefit                                       | Algebra                    |
+| ----------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------- | --------------------------------------------- | -------------------------- |
+| AI / ML                       | RMSE = √MSE                       | Prediction errors are squared so positive and negative errors don't cancel, and large errors are penalized more. | MSE is in squared units.               | RMSE is back in the original prediction unit. | `√200 = √(100 × 2) = 10√2` |
+| MLOps                         | Latency standard deviation        | Latency deviations are squared when computing variance.                                                          | Variance is measured in ms².           | Engineers reason in milliseconds, not ms².    | `√72 = 6√2`                |
+| DevOps / Platform Engineering | Service latency variability       | Request latencies are squared while computing variance.                                                          | Convert back to milliseconds.          | Easier SLO analysis and capacity planning.    | `√128 = 8√2`               |
+| Cloud Computing               | Network jitter                    | Timing deviations are squared in variance calculations.                                                          | Jitter is interpreted in milliseconds. | Better monitoring dashboards.                 | `√98 = 7√2`                |
+| Software Engineering          | Benchmark variability             | Runtime deviations are squared.                                                                                  | Convert variance into runtime spread.  | Easier performance comparison.                | `√180 = 6√5`               |
+| Data Engineering              | Pipeline execution variability    | Processing-time deviations are squared.                                                                          | Return to minutes or seconds.          | Pipeline reliability becomes understandable.  | `√45 = 3√5`                |
+| Databases                     | Query latency variance            | Slow/fast queries are squared before averaging.                                                                  | Variance isn't intuitive.              | Standard deviation shows consistency.         | `√72 = 6√2`                |
+| Flow Metrics                  | Cycle time standard deviation     | Cycle-time deviations are squared.                                                                               | Return to days.                        | Delivery predictability.                      | `√108 = 6√3`               |
+| Entrepreneurship              | Revenue forecast RMSE             | Forecast errors are squared.                                                                                     | Convert back to dollars.               | Typical forecast error is interpretable.      | `√200 = 10√2`              |
+| Product / Business            | DAU forecast error                | Daily user prediction errors are squared.                                                                        | Return to users.                       | Product managers understand typical error.    | `√147 = 7√3`               |
+| Investing                     | Portfolio volatility              | Returns are squared to compute variance.                                                                         | Convert variance into volatility.      | Investors interpret volatility percentages.   | `σ = √Variance`            |
+| Financial Engineering         | Covariance models                 | Risk models use squared deviations.                                                                              | Produce usable volatility.             | Portfolio optimization.                       | `√98 = 7√2`                |
+| Accounting                    | Economic Order Quantity           | Cost optimization naturally produces a square-root formula.                                                      | Find optimal inventory size.           | Lowest total inventory cost.                  | `EOQ = √(2DS/H)`           |
+| Economics                     | Demand volatility                 | Demand deviations are squared.                                                                                   | Return to units demanded.              | Measure typical market fluctuation.           | `√180 = 6√5`               |
+| Game Theory                   | Distance between mixed strategies | Coordinate differences are squared.                                                                              | Compute actual strategic distance.     | Compare strategies geometrically.             | `√98 = 7√2`                |
+| Space                         | Satellite image side length       | Area = length × width.                                                                                           | Recover side length.                   | Image resolution and mapping.                 | `√320 = 8√5`               |
+| Defense                       | Radar range                       | Horizontal and vertical distances are squared.                                                                   | Compute true target distance.          | Accurate tracking.                            | `√242 = 11√2`              |
+| Systems Thinking              | Root error                        | Error is squared to ignore sign.                                                                                 | Recover original deviation.            | Easier interpretation.                        | `√108 = 6√3`               |
+| Health                        | Training load variability         | Daily deviations are squared.                                                                                    | Return to training-load units.         | Monitor consistency.                          | `√75 = 5√3`                |
+| Learning                      | Recall consistency                | Recall deviations are squared.                                                                                   | Return to percentage points.           | Measure study consistency.                    | `√147 = 7√3`               |
 
 ---
 
-## 8. Common Mistakes
+# 8. Common Mistakes
 
-### Mistake 1: Splitting addition inside square root
+## Mistake 1
 
-Wrong:
+Incorrect
 
-[
-\sqrt{a+b}=\sqrt a+\sqrt b
-]
+```text
+√(a + b)
 
-This is false.
+= √a + √b
+```
 
-Example:
+Example
 
-[
-\sqrt{9+16}=\sqrt{25}=5
-]
+```text
+√25
 
-But:
+= 5
+```
 
-[
-\sqrt9+\sqrt{16}=3+4=7
-]
+But
 
-So:
+```text
+√9 + √16
 
-[
-\boxed{\sqrt{a+b}\ne \sqrt a+\sqrt b}
-]
+= 3 + 4
 
----
+= 7
+```
 
-### Mistake 2: Forgetting leftover factors
+Therefore
 
-Wrong:
-
-[
-\sqrt{72}=6
-]
-
-Correct:
-
-[
-72=36\cdot2
-]
-
-[
-\sqrt{72}=6\sqrt2
-]
+```text
+√(a + b) ≠ √a + √b
+```
 
 ---
 
-### Mistake 3: Pulling out odd powers incorrectly
+## Mistake 2
 
-Wrong:
+Stopping too early.
 
-[
-\sqrt{x^5}=x^5
-]
+Incorrect
 
-Correct:
+```text
+√72 = 6
+```
 
-[
-x^5=x^4\cdot x
-]
+Correct
 
-[
-\sqrt{x^5}=x^2\sqrt{x}
-]
+```text
+√72
 
----
+= √(36 × 2)
 
-### Mistake 4: Ignoring absolute value
-
-Fully correct:
-
-[
-\sqrt{x^2}=|x|
-]
-
-Beginner shortcut when (x\ge0):
-
-[
-\sqrt{x^2}=x
-]
+= 6√2
+```
 
 ---
 
-## 9. Pattern Recognition
+## Mistake 3
 
-When you see:
+Ignoring leftover variables.
 
-[
-\sqrt{N}
-]
+Incorrect
 
-ask:
+```text
+√x⁵
 
-[
-\text{What perfect square divides }N?
-]
+= x²
+```
 
-Common perfect squares:
+Correct
 
-[
-1,4,9,16,25,36,49,64,81,100,121,144,169,196,225
-]
+```text
+√x⁵
 
-When you see variables:
+= √(x⁴ × x)
 
-[
-\sqrt{x^n}
-]
-
-ask:
-
-[
-\text{How many pairs of }x\text{ are inside?}
-]
-
-Examples:
-
-[
-\sqrt{x^2}=x
-]
-
-[
-\sqrt{x^3}=x\sqrt{x}
-]
-
-[
-\sqrt{x^4}=x^2
-]
-
-[
-\sqrt{x^5}=x^2\sqrt{x}
-]
-
-[
-\sqrt{x^6}=x^3
-]
-
-Shortcut:
-
-[
-\sqrt{x^n}=x^{\lfloor n/2\rfloor}\sqrt{x^{n\bmod 2}}
-]
-
-assuming (x\ge0).
+= x²√x
+```
 
 ---
 
-## 10. Memory Hooks
+## Mistake 4
 
-[
-\boxed{\text{Perfect squares come out of square roots cleanly.}}
-]
+Ignoring absolute value.
 
-[
-\boxed{\text{Pairs leave. Leftovers stay.}}
-]
+Mathematically,
 
-[
-\boxed{\text{Square to measure cleanly. Root to interpret clearly.}}
-]
+```text
+√(x²)
 
-[
-\boxed{\sqrt{a^2b}=a\sqrt b}
-]
+= |x|
+```
 
----
+Many beginner courses assume
 
-## 11. Practice Problems
+```text
+x ≥ 0
+```
 
-### Easy
+which simplifies this to
 
-Simplify:
+```text
+√(x²)
 
-[
-\sqrt{20}
-]
-
-[
-\sqrt{45}
-]
-
-[
-\sqrt{98}
-]
-
-Answers:
-
-[
-\sqrt{20}=2\sqrt5
-]
-
-[
-\sqrt{45}=3\sqrt5
-]
-
-[
-\sqrt{98}=7\sqrt2
-]
+= x
+```
 
 ---
 
-### Medium
+# 9. Pattern Recognition
 
-Simplify:
+Whenever you see
 
-[
-\sqrt{72x^2}
-]
+```text
+√(...)
+```
 
-[
-\sqrt{50x^3}
-]
+ask yourself:
 
-[
-\sqrt{128y^5}
-]
+> Is there a perfect square inside?
 
-Answers:
+Common perfect squares
 
-[
-\sqrt{72x^2}=6x\sqrt2
-]
+```text
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+121
+144
+169
+196
+225
+```
 
-[
-\sqrt{50x^3}=5x\sqrt{2x}
-]
+For variables
 
-[
-\sqrt{128y^5}=8y^2\sqrt{2y}
-]
+```text
+x²
+x⁴
+x⁶
+x⁸
+```
 
-assuming variables are nonnegative.
+are complete pairs.
 
----
+Odd powers leave one behind.
 
-### Hard
+```text
+√x⁷
 
-Simplify:
-
-[
-\sqrt{180a^4b^3}
-]
-
-[
-\sqrt{242x^5y^2}
-]
-
-[
-\sqrt{300m^7n^4}
-]
-
-Answers:
-
-[
-\sqrt{180a^4b^3}=6a^2b\sqrt{5b}
-]
-
-[
-\sqrt{242x^5y^2}=11x^2y\sqrt{2x}
-]
-
-[
-\sqrt{300m^7n^4}=10m^3n^2\sqrt{3m}
-]
-
-assuming variables are nonnegative.
+= x³√x
+```
 
 ---
 
-### Challenge
+# 10. Memory Hooks
 
-Simplify:
-
-[
-\sqrt{288x^9y^6z^3}
-]
-
-Factor:
-
-[
-288=144\cdot2
-]
-
-[
-x^9=x^8x
-]
-
-[
-y^6=(y^3)^2
-]
-
-[
-z^3=z^2z
-]
-
-So:
-
-[
-\sqrt{288x^9y^6z^3}
-===================
-
-\sqrt{144\cdot2\cdot x^8x\cdot y^6\cdot z^2z}
-]
-
-[
-=12x^4y^3z\sqrt{2xz}
-]
-
-Final:
-
-[
-\boxed{12x^4y^3z\sqrt{2xz}}
-]
+> Perfect squares come out.
 
 ---
 
-## 12. Real Interview / Industry Problems
-
-### ML example
-
-A regression model has:
-
-[
-MSE=200
-]
-
-Find RMSE:
-
-[
-RMSE=\sqrt{200}
-]
-
-[
-=\sqrt{100\cdot2}
-]
-
-[
-=10\sqrt2
-]
-
-[
-\approx14.14
-]
-
-If the target is delivery time in minutes:
-
-[
-\boxed{RMSE\approx14.14\text{ minutes}}
-]
+> Complete pairs leave.
 
 ---
 
-### DevOps example
-
-A service has latency variance:
-
-[
-72\text{ ms}^2
-]
-
-Standard deviation:
-
-[
-\sigma=\sqrt{72}
-]
-
-[
-=6\sqrt2
-]
-
-[
-\approx8.49\text{ ms}
-]
-
-Useful because SLOs are measured in milliseconds, not (\text{ms}^2).
+> Leftovers stay.
 
 ---
 
-### Investing example
+> Square to measure.
 
-Portfolio variance:
-
-[
-0.0200
-]
-
-Volatility:
-
-[
-\sigma_p=\sqrt{0.0200}
-]
-
-[
-=\sqrt{\frac{200}{10000}}
-]
-
-[
-=\frac{\sqrt{200}}{100}
-]
-
-[
-=\frac{10\sqrt2}{100}
-]
-
-[
-=\frac{\sqrt2}{10}
-]
-
-[
-\approx14.14%
-]
+> Root to interpret.
 
 ---
 
-### Space example
+> Even exponent?
 
-A square satellite tile covers:
+Pull it out.
 
-[
-320\text{ km}^2
-]
+Odd exponent?
 
-Side length:
-
-[
-s=\sqrt{320}
-]
-
-[
-=\sqrt{64\cdot5}
-]
-
-[
-=8\sqrt5
-]
-
-[
-\approx17.89\text{ km}
-]
+Leave one behind.
 
 ---
 
-## 13. Connections
+# 11. Practice Problems
 
-Perfect squares connect to:
+## Easy
 
-| Later Topic             | Connection                                            |
-| ----------------------- | ----------------------------------------------------- |
-| **Pythagorean Theorem** | (c=\sqrt{a^2+b^2})                                    |
-| **Distance Formula**    | (d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2})                    |
-| **Quadratics**          | Completing the square uses perfect-square patterns.   |
-| **Radicals**            | Simplifying radicals depends on perfect squares.      |
-| **Statistics**          | Standard deviation is square root of variance.        |
-| **Machine Learning**    | RMSE and Euclidean distance use square roots.         |
-| **Linear Algebra**      | Vector norms use square roots.                        |
-| **Optimization**        | Some cost-minimization formulas involve square roots. |
-| **Economics / Ops**     | EOQ uses a square-root formula.                       |
-| **Finance**             | Volatility is square root of variance.                |
+Simplify
+
+```text
+√12
+
+√27
+
+√45
+```
 
 ---
 
-## 14. Summary
+## Medium
 
-A perfect square has the form:
+Simplify
 
-[
-a^2
-]
+```text
+√72
 
-Examples:
+√98
 
-[
-4,9,16,25,36,49,64,81,100
-]
-
-To simplify:
-
-[
-\sqrt{a^2b}=a\sqrt b
-]
-
-For variables:
-
-[
-\sqrt{x^{2n}}=x^n
-]
-
-assuming (x\ge0).
-
-For odd powers:
-
-[
-\sqrt{x^{2n+1}}=x^n\sqrt{x}
-]
-
-Examples:
-
-[
-\sqrt{72}=6\sqrt2
-]
-
-[
-\sqrt{200}=10\sqrt2
-]
-
-[
-\sqrt{x^5}=x^2\sqrt{x}
-]
-
-[
-\sqrt{75x^5}=5x^2\sqrt{3x}
-]
-
-Core meaning:
-
-[
-\boxed{\text{Square roots undo squares.}}
-]
+√200
+```
 
 ---
 
-## 15. Why This Topic Matters Later
+## Hard
 
-| Algebra Topic       | Used Later In                 | Why It Matters                                            |
-| ------------------- | ----------------------------- | --------------------------------------------------------- |
-| **Perfect squares** | Geometry                      | Recover side length from area.                            |
-| **Perfect squares** | Pythagorean theorem           | Compute actual distance from squared components.          |
-| **Perfect squares** | Statistics                    | Convert variance to standard deviation.                   |
-| **Perfect squares** | Machine Learning              | Understand RMSE and embedding distances.                  |
-| **Perfect squares** | DevOps / Platform Engineering | Interpret latency variance and system variability.        |
-| **Perfect squares** | Flow Metrics                  | Interpret cycle-time variance and predictability.         |
-| **Perfect squares** | Investing                     | Convert portfolio variance into volatility.               |
-| **Perfect squares** | Quant Finance                 | Risk models use variance, but decisions use volatility.   |
-| **Perfect squares** | Economics / Operations        | EOQ and optimization formulas use square roots.           |
-| **Perfect squares** | Game Theory                   | Measure distance between strategies.                      |
-| **Perfect squares** | Space                         | Area, range, orbital geometry, and navigation.            |
-| **Perfect squares** | Defense / Aerospace           | Radar range and target tracking.                          |
-| **Perfect squares** | Systems Thinking              | Root error turns squared deviation into usable deviation. |
-| **Perfect squares** | Linear Algebra                | Vector length/norm: (|\vec v|=\sqrt{x^2+y^2+\cdots}).     |
-| **Perfect squares** | Calculus                      | Distance, optimization, curvature, and rates.             |
+Simplify
 
-Final hook:
+```text
+√(72x³)
 
-[
-\boxed{
-\text{Perfect squares teach you how to move between squared worlds and real-world units.}
-}
-]
+√(180a⁵)
+
+√(242x⁵y²)
+```
+
+---
+
+## Challenge
+
+Simplify
+
+```text
+√(288x⁹y⁶z³)
+```
+
+---
+
+## Answers
+
+```text
+√12 = 2√3
+
+√27 = 3√3
+
+√45 = 3√5
+
+√72 = 6√2
+
+√98 = 7√2
+
+√200 = 10√2
+
+√(72x³) = 6x√(2x)
+
+√(180a⁵) = 6a²√(5a)
+
+√(242x⁵y²) = 11x²y√(2x)
+
+√(288x⁹y⁶z³)
+
+= 12x⁴y³z√(2xz)
+```
+
+---
+
+# 12. Real Interview / Industry Problems
+
+## Machine Learning
+
+A regression model has
+
+```text
+MSE = 200
+```
+
+Find RMSE.
+
+```text
+RMSE
+
+= √200
+
+= 10√2
+
+≈ 14.14
+```
+
+Interpretation:
+
+The model is typically wrong by about **14.14 units**, not **200 squared units**.
+
+---
+
+## DevOps
+
+Latency variance
+
+```text
+72 ms²
+```
+
+Find standard deviation.
+
+```text
+σ
+
+= √72
+
+= 6√2
+
+≈ 8.49 ms
+```
+
+---
+
+## Space
+
+A square satellite image covers
+
+```text
+320 km²
+```
+
+Find the side length.
+
+```text
+√320
+
+= 8√5
+
+≈ 17.89 km
+```
+
+---
+
+# 13. Connections
+
+Perfect squares appear again in:
+
+* Pythagorean Theorem
+* Distance Formula
+* Completing the Square
+* Quadratic Formula
+* Euclidean Distance
+* Standard Deviation
+* Vector Norms
+* Principal Component Analysis (PCA)
+* Least Squares Regression
+* Portfolio Volatility
+* EOQ
+* Optimization
+* Orbital Mechanics
+
+---
+
+# 14. Summary
+
+A perfect square has the form
+
+```text
+a²
+```
+
+Examples
+
+```text
+4
+9
+16
+25
+36
+49
+64
+81
+100
+```
+
+Core rule
+
+```text
+√(a²b)
+
+= a√b
+```
+
+Examples
+
+```text
+√72
+
+= 6√2
+
+√200
+
+= 10√2
+
+√(75x⁵)
+
+= 5x²√(3x)
+```
+
+Remember
+
+* Find the largest perfect square.
+* Pull complete pairs outside.
+* Leave leftovers inside.
+
+---
+
+# 15. Why This Topic Matters Later
+
+| This Topic      | Used Later In         | Why It Matters                |
+| --------------- | --------------------- | ----------------------------- |
+| Perfect Squares | Geometry              | Recover lengths from areas    |
+| Perfect Squares | Pythagorean Theorem   | Compute distances             |
+| Perfect Squares | Statistics            | Variance → Standard Deviation |
+| Perfect Squares | Machine Learning      | RMSE, Euclidean Distance      |
+| Perfect Squares | DevOps                | Performance variability       |
+| Perfect Squares | Flow Metrics          | Cycle-time variability        |
+| Perfect Squares | Investing             | Portfolio volatility          |
+| Perfect Squares | Financial Engineering | Risk models                   |
+| Perfect Squares | Economics             | EOQ and optimization          |
+| Perfect Squares | Game Theory           | Strategy-space distances      |
+| Perfect Squares | Space                 | Navigation and image geometry |
+| Perfect Squares | Defense               | Radar ranging                 |
+| Perfect Squares | Systems Thinking      | Root error                    |
+| Perfect Squares | Linear Algebra        | Vector norms                  |
+| Perfect Squares | Calculus              | Optimization and geometry     |
+
+---
+
+# Final Takeaway
+
+Perfect squares teach one of the most important mathematical ideas you'll encounter throughout engineering:
+
+> **Many problems are easier to solve in squared quantities, but easier to interpret in the original quantities.**
+
+That's why you'll repeatedly see this pattern throughout your career:
+
+```text
+Square → Compute → Square Root → Interpret
+```
+
+Once you recognize this pattern, you'll start seeing it everywhere—from machine learning and finance to DevOps, systems engineering, and physics.
