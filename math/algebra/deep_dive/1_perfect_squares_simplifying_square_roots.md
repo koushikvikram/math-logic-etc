@@ -2,21 +2,45 @@
 
 ## Table of Contents
 
-1. Big Picture
-2. First Principles
-3. Core Formulas
-4. Intuition
-5. Step-by-Step Method
-6. Worked Examples
-7. Real-World Examples
-8. Common Mistakes
-9. Pattern Recognition
-10. Memory Hooks
-11. Practice Problems
-12. Real Interview / Industry Problems
-13. Connections
-14. Summary
-15. Why This Topic Matters Later
+- [Chapter 1 - Perfect Squares and Square Roots](#chapter-1---perfect-squares-and-square-roots)
+  - [Table of Contents](#table-of-contents)
+- [1. Big Picture](#1-big-picture)
+- [2. First Principles](#2-first-principles)
+- [3. Core Formulas](#3-core-formulas)
+  - [Perfect square](#perfect-square)
+  - [Square root](#square-root)
+  - [Pulling perfect squares outside the radical](#pulling-perfect-squares-outside-the-radical)
+  - [Variables](#variables)
+- [4. Intuition](#4-intuition)
+- [5. Step-by-Step Method](#5-step-by-step-method)
+  - [Without variables](#without-variables)
+  - [With variables](#with-variables)
+- [6. Worked Examples](#6-worked-examples)
+  - [Example 1](#example-1)
+  - [Example 2](#example-2)
+  - [Example 3](#example-3)
+- [7. Real-World Examples](#7-real-world-examples)
+- [8. Common Mistakes](#8-common-mistakes)
+  - [Mistake 1](#mistake-1)
+  - [Mistake 2](#mistake-2)
+  - [Mistake 3](#mistake-3)
+  - [Mistake 4](#mistake-4)
+- [9. Pattern Recognition](#9-pattern-recognition)
+- [10. Memory Hooks](#10-memory-hooks)
+- [11. Practice Problems](#11-practice-problems)
+  - [Easy](#easy)
+  - [Medium](#medium)
+  - [Hard](#hard)
+  - [Challenge](#challenge)
+  - [Answers](#answers)
+- [12. Real Interview / Industry Problems](#12-real-interview--industry-problems)
+  - [Machine Learning](#machine-learning)
+  - [DevOps](#devops)
+  - [Space](#space)
+- [13. Connections](#13-connections)
+- [14. Summary](#14-summary)
+- [15. Why This Topic Matters Later](#15-why-this-topic-matters-later)
+- [Final Takeaway](#final-takeaway)
 
 ---
 
