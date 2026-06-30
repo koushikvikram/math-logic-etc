@@ -1626,4 +1626,4 @@ which form the foundation of higher mathematics.
 
 ⬅️ Previous: [Chapter 2 – Percentages](02_percentages.md)
 
-➡️ Next: [Chapter 4 – Number System](../part_ii_the_language_of_algebra/04_number_system.md)
+➡️ Next: [Chapter 4 – Number System](../Part_2_The_Language_of_Algebra/04_number_system.md)

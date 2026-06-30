@@ -1337,4 +1337,4 @@ You'll discover that almost everything in algebra is an extension of the concept
 
 ⬅️ Previous: [Chapter 11 – One-Step Inequalities](11_one_step_inequalities.md)
 
-➡️ Next: [Chapter 13 – Coordinate Plane](../13_coordinate_plane.md)
+➡️ Next: [Chapter 13 – Coordinate Plane](../Part_4_Graphing_and_Linear_Algebra/13_coordinate_plane.md)
