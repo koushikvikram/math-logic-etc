@@ -1659,6 +1659,6 @@ Mastering fractions will make later topics much easier, including:
 
 # Navigation
 
-⬅️ Previous: [Chapter 1 – Perfect Squares and Square Roots](1_perfect_squares_simplifying_square_roots.md)
+⬅️ Previous: [Chapter 1 – Perfect Squares and Square Roots](01_perfect_squares_simplifying_square_roots.md)
 
-➡️ Next: [Chapter 3 – Fractions](3_fractions.md)
+➡️ Next: [Chapter 3 – Fractions](03_fractions.md)

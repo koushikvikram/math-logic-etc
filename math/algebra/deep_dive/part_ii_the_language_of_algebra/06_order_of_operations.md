@@ -1465,6 +1465,6 @@ That idea leads directly to solving equations, inequalities, and eventually syst
 
 # Navigation
 
-⬅️ Previous: [Chapter 5 – Combining Like Terms](5_combining_like_terms.md)
+⬅️ Previous: [Chapter 5 – Combining Like Terms](05_combining_like_terms.md)
 
-➡️ Next: [Chapter 7 – Equations and Equality](../part_iii_solving_equations/7_equations_and_equality.md)
+➡️ Next: [Chapter 7 – Equations and Equality](../part_iii_solving_equations/07_equations_and_equality.md)

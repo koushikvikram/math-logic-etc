@@ -1569,6 +1569,6 @@ This chapter marks the transition from working with numbers to working with vari
 
 # Navigation
 
-⬅️ Previous: [Chapter 3 – Fractions](../part_i_arithmetic_foundations/3_fractions.md)
+⬅️ Previous: [Chapter 3 – Fractions](../part_i_arithmetic_foundations/03_fractions.md)
 
-➡️ Next: [Chapter 5 – Combining Like Terms](5_combining_like_terms.md)
+➡️ Next: [Chapter 5 – Combining Like Terms](05_combining_like_terms.md)
