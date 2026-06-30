@@ -1315,6 +1315,6 @@ Understanding *why* that happens will be the main focus of the next chapter.
 
 # Navigation
 
-⬅️ Previous: [9_two_step_equations.md](9_two_step_equations.md)
+⬅️ Previous: [Chapter 9 – Two-Step Equations](9_two_step_equations.md)
 
-➡️ Next: [11_one_step_inequalities.md](11_one_step_inequalities.md)
+➡️ Next: [Chapter 11 – One-Step Inequalities](11_one_step_inequalities.md)

@@ -1439,6 +1439,6 @@ The solving process will feel very similar to two-step equations, with careful a
 
 # Navigation
 
-⬅️ Previous: [10_multi_step_equations.md](10_multi_step_equations.md)
+⬅️ Previous: [Chapter 10 – Multi-Step Equations](10_multi_step_equations.md)
 
-➡️ Next: [12_two_step_inequalities.md](12_two_step_inequalities.md)
+➡️ Next: [Chapter 12 – Two-Step Inequalities](12_two_step_inequalities.md)

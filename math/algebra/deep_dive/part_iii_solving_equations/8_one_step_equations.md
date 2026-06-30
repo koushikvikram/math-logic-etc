@@ -1300,6 +1300,6 @@ This introduces the idea of **working from the outside in**, which is one of the
 
 # Navigation
 
-⬅️ Previous: [7_equations_and_equality.md](7_equations_and_equality.md)
+⬅️ Previous: [Chapter 7 – Equations and Equality](7_equations_and_equality.md)
 
-➡️ Next: [9_two_step_equations.md](9_two_step_equations.md)
+➡️ Next: [Chapter 9 – Two-Step Equations](9_two_step_equations.md)

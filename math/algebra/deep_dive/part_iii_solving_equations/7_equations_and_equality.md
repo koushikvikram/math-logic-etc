@@ -1436,6 +1436,6 @@ using the same balancing principle introduced in this chapter.
 
 # Navigation
 
-⬅️ Previous: [6_order_of_operations.md](6_order_of_operations.md)
+⬅️ Previous: [Chapter 6 – Order of Operations](../part_ii_the_language_of_algebra/6_order_of_operations.md)
 
-➡️ Next: [8_one_step_equations.md](8_one_step_equations.md)
+➡️ Next: [Chapter 8 – One-Step Equations](8_one_step_equations.md)

@@ -341,4 +341,4 @@ We'll learn how to compare quantities using a common reference of 100 and connec
 
 # Navigation
 
-➡️ Next: [2_percentages.md](2_percentages.md)
+➡️ Next: [Chapter 2 – Percentages](2_percentages.md)

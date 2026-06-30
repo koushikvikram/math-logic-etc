@@ -1416,6 +1416,6 @@ That line becomes the foundation for:
 
 # Navigation
 
-⬅️ Previous: [12_two_step_inequalities.md](12_two_step_inequalities.md)
+⬅️ Previous: [Chapter 12 – Two-Step Inequalities](part_iii_solving_equations/12_two_step_inequalities.md)
 
 ➡️ Next: `14_linear_equations.md`

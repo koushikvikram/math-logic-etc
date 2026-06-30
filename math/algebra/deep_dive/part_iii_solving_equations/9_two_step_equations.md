@@ -1378,6 +1378,6 @@ The guiding principle remains the same:
 
 # Navigation
 
-⬅️ Previous: [8_one_step_equations.md](8_one_step_equations.md)
+⬅️ Previous: [Chapter 8 – One-Step Equations](8_one_step_equations.md)
 
-➡️ Next: [10_multi_step_equations.md](10_multi_step_equations.md)
+➡️ Next: [Chapter 10 – Multi-Step Equations](10_multi_step_equations.md)
