@@ -1336,3 +1336,5 @@ You'll discover that almost everything in algebra is an extension of the concept
 # Navigation
 
 ⬅️ Previous: [11_one_step_inequalities.md](11_one_step_inequalities.md)
+
+➡️ Next: [13_coordinate_plane.md](13_coordinate_plane.md)
