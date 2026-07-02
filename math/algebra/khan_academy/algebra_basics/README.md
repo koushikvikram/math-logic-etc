@@ -57,7 +57,7 @@ Source: [Khan Academy Algebra basics](https://www.khanacademy.org/math/algebra-b
          1. `m` = rise/run = (y2-y1)/(x2-x1) = rate of change of `y` with respect to `x`
       3. `c` is the y-intercept. i.e. the value of y when x=0
 
-### 5. Graphing the slope-intercept form
+5. Graphing the slope-intercept form
 
 #### Graphing Lines with Integer Slopes
 
@@ -292,7 +292,7 @@ Equivalently:
 | 3/2 | +2 | +3 |
 | 7/5 | +5 | +7 |
 
-## Points on the Line
+##### Points on the Line
 
 | Point | How it was found |
 |-------|-------------------|
